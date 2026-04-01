@@ -3,6 +3,12 @@
 A Python script that automates the intake and governance of architecture
 guardrails into a Git-backed library.
 
+> **Note:** This project — including its architecture, design decisions, and
+> code — was developed with extensive assistance from
+> [Claude](https://claude.ai) (Anthropic). The design conversations that
+> produced this README, Plan MD files, and the overall approach are available on
+> request.
+
 ---
 
 ## What this is
@@ -272,6 +278,158 @@ guardrail graph — if a guardrail references a security standard, the skill
 can pull that in too. The `source` block provides a direct link to the full
 guardrail document so Claude can fetch and read it if the description alone
 is insufficient context for a nuanced assessment.
+ 
+---
+ 
+### Phase 4 — Static site for human browsing
+ 
+**Use case:** A searchable, browsable website generated directly from the
+metafiles in the Git repo. Architects, engineers, and other stakeholders can
+browse guardrails by category, filter by status or tags, and click through to
+the source documents — without needing access to GitHub.
+ 
+**Recommended tool: MkDocs Material**
+ 
+MkDocs Material is a Python-based static site generator with built-in
+full-text search, a clean and professional interface, and strong support for
+rendering structured data via the `mkdocs-macros-plugin`. It is consistent
+with the Python stack used in the rest of this project and deploys trivially
+to GitHub Pages or Azure Static Web Apps.
+ 
+Alternatives considered:
+ 
+- **Jekyll** — GitHub-native and zero CI config for GitHub Pages, but
+  Ruby-based and less polished by default
+- **Hugo** — fast and flexible, strong JSON data support, but Go-based with
+  a steeper learning curve
+- **Eleventy** — highly flexible, but JavaScript-based and more configuration
+  work upfront
+- **Docusaurus** — React-based, well-suited to large documentation sites,
+  but overkill here and brings significant JS dependency overhead
+ 
+**MkDocs project structure**
+ 
+The site lives in a `docs-site/` folder alongside the existing repo content:
+ 
+```
+guardrails-library/
+├── guardrails/                        # Existing metafiles (unchanged)
+│   ├── integration/
+│   ├── security/
+│   └── ...
+├── docs-site/
+│   ├── mkdocs.yml                     # Site config
+│   ├── docs/
+│   │   ├── index.md                   # Home page / browse all
+│   │   ├── categories.md              # Browse by category
+│   │   └── guardrails/                # Auto-generated per-guardrail pages
+│   └── overrides/
+│       └── guardrail.html             # Jinja2 template for guardrail pages
+└── generate_docs.py                   # Script: reads metafiles, writes .md pages
+```
+ 
+A small `generate_docs.py` script (run as part of the CI pipeline before the
+MkDocs build) reads each metafile from `guardrails/**/*.json` and writes a
+corresponding Markdown page into `docs-site/docs/guardrails/`. MkDocs then
+builds the site from those pages.
+ 
+**Sample generated guardrail page**
+ 
+Each guardrail renders as a Markdown page using a consistent template:
+ 
+```markdown
+---
+title: GUARD-INT-042 — Approved Cloud Integration Patterns
+tags:
+  - cloud
+  - integration
+  - event-driven
+---
+ 
+# Approved Cloud Integration Patterns
+ 
+| Field | Value |
+|---|---|
+| **ID** | GUARD-INT-042 |
+| **Category** | Integration / Cloud |
+| **Status** | ✅ Approved |
+| **Version** | 2.1 |
+| **Owner** | Platform Architecture Team |
+| **Approved by** | jane.smith@example.com |
+| **Approved date** | 2025-11-14 |
+| **Review due** | 2026-11-14 |
+ 
+## Description
+ 
+Approved patterns for cloud service integration, covering event-driven,
+API gateway, and async messaging approaches. Mandatory reference for any
+integration involving SaaS platforms.
+ 
+## Source document
+ 
+[View in OneDrive](https://onedrive.live.com/...)
+ 
+## Related guardrails
+ 
+- [GUARD-SEC-018 — Identity and Access Management](../security/guard-sec-018.md)
+- [GUARD-API-031 — API Design Standards](../api/guard-api-031.md)
+ 
+## Change history
+ 
+| Version | Date | Author | Summary |
+|---|---|---|---|
+| 2.1 | 2025-11-14 | bob.jones@example.com | Added async messaging pattern for Azure Service Bus |
+| 2.0 | 2025-03-02 | jane.smith@example.com | Major revision — deprecated REST-only patterns |
+```
+ 
+**Site navigation structure**
+ 
+```
+Home — all approved guardrails, recently updated
+├── Browse by category
+│   ├── Integration (12)
+│   ├── Security (8)
+│   ├── Cloud (5)
+│   └── ...
+├── Browse by status
+│   ├── Approved
+│   ├── Under review
+│   └── Deprecated
+└── Search (built-in, instant, no backend required)
+```
+ 
+**CI pipeline**
+ 
+A GitHub Action triggers on every merge to `main`:
+ 
+```yaml
+steps:
+  - name: Generate docs from metafiles
+    run: python generate_docs.py
+ 
+  - name: Build MkDocs site
+    run: mkdocs build --site-dir public
+ 
+  - name: Deploy to GitHub Pages
+    uses: peaceiris/actions-gh-pages@v3
+    with:
+      publish_dir: ./public
+```
+ 
+The full pipeline — generate, build, deploy — runs in under a minute for a
+library of reasonable size. No manual steps after merge.
+ 
+For a corporate deployment, replace the GitHub Pages deploy step with a push
+to Azure Static Web Apps. The rest of the pipeline is identical.
+ 
+**Why the metafile design supports this:**
+ 
+The structured, consistent JSON schema means `generate_docs.py` is simple
+and reliable — no parsing ambiguity, no missing fields (schema validation
+catches those at PR time). The `related_guardrails` array generates
+cross-links between pages automatically. The `status` field drives visual
+indicators (approved vs under review vs deprecated) without any additional
+logic. Tags feed directly into MkDocs Material's built-in tag index.
  
 ---
 
