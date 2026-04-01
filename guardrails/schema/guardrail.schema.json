@@ -1,0 +1,121 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "guardrail.schema.json",
+  "title": "Guardrail",
+  "description": "Schema for an architecture guardrails library metafile",
+  "type": "object",
+  "required": ["id", "title", "category", "type", "status", "version", "description", "source", "change_log"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^GUARD-[A-Z]+-[0-9]{3}$",
+      "description": "Stable unique identifier, e.g. GUARD-INT-042"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "category": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Primary category, maps to the ID prefix (e.g. integration, security, cloud)"
+    },
+    "subcategory": {
+      "type": ["string", "null"]
+    },
+    "type": {
+      "type": "string",
+      "enum": ["diagram", "document", "spreadsheet", "presentation", "policy", "standard", "guideline", "other"]
+    },
+    "format": {
+      "type": ["string", "null"],
+      "description": "File format or content type, e.g. drawio, docx, pdf, web"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["draft", "under-review", "approved", "deprecated"]
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "owner": {
+      "type": ["string", "null"],
+      "description": "Internal team responsible for this guardrail"
+    },
+    "approved_by": {
+      "type": ["string", "null"]
+    },
+    "approved_date": {
+      "type": ["string", "null"],
+      "format": "date"
+    },
+    "review_due": {
+      "type": ["string", "null"],
+      "format": "date"
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "uniqueItems": true
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "oneOf": [
+        {
+          "title": "OneDrive source",
+          "type": "object",
+          "required": ["type", "onedrive_item_id", "url", "filename", "last_modified"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "type": "string", "enum": ["onedrive"] },
+            "onedrive_item_id": { "type": "string" },
+            "url": { "type": "string", "format": "uri" },
+            "filename": { "type": "string" },
+            "last_modified": { "type": "string", "format": "date-time" }
+          }
+        },
+        {
+          "title": "External URL source",
+          "type": "object",
+          "required": ["type", "url", "page_title", "content_hash", "last_fetched"],
+          "additionalProperties": false,
+          "properties": {
+            "type": { "type": "string", "enum": ["external_url"] },
+            "url": { "type": "string", "format": "uri" },
+            "page_title": { "type": "string" },
+            "content_hash": { "type": "string" },
+            "last_fetched": { "type": "string", "format": "date-time" }
+          }
+        }
+      ]
+    },
+    "related_guardrails": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^GUARD-[A-Z]+-[0-9]{3}$"
+      },
+      "uniqueItems": true
+    },
+    "change_log": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["version", "date", "author", "summary"],
+        "additionalProperties": false,
+        "properties": {
+          "version": { "type": "string" },
+          "date": { "type": "string", "format": "date" },
+          "author": { "type": "string" },
+          "summary": { "type": "string" }
+        }
+      }
+    }
+  }
+}

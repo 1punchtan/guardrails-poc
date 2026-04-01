@@ -1,0 +1,68 @@
+[
+  {
+    "url": "https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/cloud-services/cloud-adoption-policy-and-strategy",
+    "label": "Cloud Adoption Policy and Strategy",
+    "category": "cloud",
+    "hint": "NZ Government Cloud First Policy — mandates cloud-first approach for agency IT investment, including cabinet decisions and requirements"
+  },
+  {
+    "url": "https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/application-programming-interfaces-apis/api-guidelines",
+    "label": "NZ Government API Guidelines",
+    "category": "api",
+    "hint": "Official API guidelines for NZ government agencies covering design, implementation, and best practices"
+  },
+  {
+    "url": "https://docref.digital.govt.nz/nz/dia/nz-api-standard/draft/en/",
+    "label": "New Zealand API Standard (Draft)",
+    "category": "api",
+    "hint": "Draft NZ API Standard covering design, development, and security phases; open for public consultation"
+  },
+  {
+    "url": "https://www.digital.govt.nz/standards-and-guidance/privacy-security-and-risk/privacy/data-protection-and-use-policy-dpup",
+    "label": "Data Protection and Use Policy (DPUP)",
+    "category": "data",
+    "hint": "Policy framework for government data collection and use, focused on wellbeing and trust principles"
+  },
+  {
+    "url": "https://www.data.govt.nz/toolkit/policies/new-zealand-data-and-information-management-principles",
+    "label": "NZ Data and Information Management Principles",
+    "category": "data",
+    "hint": "Government data management principles including open data, accessibility, and protection requirements"
+  },
+  {
+    "url": "https://www.digital.govt.nz/standards-and-guidance/digital-service-design-standard",
+    "label": "Digital Service Design Standard",
+    "category": "architecture",
+    "hint": "Design standard for NZ government digital service delivery"
+  },
+  {
+    "url": "https://www.digital.govt.nz/standards-and-guidance/nz-government-web-standards",
+    "label": "NZ Government Web Standards",
+    "category": "architecture",
+    "hint": "Web accessibility and usability standards for government agencies; WCAG 2.2 aligned"
+  },
+  {
+    "url": "https://www.protectivesecurity.govt.nz/policy/information-security",
+    "label": "Protective Security Requirements — Information Security",
+    "category": "security",
+    "hint": "Government-wide information security policy framework and requirements from the Protective Security Requirements (PSR)"
+  },
+  {
+    "url": "https://nzism.gcsb.govt.nz/ism-document",
+    "label": "New Zealand Information Security Manual (NZISM)",
+    "category": "security",
+    "hint": "Comprehensive information security manual from GCSB covering controls and processes for protecting NZ government systems"
+  },
+  {
+    "url": "https://www.digital.govt.nz/standards-and-guidance/information-sharing-standard/purpose-and-scope",
+    "label": "Information Sharing Standard",
+    "category": "data",
+    "hint": "Requirements for public service agencies handling personal information shared with third parties"
+  },
+  {
+    "url": "https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/government-digital-standards-catalogue",
+    "label": "Government Digital Standards Catalogue",
+    "category": "architecture",
+    "hint": "Comprehensive catalogue of NZ government digital standards covering service design, architecture, and transformation"
+  }
+]

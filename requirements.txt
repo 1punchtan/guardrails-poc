@@ -1,0 +1,9 @@
+msal
+msgraph-sdk
+python-docx
+anthropic
+PyGithub
+python-dotenv
+httpx
+beautifulsoup4
+pypdf
