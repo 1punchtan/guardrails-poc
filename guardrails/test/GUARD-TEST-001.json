@@ -1,0 +1,35 @@
+{
+  "id": "GUARD-TEST-001",
+  "title": "Test Guardrail \u2014 Phase 2 Smoke Test",
+  "category": "test",
+  "subcategory": "smoke",
+  "type": "policy",
+  "format": "web",
+  "status": "draft",
+  "version": "1.0",
+  "owner": null,
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "tags": [
+    "test",
+    "smoke"
+  ],
+  "description": "Dummy guardrail created during Phase 2 smoke test. Safe to close and delete.",
+  "source": {
+    "type": "external_url",
+    "url": "https://example.com",
+    "page_title": "Example Domain",
+    "content_hash": "abc123",
+    "last_fetched": "2025-01-01T00:00:00Z"
+  },
+  "related_guardrails": [],
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2025-01-01",
+      "author": "auto-generated",
+      "summary": "Phase 2 smoke test \u2014 safe to close"
+    }
+  ]
+}
