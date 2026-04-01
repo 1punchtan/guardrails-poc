@@ -187,6 +187,93 @@ Merging is the approval action — the merge commit records who approved and
 when.
 
 ---
+ 
+## Future phases
+ 
+This POC establishes the library and its intake pipeline. The metafile
+structure and Git-based design are intentionally chosen to support two
+planned downstream use cases.
+ 
+---
+ 
+### Phase 2 — Document review via Claude skill
+ 
+**Use case:** An architect writes a solution architecture document, access
+control policy, or new guardrail proposal in Claude Chat or Cowork. A Claude
+skill retrieves the relevant approved guardrails from the Git repo and asks
+Claude to assess whether the document under review conflicts with any of them.
+ 
+**How it works:**
+ 
+A Claude skill exposes the guardrails library as a tool. When invoked, it:
+ 
+1. Reads the metafiles from the GitHub repo (via the GitHub API or a
+   pre-built index)
+2. Filters to `status: approved` guardrails, optionally narrowing by category
+   relevant to the document type
+3. Passes the filtered guardrail metadata — and links to the full source
+   documents — as context to Claude
+4. Claude reasons over the document content and the guardrails, identifying
+   conflicts, gaps, or areas that need attention
+5. Returns a structured review report: which guardrails were checked, which
+   were satisfied, which were violated or uncertain, and why
+ 
+**Why the metafile design supports this:**
+ 
+The `status`, `category`, `tags`, and `description` fields allow the skill to
+retrieve a focused, relevant subset of the library rather than passing
+everything into the context window. A solution architecture document tagged
+`cloud, integration` pulls only guardrails in those categories — keeping the
+review targeted and token-efficient.
+ 
+**Scope note:** This use case works best for architectural decisions expressed
+in prose — choice of integration pattern, data residency approach,
+authentication design. It is not a substitute for policy-as-code tooling for
+fine-grained configuration enforcement.
+ 
+---
+ 
+### Phase 3 — Code review via Claude Code or Claude skill
+ 
+**Use case:** A developer runs Claude Code against a codebase, or a Claude
+skill is invoked during a code review. Claude checks whether the implementation
+violates approved architecture guardrails — for example, using a disallowed
+integration pattern, bypassing a mandated authentication flow, or storing data
+outside approved regions.
+ 
+**How it works:**
+ 
+The mechanism is the same as Phase 2 — a skill retrieves relevant approved
+guardrails and provides them as context. Claude then reasons over the code
+being reviewed against those guardrails.
+ 
+In Claude Code, this could be triggered explicitly ("review this file against
+our guardrails") or wired into a broader review workflow. In a CI/CD context,
+it could run as a step on pull requests against specific paths or file types.
+ 
+**What Claude can and cannot do here:**
+ 
+Claude can assess whether code *satisfies the intent* of an architectural
+guardrail — for example, confirming that an integration uses the approved
+async messaging pattern rather than direct synchronous calls, or that secrets
+are retrieved from the approved vault rather than hardcoded. This is
+higher-level reasoning about architectural decisions in code.
+ 
+Claude is not a linter. It will not reliably catch every instance of a
+specific low-level code pattern at scale. For fine-grained, rule-based
+enforcement (e.g. "never use library X", "all database calls must go through
+this abstraction"), dedicated static analysis tools are more appropriate and
+should complement rather than replace this approach.
+ 
+**Why the metafile design supports this:**
+ 
+The `related_guardrails` links and `tags` allow the skill to traverse the
+guardrail graph — if a guardrail references a security standard, the skill
+can pull that in too. The `source` block provides a direct link to the full
+guardrail document so Claude can fetch and read it if the description alone
+is insufficient context for a nuanced assessment.
+ 
+---
 
 ## Known limitations
 
