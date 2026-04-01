@@ -793,12 +793,12 @@ This lets you verify PR creation works end-to-end with a hardcoded test
 metafile before Claude is involved.
 
 **Todo:**
-- [ ] Implement `github_client.py`:
-  - [ ] `get_existing_metafiles(repo) → list[MetafileSummary]`
-  - [ ] `create_pr(repo, metafile, source_type, source_ref, is_update) → str`
-- [ ] Test manually: create a dummy metafile JSON and call `create_pr` — verify
+- [x] Implement `github_client.py`:
+  - [x] `get_existing_metafiles(repo) → list[MetafileSummary]`
+  - [x] `create_pr(repo, metafile, source_type, source_ref, is_update) → str`
+- [x] Test manually: create a dummy metafile JSON and call `create_pr` — verify
       branch, commit, and PR appear correctly in the repo
-- [ ] Verify PR body formatting matches the templates above for both source
+- [x] Verify PR body formatting matches the templates above for both source
       types
 
 ---
