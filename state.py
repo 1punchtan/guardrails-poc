@@ -29,12 +29,15 @@ class UrlRecord:
 
 def load_state(path: str) -> dict:
     if not os.path.exists(path):
-        return {"onedrive": {}, "urls": {}}
+        return {"onedrive": {}, "urls": {}, "scrape_failures": {}}
     with open(path, "r", encoding="utf-8") as f:
         content = f.read().strip()
     if not content:
-        return {"onedrive": {}, "urls": {}}
-    return json.loads(content)
+        return {"onedrive": {}, "urls": {}, "scrape_failures": {}}
+    state = json.loads(content)
+    # Migrate older state files that predate this section
+    state.setdefault("scrape_failures", {})
+    return state
 
 
 def save_state(state: dict, path: str) -> None:

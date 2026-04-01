@@ -194,15 +194,15 @@ when.
 
 ---
  
-## Future phases
+## Future stages
  
 This POC establishes the library and its intake pipeline. The metafile
-structure and Git-based design are intentionally chosen to support two
+structure and Git-based design are intentionally chosen to support the following
 planned downstream use cases.
  
 ---
  
-### Phase 2 — Document review via Claude skill
+### Stage 2 — Document review via Claude skill
  
 **Use case:** An architect writes a solution architecture document, access
 control policy, or new guardrail proposal in Claude Chat or Cowork. A Claude
@@ -239,7 +239,7 @@ fine-grained configuration enforcement.
  
 ---
  
-### Phase 3 — Code review via Claude Code or Claude skill
+### Stage 3 — Code review via Claude Code or Claude skill
  
 **Use case:** A developer runs Claude Code against a codebase, or a Claude
 skill is invoked during a code review. Claude checks whether the implementation
@@ -249,7 +249,7 @@ outside approved regions.
  
 **How it works:**
  
-The mechanism is the same as Phase 2 — a skill retrieves relevant approved
+The mechanism is the same as Stage 2 — a skill retrieves relevant approved
 guardrails and provides them as context. Claude then reasons over the code
 being reviewed against those guardrails.
  
@@ -281,7 +281,7 @@ is insufficient context for a nuanced assessment.
  
 ---
  
-### Phase 4 — Static site for human browsing
+### Stage 4 — Static site for human browsing
  
 **Use case:** A searchable, browsable website generated directly from the
 metafiles in the Git repo. Architects, engineers, and other stakeholders can

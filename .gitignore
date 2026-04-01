@@ -177,6 +177,9 @@ cython_debug/
 .graph_token_cache.json
 .guardrails_state.json
 
+# Claude Code
+.claude/
+
 # Cursor
 #  Cursor is an AI-powered code editor.`.cursorignore` specifies files/directories to 
 #  exclude from AI features like autocomplete and code analysis. Recommended for sensitive data

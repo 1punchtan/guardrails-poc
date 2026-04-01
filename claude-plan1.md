@@ -828,17 +828,17 @@ Implement the full URL pipeline. This flow has no Microsoft auth dependency,
 making it the easier end-to-end path to validate first.
 
 **Todo:**
-- [ ] Implement `scraper.py`:
-  - [ ] `load_url_sources(path) → list[dict]`
-  - [ ] `scrape(entry) → UrlRecord | None`
-  - [ ] `diff_urls(records, state) → tuple[list, list]` *(or delegate to
-        `state.py` — keep consistent)*
-- [ ] Implement `main.py` URL flow section (stubs for OneDrive section)
-- [ ] Run end-to-end: `python main.py` with real `url_sources.json` and real
+- [x] Implement `scraper.py`:
+  - [x] `load_url_sources(path) → list[dict]`
+  - [x] `scrape(entry) → UrlRecord | None`
+  - [x] `diff_urls(records, state) → tuple[list, list]` *(delegated to
+        `state.py` — consistent with OneDrive flow)*
+- [x] Implement `main.py` URL flow section (stubs for OneDrive section)
+- [x] Run end-to-end: `python main.py` with real `url_sources.json` and real
       credentials in `.env`
-- [ ] Verify: state file written correctly, PR created in GitHub with correct
+- [x] Verify: state file written correctly, PR created in GitHub with correct
       body and metafile JSON
-- [ ] Re-run: verify unchanged URLs are skipped, state is stable
+- [x] Re-run: verify unchanged URLs are skipped, state is stable
 
 ---
 
