@@ -1,0 +1,40 @@
+{
+  "id": "GUARD-API-001",
+  "title": "New Zealand API Standard (Draft v1.0)",
+  "category": "api",
+  "subcategory": "design-and-governance",
+  "type": "standard",
+  "status": "draft",
+  "version": "1.0",
+  "description": "Draft technical standard for New Zealand government agencies covering the complete API lifecycle from design through operations. Establishes mandatory requirements and best practices for REST APIs, security protocols (OAuth 2.0, OpenID Connect, TLS), authentication, authorization, and governance across system, process, and experience API categories.",
+  "tags": [
+    "api-design",
+    "api-security",
+    "rest-api",
+    "oauth2",
+    "openid-connect",
+    "government-standard",
+    "tls",
+    "api-lifecycle"
+  ],
+  "owner": "Government Chief Digital Officer",
+  "related_guardrails": [],
+  "source": {
+    "type": "external_url",
+    "url": "https://docref.digital.govt.nz/nz/dia/nz-api-standard/draft/en/",
+    "page_title": "The New Zealand API Standard | Version: draft",
+    "content_hash": "676ed8d5fb9d16cf10ac8beb036deb8f650ba15b4b60a52bf282810a3dda206b",
+    "last_fetched": "2026-04-01T08:35:44Z"
+  },
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-01T08:35:44Z",
+      "author": "auto-generated",
+      "summary": "Initial import from New Zealand government API standard documentation"
+    }
+  ]
+}
