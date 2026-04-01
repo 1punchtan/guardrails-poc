@@ -870,12 +870,13 @@ registration being configured manually (see Prerequisites above).
 Final pass to make the script demo-ready.
 
 **Todo:**
-- [ ] Verify `main.py` orchestrates both flows correctly in sequence
-- [ ] Check all error handling paths fire correctly (auth failure, scrape
+- [x] Verify `main.py` orchestrates both flows correctly in sequence
+- [x] Check all error handling paths fire correctly (auth failure, scrape
       failure, Claude error, GitHub error)
-- [ ] Ensure "No changes detected" case exits cleanly with a clear message
-- [ ] Review console output — matches the expected output format in
+- [x] Ensure "No changes detected" case exits cleanly with a clear message
+- [x] Review console output — matches the expected output format in
       "Running the Script" above
-- [ ] Add `.env.example` final review — all keys present, comments accurate
-- [ ] Final smoke test: fresh clone, fill `.env`, run `python main.py`,
+- [x] Add `.env.example` final review — all keys present, comments accurate
+      (removed unused AZURE_REDIRECT_URI)
+- [x] Final smoke test: fresh clone, fill `.env`, run `python main.py`,
       confirm PRs appear in repo

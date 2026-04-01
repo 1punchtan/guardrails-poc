@@ -21,6 +21,10 @@ def _repo_summary(metafile: dict) -> dict:
     }
 
 
+def _plural(n: int, word: str) -> str:
+    return f"{n} {word}" if n == 1 else f"{n} {word}s"
+
+
 def main() -> None:
     cfg = load_config()
     client = anthropic.Anthropic(api_key=cfg["anthropic_api_key"])
@@ -52,7 +56,7 @@ def main() -> None:
             print(f"  ERROR: could not list OneDrive folder: {exc}")
             current_files = []
 
-        print(f"Found {len(current_files)} file(s). Comparing against state...")
+        print(f"Found {_plural(len(current_files), 'file')}. Comparing against state...")
         new_files, modified_files = diff_files(current_files, state)
 
         for f in current_files:
@@ -64,7 +68,7 @@ def main() -> None:
                 print(f"  UNCHANGED: {f.path}")
                 total_unchanged += 1
 
-        # Fetch repo summaries once (shared with URL flow later)
+        # Fetch repo summaries once — shared with URL flow later in this run
         repo_summaries = [
             _repo_summary(
                 {"id": s.id, "title": s.title, "category": s.category,
@@ -89,7 +93,7 @@ def main() -> None:
 
             extracted = extract_text(record.name, content)
             if extracted:
-                print(f"  Extracting text... done ({len(extracted.split())} words)")
+                print(f"  Extracting text... done ({_plural(len(extracted.split()), 'word')})")
             else:
                 print("  Extracting text... not supported — inferring from filename only")
 
@@ -178,7 +182,7 @@ def main() -> None:
     # -------------------------------------------------------------------------
     print("--- URL flow ---")
     url_sources = load_url_sources(cfg["url_sources_file"])
-    print(f"Loading {cfg['url_sources_file']}... {len(url_sources)} URL(s) found.")
+    print(f"Loading {cfg['url_sources_file']}... {_plural(len(url_sources), 'URL')} found.")
 
     # Scrape all URLs first so we can diff the whole batch against state
     scraped: list = []
@@ -195,126 +199,129 @@ def main() -> None:
             continue
         # Successfully scraped — clear any prior failure record
         state["scrape_failures"].pop(url, None)
-        word_count = len(record.extracted_text.split())
-        print(f"  done ({word_count} words extracted)")
+        print(f"  done ({_plural(len(record.extracted_text.split()), 'word')} extracted)")
         scraped.append(record)
 
     new_urls, changed_urls = diff_urls(scraped, state)
-    to_process = [(r, False) for r in new_urls] + [(r, True) for r in changed_urls]
-    total_unchanged = len(scraped) - len(to_process)
+    url_to_process = [(r, False) for r in new_urls] + [(r, True) for r in changed_urls]
+    total_unchanged += len(scraped) - len(url_to_process)
 
-    if not to_process:
-        print("\nNo changes detected since last run.")
-        save_state(state, cfg["state_file"])
-        failure_count = len(state["scrape_failures"])
-        msg = "State saved."
-        if failure_count:
-            msg += f" {failure_count} URL(s) still pending manual attention — see scrape_failures in {cfg['state_file']}."
-        print(msg)
-        return
+    if url_to_process:
+        # repo_summaries is initialised in the OneDrive flow above; fetch it here
+        # only when OneDrive auth was skipped entirely.
+        if not od_client:
+            repo_summaries = [
+                _repo_summary(
+                    {"id": s.id, "title": s.title, "category": s.category,
+                     "tags": s.tags, "description": s.description}
+                )
+                for s in get_existing_metafiles(repo)
+            ]
 
-    # repo_summaries is initialised in the OneDrive flow above (or here on first
-    # URL-only run when od_client is None).
-    if not od_client:
-        repo_summaries = [
-            _repo_summary(
-                {"id": s.id, "title": s.title, "category": s.category,
-                 "tags": s.tags, "description": s.description}
-            )
-            for s in get_existing_metafiles(repo)
-        ]
+        for record, is_update in url_to_process:
+            status_label = "CHANGED" if is_update else "NEW"
+            print(f"\nProcessing: {record.url}")
+            print(f"  Content hash: {record.content_hash[:16]}... ({status_label})")
 
-    for record, is_update in to_process:
-        status_label = "CHANGED" if is_update else "NEW"
-        print(f"\nProcessing: {record.url}")
-        print(f"  Content hash: {record.content_hash[:16]}... ({status_label})")
+            source_input = {
+                "source_type": "external_url",
+                "url": record.url,
+                "page_title": record.page_title,
+                "label": record.label,
+                "category": record.category,
+                "hint": record.hint,
+                "extracted_text": record.extracted_text,
+                "fetched_at": record.fetched_at,
+            }
 
-        source_input = {
-            "source_type": "external_url",
-            "url": record.url,
-            "page_title": record.page_title,
-            "label": record.label,
-            "category": record.category,
-            "hint": record.hint,
-            "extracted_text": record.extracted_text,
-            "fetched_at": record.fetched_at,
-        }
+            try:
+                print("  Inferring metadata (Claude call 1)...", end=" ", flush=True)
+                draft = infer_metadata(source_input, client, cfg["claude_model"])
+                print("done")
+            except Exception as exc:
+                print(f"FAILED\n  ERROR (Claude call 1): {exc} — skipping")
+                continue
 
-        try:
-            print("  Inferring metadata (Claude call 1)...", end=" ", flush=True)
-            draft = infer_metadata(source_input, client, cfg["claude_model"])
-            print("done")
-        except Exception as exc:
-            print(f"FAILED\n  ERROR (Claude call 1): {exc} — skipping")
-            continue
+            source_identifiers = {
+                "url": record.url,
+                "content_hash": record.content_hash,
+                "fetched_at": record.fetched_at,
+                "page_title": record.page_title,
+            }
 
-        source_identifiers = {
-            "url": record.url,
-            "content_hash": record.content_hash,
-            "fetched_at": record.fetched_at,
-            "page_title": record.page_title,
-        }
+            try:
+                print("  Comparing against repo (Claude call 2)...", end=" ", flush=True)
+                metafile = produce_metafile(
+                    draft_metadata=draft,
+                    source_type="external_url",
+                    source_identifiers=source_identifiers,
+                    repo_summaries=repo_summaries,
+                    is_update=is_update,
+                    client=client,
+                    model=cfg["claude_model"],
+                )
+                print("done")
+            except Exception as exc:
+                print(f"FAILED\n  ERROR (Claude call 2): {exc} — skipping")
+                continue
 
-        try:
-            print("  Comparing against repo (Claude call 2)...", end=" ", flush=True)
-            metafile = produce_metafile(
-                draft_metadata=draft,
-                source_type="external_url",
-                source_identifiers=source_identifiers,
-                repo_summaries=repo_summaries,
-                is_update=is_update,
-                client=client,
-                model=cfg["claude_model"],
-            )
-            print("done")
-        except Exception as exc:
-            print(f"FAILED\n  ERROR (Claude call 2): {exc} — skipping")
-            continue
+            print(f"  Assigned ID: {metafile.get('id')}")
 
-        print(f"  Assigned ID: {metafile.get('id')}")
+            source_ref = {
+                "url": record.url,
+                "page_title": record.page_title,
+                "fetched_at": record.fetched_at,
+            }
 
-        source_ref = {
-            "url": record.url,
-            "page_title": record.page_title,
-            "fetched_at": record.fetched_at,
-        }
+            try:
+                print("  Creating GitHub PR...", end=" ", flush=True)
+                pr_url = create_pr(
+                    repo=repo,
+                    metafile=metafile,
+                    source_type="external_url",
+                    source_ref=source_ref,
+                    is_update=is_update,
+                    base_branch=cfg["github_base_branch"],
+                )
+                print("done")
+                print(f"  PR: {pr_url}")
+            except Exception as exc:
+                print(f"FAILED\n  ERROR (GitHub PR): {exc} — skipping")
+                continue
 
-        try:
-            print("  Creating GitHub PR...", end=" ", flush=True)
-            pr_url = create_pr(
-                repo=repo,
-                metafile=metafile,
-                source_type="external_url",
-                source_ref=source_ref,
-                is_update=is_update,
-                base_branch=cfg["github_base_branch"],
-            )
-            print("done")
-            print(f"  PR: {pr_url}")
-        except Exception as exc:
-            print(f"FAILED\n  ERROR (GitHub PR): {exc} — skipping")
-            continue
+            # Only update state after a fully successful run for this item
+            state["urls"][record.url] = {
+                "url": record.url,
+                "content_hash": record.content_hash,
+                "guardrail_id": metafile.get("id"),
+                "pr_url": pr_url,
+                "last_processed": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+            }
 
-        # Only update state after a fully successful run for this item
-        state["urls"][record.url] = {
-            "url": record.url,
-            "content_hash": record.content_hash,
-            "guardrail_id": metafile.get("id"),
-            "pr_url": pr_url,
-            "last_processed": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        }
+            # Make this guardrail visible to subsequent Call 2 invocations in the same run
+            repo_summaries.append(_repo_summary(metafile))
+            total_prs += 1
 
-        # Make this guardrail visible to subsequent Call 2 invocations in the same run
-        repo_summaries.append(_repo_summary(metafile))
-
-        total_prs += 1
-
+    # -------------------------------------------------------------------------
+    # Final summary
+    # -------------------------------------------------------------------------
     save_state(state, cfg["state_file"])
+
+    if total_prs == 0 and total_unchanged > 0:
+        print("\nNo changes detected since last run.")
+
     failure_count = len(state["scrape_failures"])
-    summary = f"\nState saved. {total_prs} PR(s) created. {total_unchanged} item(s) unchanged."
+    parts = [
+        f"\nState saved.",
+        f"{_plural(total_prs, 'PR')} created.",
+        f"{_plural(total_unchanged, 'item')} unchanged.",
+    ]
     if failure_count:
-        summary += f" {failure_count} URL(s) failed to scrape — see scrape_failures in {cfg['state_file']}."
-    print(summary)
+        parts.append(
+            f"{_plural(failure_count, 'URL')} failed to scrape"
+            f" — see scrape_failures in {cfg['state_file']}."
+        )
+    print(" ".join(parts))
 
 
 if __name__ == "__main__":

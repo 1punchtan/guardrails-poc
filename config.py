@@ -6,7 +6,6 @@ load_dotenv()
 REQUIRED_KEYS = [
     "AZURE_CLIENT_ID",
     "AZURE_TENANT_ID",
-    "AZURE_REDIRECT_URI",
     "ONEDRIVE_WATCH_FOLDER",
     "ANTHROPIC_API_KEY",
     "GITHUB_TOKEN",
@@ -28,7 +27,6 @@ def load_config() -> dict:
     return {
         "azure_client_id": os.environ["AZURE_CLIENT_ID"],
         "azure_tenant_id": os.environ["AZURE_TENANT_ID"],
-        "azure_redirect_uri": os.environ["AZURE_REDIRECT_URI"],
         "onedrive_watch_folder": os.environ["ONEDRIVE_WATCH_FOLDER"],
         "anthropic_api_key": os.environ["ANTHROPIC_API_KEY"],
         "claude_model": os.getenv("CLAUDE_MODEL", "claude-sonnet-4-6"),
