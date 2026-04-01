@@ -31,6 +31,7 @@ def load_config() -> dict:
         "azure_redirect_uri": os.environ["AZURE_REDIRECT_URI"],
         "onedrive_watch_folder": os.environ["ONEDRIVE_WATCH_FOLDER"],
         "anthropic_api_key": os.environ["ANTHROPIC_API_KEY"],
+        "claude_model": os.getenv("CLAUDE_MODEL", "claude-sonnet-4-6"),
         "github_token": os.environ["GITHUB_TOKEN"],
         "github_repo": os.environ["GITHUB_REPO"],
         "github_base_branch": os.environ["GITHUB_BASE_BRANCH"],

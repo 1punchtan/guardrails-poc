@@ -809,16 +809,16 @@ Implement `inference.py` in isolation, using stubbed inputs so you can iterate
 on prompts without needing live OneDrive or URL data.
 
 **Todo:**
-- [ ] Implement `inference.py`:
-  - [ ] `infer_metadata(source_input: dict) → dict` (Claude call 1)
-  - [ ] `produce_metafile(draft_metadata: dict, repo_summaries: list, ...) → dict`
+- [x] Implement `inference.py`:
+  - [x] `infer_metadata(source_input: dict) → dict` (Claude call 1)
+  - [x] `produce_metafile(draft_metadata: dict, repo_summaries: list, ...) → dict`
         (Claude call 2)
-- [ ] Define system prompts for both calls (as module-level constants)
-- [ ] Add input type routing — Call 1 prompt varies slightly between
+- [x] Define system prompts for both calls (as module-level constants)
+- [x] Add input type routing — Call 1 prompt varies slightly between
       `onedrive` and `external_url` source types
-- [ ] Test with stubbed OneDrive input (hardcoded FileRecord-like dict)
-- [ ] Test with stubbed URL input (hardcoded UrlRecord-like dict)
-- [ ] Verify output JSON parses cleanly and matches metafile schema
+- [x] Test with stubbed OneDrive input (hardcoded FileRecord-like dict)
+- [x] Test with stubbed URL input (hardcoded UrlRecord-like dict)
+- [x] Verify output JSON parses cleanly and matches metafile schema
 
 ---
 
