@@ -1,0 +1,35 @@
+{
+  "id": "GUARD-GOV-001",
+  "title": "Empty Guardrail Document",
+  "category": "governance",
+  "subcategory": null,
+  "type": "document",
+  "description": "Placeholder or uninitialized guardrail document with no content. Requires definition of guardrail scope, requirements, and governance rules.",
+  "tags": [
+    "placeholder",
+    "empty",
+    "undefined"
+  ],
+  "version": "1.0",
+  "status": "draft",
+  "owner": null,
+  "source": {
+    "type": "onedrive",
+    "onedrive_item_id": "618A7276C00856EA!sf5a9e153822449568fdc6eca12e75138",
+    "url": "https://onedrive.live.com?cid=618A7276C00856EA&id=618A7276C00856EA!sf5a9e153822449568fdc6eca12e75138",
+    "filename": "empty.txt",
+    "last_modified": "2026-04-01T21:23:52Z"
+  },
+  "related_guardrails": [],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-01T21:23:52Z",
+      "author": "auto-generated",
+      "summary": "Initial draft created from empty placeholder document requiring definition of scope, requirements, and governance rules."
+    }
+  ]
+}
