@@ -848,20 +848,20 @@ Add Microsoft Graph auth and the OneDrive pipeline. Depends on Azure app
 registration being configured manually (see Prerequisites above).
 
 **Todo:**
-- [ ] Implement `onedrive.py`:
-  - [ ] `authenticate() → GraphClient` (MSAL device code flow + token cache)
-  - [ ] `list_folder_recursive(client, folder_name) → list[FileRecord]`
-  - [ ] `download_file(client, item_id) → bytes`
-- [ ] Implement `extractor.py`:
-  - [ ] `extract_text(filename, content) → str | None`
-  - [ ] Handle `.docx`, `.md`, `.txt`, `.pdf`; return `None` for all others
-- [ ] Wire OneDrive flow into `main.py`
-- [ ] Test auth: run `python main.py` — complete device code flow, verify token
+- [x] Implement `onedrive.py`:
+  - [x] `authenticate() → GraphClient` (MSAL device code flow + token cache)
+  - [x] `list_folder_recursive(client, folder_name) → list[FileRecord]`
+  - [x] `download_file(client, item_id) → bytes`
+- [x] Implement `extractor.py`:
+  - [x] `extract_text(filename, content) → str | None`
+  - [x] Handle `.docx`, `.md`, `.txt`, `.pdf`; return `None` for all others
+- [x] Wire OneDrive flow into `main.py`
+- [x] Test auth: run `python main.py` — complete device code flow, verify token
       is cached for subsequent runs
-- [ ] Test with at least one `.docx` file in OneDrive watch folder
-- [ ] Test with a `.drawio` or image file — verify graceful fallback (infers
+- [x] Test with at least one `.docx` file in OneDrive watch folder
+- [x] Test with a `.drawio` or image file — verify graceful fallback (infers
       from filename only)
-- [ ] Verify full end-to-end: state update + PR creation
+- [x] Verify full end-to-end: state update + PR creation
 
 ---
 

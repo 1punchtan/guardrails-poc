@@ -3,10 +3,12 @@ from datetime import datetime, timezone
 import anthropic
 
 from config import load_config
+from extractor import extract_text
 from github_client import connect, create_pr, get_existing_metafiles
 from inference import infer_metadata, produce_metafile
+from onedrive import authenticate, download_file, list_folder_recursive
 from scraper import load_url_sources, scrape
-from state import diff_urls, load_state, save_state
+from state import diff_files, diff_urls, load_state, save_state
 
 
 def _repo_summary(metafile: dict) -> dict:
@@ -30,10 +32,146 @@ def main() -> None:
     total_unchanged = 0
 
     # -------------------------------------------------------------------------
-    # OneDrive flow (not yet implemented)
+    # OneDrive flow
     # -------------------------------------------------------------------------
     print("--- OneDrive flow ---")
-    print("  (OneDrive flow not yet implemented — skipping)\n")
+    print("Authenticating with Microsoft Graph...")
+    try:
+        od_client = authenticate(cfg["azure_client_id"], cfg["azure_tenant_id"])
+    except Exception as exc:
+        print(f"  ERROR: authentication failed: {exc}")
+        print("  Skipping OneDrive flow.\n")
+        od_client = None
+
+    if od_client:
+        folder = cfg["onedrive_watch_folder"]
+        print(f"Scanning OneDrive folder: {folder}/")
+        try:
+            current_files = list_folder_recursive(od_client, folder)
+        except Exception as exc:
+            print(f"  ERROR: could not list OneDrive folder: {exc}")
+            current_files = []
+
+        print(f"Found {len(current_files)} file(s). Comparing against state...")
+        new_files, modified_files = diff_files(current_files, state)
+
+        for f in current_files:
+            if f in new_files:
+                print(f"  NEW:       {f.path}")
+            elif f in modified_files:
+                print(f"  MODIFIED:  {f.path}")
+            else:
+                print(f"  UNCHANGED: {f.path}")
+                total_unchanged += 1
+
+        # Fetch repo summaries once (shared with URL flow later)
+        repo_summaries = [
+            _repo_summary(
+                {"id": s.id, "title": s.title, "category": s.category,
+                 "tags": s.tags, "description": s.description}
+            )
+            for s in get_existing_metafiles(repo)
+        ]
+
+        od_to_process = [(r, False) for r in new_files] + [(r, True) for r in modified_files]
+
+        for record, is_update in od_to_process:
+            status_label = "UPDATE" if is_update else "NEW"
+            print(f"\nProcessing ({status_label}): {record.path}")
+
+            try:
+                print("  Downloading file...", end=" ", flush=True)
+                content = download_file(od_client, record.item_id)
+                print("done")
+            except Exception as exc:
+                print(f"FAILED\n  ERROR: {exc} — skipping")
+                continue
+
+            extracted = extract_text(record.name, content)
+            if extracted:
+                print(f"  Extracting text... done ({len(extracted.split())} words)")
+            else:
+                print("  Extracting text... not supported — inferring from filename only")
+
+            source_input = {
+                "source_type": "onedrive",
+                "filename": record.name,
+                "path": record.path,
+                "mime_type": record.mime_type,
+                "last_modified": record.last_modified,
+                "created_by": record.created_by,
+                "extracted_text": extracted,
+            }
+
+            try:
+                print("  Inferring metadata (Claude call 1)...", end=" ", flush=True)
+                draft = infer_metadata(source_input, client, cfg["claude_model"])
+                print("done")
+            except Exception as exc:
+                print(f"FAILED\n  ERROR (Claude call 1): {exc} — skipping")
+                continue
+
+            source_identifiers = {
+                "onedrive_item_id": record.item_id,
+                "url": record.web_url,
+                "filename": record.name,
+                "last_modified": record.last_modified,
+            }
+
+            try:
+                print("  Comparing against repo (Claude call 2)...", end=" ", flush=True)
+                metafile = produce_metafile(
+                    draft_metadata=draft,
+                    source_type="onedrive",
+                    source_identifiers=source_identifiers,
+                    repo_summaries=repo_summaries,
+                    is_update=is_update,
+                    client=client,
+                    model=cfg["claude_model"],
+                )
+                print("done")
+            except Exception as exc:
+                print(f"FAILED\n  ERROR (Claude call 2): {exc} — skipping")
+                continue
+
+            print(f"  Assigned ID: {metafile.get('id')}")
+
+            source_ref = {
+                "filename": record.name,
+                "onedrive_path": record.path,
+            }
+
+            try:
+                print("  Creating GitHub PR...", end=" ", flush=True)
+                pr_url = create_pr(
+                    repo=repo,
+                    metafile=metafile,
+                    source_type="onedrive",
+                    source_ref=source_ref,
+                    is_update=is_update,
+                    base_branch=cfg["github_base_branch"],
+                )
+                print("done")
+                print(f"  PR: {pr_url}")
+            except Exception as exc:
+                print(f"FAILED\n  ERROR (GitHub PR): {exc} — skipping")
+                continue
+
+            state["onedrive"][record.item_id] = {
+                "item_id": record.item_id,
+                "name": record.name,
+                "path": record.path,
+                "last_modified": record.last_modified,
+                "guardrail_id": metafile.get("id"),
+                "pr_url": pr_url,
+                "last_processed": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+            }
+
+            repo_summaries.append(_repo_summary(metafile))
+            total_prs += 1
+
+        od_client.close()
+        print()
 
     # -------------------------------------------------------------------------
     # URL flow
@@ -75,15 +213,16 @@ def main() -> None:
         print(msg)
         return
 
-    # Fetch existing metafiles once; we'll extend the list as we create new ones
-    # so each Call 2 can see guardrails produced earlier in the same run.
-    repo_summaries = [
-        _repo_summary(
-            {"id": s.id, "title": s.title, "category": s.category,
-             "tags": s.tags, "description": s.description}
-        )
-        for s in get_existing_metafiles(repo)
-    ]
+    # repo_summaries is initialised in the OneDrive flow above (or here on first
+    # URL-only run when od_client is None).
+    if not od_client:
+        repo_summaries = [
+            _repo_summary(
+                {"id": s.id, "title": s.title, "category": s.category,
+                 "tags": s.tags, "description": s.description}
+            )
+            for s in get_existing_metafiles(repo)
+        ]
 
     for record, is_update in to_process:
         status_label = "CHANGED" if is_update else "NEW"
