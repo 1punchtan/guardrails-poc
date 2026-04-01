@@ -114,9 +114,7 @@ guardrails-poc/
 - Python 3.11+
 - `uv` (recommended) or `pip` with `venv`
 - An Azure app registration (personal account) — needed for OneDrive access
-  via Microsoft Graph. Register at [portal.azure.com](https://portal.azure.com),
-  add `http://localhost:8400` as a redirect URI, and enable the
-  `Files.Read.All` delegated permission.
+  via Microsoft Graph. Register at [portal.azure.com](https://portal.azure.com) and enable `Files.Read.All` delegated permissions.
 - An Anthropic API key — [console.anthropic.com](https://console.anthropic.com)
 - A GitHub personal access token with `repo` scope
 
