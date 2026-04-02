@@ -1,0 +1,43 @@
+{
+  "id": "GUARD-API-001",
+  "title": "API Guidelines \u2014 Part A: API Concepts and Management 2022",
+  "category": "api",
+  "subcategory": "governance",
+  "type": "guideline",
+  "status": "draft",
+  "version": "1.0",
+  "description": "Comprehensive government API guidelines covering business context, principles, lifecycle management, and governance considerations for API development within public sector organizations. Addresses interoperability, privacy compliance, organizational drivers, and standardization across government agencies.",
+  "tags": [
+    "api",
+    "governance",
+    "interoperability",
+    "public-sector",
+    "standards",
+    "lifecycle-management",
+    "privacy"
+  ],
+  "owner": "API governance or digital transformation team",
+  "source": {
+    "type": "external_url",
+    "url": "https://www.digital.govt.nz/dmsdocument/230~api-guidelines-part-a-api-concepts-and-management-2022/html",
+    "page_title": "API guidelines \u2014 Part A: API concepts and management 2022 | NZ Digital government",
+    "content_hash": "03cf1b1509e5fec47f343802aeb41540c76dba52dbef636af05af55bee814cae",
+    "last_fetched": "2026-04-02T07:46:51Z"
+  },
+  "related_guardrails": [
+    "GUARD-GOV-001",
+    "GUARD-GOV-005",
+    "GUARD-SEC-001"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T07:46:51Z",
+      "author": "auto-generated",
+      "summary": "Initial guardrail creation from external source: NZ government API guidelines covering concepts, management, and governance"
+    }
+  ]
+}
