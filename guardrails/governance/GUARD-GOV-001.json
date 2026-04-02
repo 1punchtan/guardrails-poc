@@ -1,0 +1,42 @@
+{
+  "id": "GUARD-GOV-001",
+  "title": "Data and Statistics Act 2022 (New Zealand Public Act 2022 No 39)",
+  "category": "governance",
+  "subcategory": "data governance and statistics",
+  "type": "policy",
+  "description": "New Zealand legislation establishing the legal framework for collection, management, and use of official statistics and research data by government agencies. Defines roles and responsibilities of Statistics New Zealand, sets requirements for data confidentiality and privacy protection, and establishes compliance and enforcement mechanisms for data collection and disclosure practices.",
+  "tags": [
+    "data-governance",
+    "statistics",
+    "privacy",
+    "confidentiality",
+    "compliance",
+    "public-sector",
+    "legislation"
+  ],
+  "owner": "Data Governance / Statistics New Zealand",
+  "status": "draft",
+  "version": "1.0",
+  "source": {
+    "type": "onedrive",
+    "onedrive_item_id": "618A7276C00856EA!s80e7505600f947388e66949d09b5ff03",
+    "url": "https://onedrive.live.com?cid=618A7276C00856EA&id=618A7276C00856EA!s80e7505600f947388e66949d09b5ff03",
+    "filename": "Data and Statistics Act 2022 version 60_0 as at 08 August 2022.pdf",
+    "last_modified": "2026-04-01T21:45:41Z"
+  },
+  "related_guardrails": [
+    "GUARD-SEC-001",
+    "GUARD-API-001"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-01T21:45:41Z",
+      "author": "auto-generated",
+      "summary": "Initial creation from Data and Statistics Act 2022 source document"
+    }
+  ]
+}
