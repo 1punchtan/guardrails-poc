@@ -1,0 +1,43 @@
+{
+  "id": "GUARD-GOV-012",
+  "title": "New Zealand Data and Information Management Principles",
+  "category": "governance",
+  "subcategory": "data governance",
+  "type": "policy",
+  "description": "New Zealand government data and information management principles established in 2011, covering seven core principles: open, protected, readily available, trusted and authoritative, well managed, reasonably priced, and reusable. Defines how government agencies should manage data as a public asset with emphasis on accessibility, quality, stewardship, and lifecycle management.",
+  "tags": [
+    "data-governance",
+    "open-data",
+    "public-sector",
+    "nz-government",
+    "data-stewardship",
+    "information-management",
+    "accessibility"
+  ],
+  "status": "draft",
+  "version": "1.0",
+  "owner": "Data Governance Office",
+  "related_guardrails": [
+    "GUARD-GOV-006",
+    "GUARD-GOV-004",
+    "GUARD-GOV-005"
+  ],
+  "source": {
+    "type": "external_url",
+    "url": "https://www.data.govt.nz/toolkit/policies/new-zealand-data-and-information-management-principles",
+    "page_title": "New Zealand Data and Information Management Principles - data.govt.nz",
+    "content_hash": "5a1bbff2dc77bb266711b9849b9b59175885404166f7af4aa356a09c6cf9a9eb",
+    "last_fetched": "2026-04-02T07:47:02Z"
+  },
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02",
+      "author": "auto-generated",
+      "change": "Initial creation from external source"
+    }
+  ]
+}
