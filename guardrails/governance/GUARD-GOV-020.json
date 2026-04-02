@@ -1,0 +1,44 @@
+{
+  "id": "GUARD-GOV-020",
+  "title": "State Sector Act 1988 \u2014 New Zealand Public Service Governance",
+  "category": "governance",
+  "subcategory": "public-sector-legislation",
+  "type": "policy",
+  "description": "New Zealand legislation establishing the governance framework for the State Sector, defining roles and responsibilities of the State Services Commissioner, chief executives, and public service personnel. This Act (now repealed as of August 2020 by the Public Service Act 2020) established foundational principles for public service management, employment conditions, and organizational structure.",
+  "tags": [
+    "new-zealand",
+    "public-service",
+    "legislation",
+    "governance",
+    "chief-executive",
+    "commissioner",
+    "employment",
+    "state-sector"
+  ],
+  "status": "draft",
+  "version": "1.0",
+  "source": {
+    "type": "external_url",
+    "url": "https://www.legislation.govt.nz/act/public/1988/20/en/latest/",
+    "page_title": "State Sector Act 1988 | New Zealand Legislation",
+    "content_hash": "e0ac419aeea5be40a5fdf5a5a8a9b06526af77988c087797c4cdbeddc0976bf7",
+    "last_fetched": "2026-04-02T07:47:34Z"
+  },
+  "related_guardrails": [
+    "GUARD-GOV-006",
+    "GUARD-GOV-019",
+    "GUARD-GOV-013"
+  ],
+  "suggested_owner": "State Services Commission",
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T07:47:34Z",
+      "author": "auto-generated",
+      "change_summary": "Initial creation from external legislation source"
+    }
+  ]
+}
