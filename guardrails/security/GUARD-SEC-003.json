@@ -1,0 +1,43 @@
+{
+  "id": "GUARD-SEC-003",
+  "title": "Information Assurance Standard \u2014 Entity Information Quality Controls",
+  "category": "security",
+  "subcategory": "identity-and-access",
+  "type": "standard",
+  "description": "New Zealand government standard establishing mandatory controls for ensuring entity information collected by relying parties is accurate, distinctive, and suitable for eligibility and capability decisions. Covers information risk assessment, data protection, verification integrity, and fraud prevention across four assurance levels.",
+  "tags": [
+    "identity-management",
+    "information-assurance",
+    "data-quality",
+    "fraud-prevention",
+    "entity-binding",
+    "new-zealand",
+    "compliance"
+  ],
+  "owner": "Identity and Access Management team",
+  "status": "draft",
+  "version": "1.0",
+  "related_guardrails": [
+    "GUARD-SEC-001",
+    "GUARD-SEC-002",
+    "GUARD-API-002"
+  ],
+  "source": {
+    "type": "external_url",
+    "url": "https://www.digital.govt.nz/standards-and-guidance/identity/identification-management/identification-standards/information-assurance-standard",
+    "page_title": "Information Assurance Standard | NZ Digital government",
+    "content_hash": "bc539afa5259f692e7b26dfa120701c5467fbc0a50d04b13da32db4d8fd102b1",
+    "last_fetched": "2026-04-02T07:47:16Z"
+  },
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T07:47:16Z",
+      "author": "auto-generated",
+      "summary": "Initial draft created from external source"
+    }
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null
+}
