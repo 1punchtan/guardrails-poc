@@ -1,0 +1,43 @@
+{
+  "id": "GUARD-SEC-004",
+  "title": "Binding Assurance Standard",
+  "category": "security",
+  "subcategory": "identity-and-access-management",
+  "type": "standard",
+  "description": "New Zealand government standard that defines controls for binding entities to their entity information to prevent identity theft and account takeover. Establishes binding assurance levels (1-4) with corresponding factor requirements and ongoing integrity maintenance controls.",
+  "tags": [
+    "identity-management",
+    "binding-assurance",
+    "authentication",
+    "entity-verification",
+    "fraud-prevention",
+    "nz-government",
+    "access-control"
+  ],
+  "status": "draft",
+  "version": "1.0",
+  "owner": "Identity and Access Management",
+  "source": {
+    "type": "external_url",
+    "url": "https://www.digital.govt.nz/standards-and-guidance/identity/identification-management/identification-standards/binding-assurance-standard",
+    "page_title": "Binding Assurance Standard | NZ Digital government",
+    "content_hash": "8ff9f71b0743cfdb93fd8df5343d20048d3f6fc5a8667c354d7565405a04a62d",
+    "last_fetched": "2026-04-02T07:47:18Z"
+  },
+  "related_guardrails": [
+    "GUARD-SEC-003",
+    "GUARD-API-002",
+    "GUARD-SEC-001"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T07:47:18Z",
+      "author": "auto-generated",
+      "summary": "Initial creation of Binding Assurance Standard guardrail from NZ Digital government source"
+    }
+  ]
+}
