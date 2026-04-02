@@ -1,0 +1,39 @@
+{
+  "id": "GUARD-GOV-001",
+  "title": "Digital Strategy 2.0 \u2013 National Digital Development Framework",
+  "category": "governance",
+  "subcategory": "digital-transformation-strategy",
+  "type": "document",
+  "description": "National-level digital strategy document from New Zealand's Ministry of Economic Development outlining the vision and framework for digital development across economy, environment, and society. Covers four pillars: connection, capability, confidence, and content, with emphasis on broadband infrastructure, digital skills, cybersecurity, and inclusive participation.",
+  "tags": [
+    "digital-strategy",
+    "broadband",
+    "digital-skills",
+    "economic-development",
+    "governance",
+    "inclusion",
+    "digital-transformation"
+  ],
+  "owner": "Chief Digital Officer or Digital Strategy Office",
+  "version": "1.0",
+  "status": "draft",
+  "source": {
+    "type": "onedrive",
+    "onedrive_item_id": "618A7276C00856EA!s126efff6281b475a8e90b33499bfbf6a",
+    "url": "https://onedrive.live.com?cid=618A7276C00856EA&id=618A7276C00856EA!s126efff6281b475a8e90b33499bfbf6a",
+    "filename": "Digital Strategy 2.0.pdf",
+    "last_modified": "2026-04-02T06:45:10Z"
+  },
+  "related_guardrails": [],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T06:45:10Z",
+      "author": "auto-generated",
+      "change": "Initial guardrail creation from New Zealand Digital Strategy 2.0 document"
+    }
+  ]
+}
