@@ -1,40 +1,49 @@
 {
   "id": "GUARD-API-001",
-  "title": "New Zealand API Standard (Draft v1.0)",
+  "title": "New Zealand API Standard (Draft)",
   "category": "api",
-  "subcategory": "design-and-governance",
+  "subcategory": "government-standards",
   "type": "standard",
-  "status": "draft",
-  "version": "1.0",
-  "description": "Draft technical standard for New Zealand government agencies covering the complete API lifecycle from design through operations. Establishes mandatory requirements and best practices for REST APIs, security protocols (OAuth 2.0, OpenID Connect, TLS), authentication, authorization, and governance across system, process, and experience API categories.",
+  "description": "Comprehensive technical standard for New Zealand government agencies developing APIs, covering the complete lifecycle from design through operations. Establishes mandatory requirements and best practices for REST, GraphQL, AsyncAPI, and gRPC implementations, with emphasis on security, authentication, and consumer-driven design.",
   "tags": [
-    "api-design",
-    "api-security",
-    "rest-api",
+    "api-standard",
+    "government",
+    "rest",
+    "security",
     "oauth2",
-    "openid-connect",
-    "government-standard",
-    "tls",
-    "api-lifecycle"
+    "api-lifecycle",
+    "authentication"
   ],
   "owner": "Government Chief Digital Officer",
-  "related_guardrails": [],
+  "status": "under-review",
+  "version": "1.1",
   "source": {
     "type": "external_url",
     "url": "https://docref.digital.govt.nz/nz/dia/nz-api-standard/draft/en/",
     "page_title": "The New Zealand API Standard | Version: draft",
-    "content_hash": "676ed8d5fb9d16cf10ac8beb036deb8f650ba15b4b60a52bf282810a3dda206b",
-    "last_fetched": "2026-04-01T08:35:44Z"
+    "content_hash": "2446f29448b6ceb06b6f22e3b5f4ad44c1447e81e94ef4785cbda76288f028f4",
+    "last_fetched": "2026-04-02T02:39:40Z"
   },
+  "related_guardrails": [
+    "GUARD-API-002",
+    "GUARD-SEC-001",
+    "GUARD-ARCH-002"
+  ],
   "approved_by": null,
   "approved_date": null,
   "review_due": null,
-  "change_log": [
+  "changelog": [
     {
       "version": "1.0",
-      "date": "2026-04-01T08:35:44Z",
+      "date": "2026-03-15T00:00:00Z",
       "author": "auto-generated",
-      "summary": "Initial import from New Zealand government API standard documentation"
+      "change": "Initial guardrail created from NZ API Standard draft documentation"
+    },
+    {
+      "version": "1.1",
+      "date": "2026-04-02T02:39:40Z",
+      "author": "auto-generated",
+      "change": "Updated source metadata with latest content hash and fetch timestamp; refined description to include GraphQL, AsyncAPI, and gRPC coverage; expanded tag set to reflect broader API methodology scope; updated status to under-review for governance validation"
     }
   ]
 }
