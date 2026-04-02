@@ -1,0 +1,42 @@
+{
+  "id": "GUARD-GOV-029",
+  "title": "Holidays Act 2003 \u2013 New Zealand Employment Leave Legislation",
+  "category": "governance",
+  "subcategory": "employment-law",
+  "type": "policy",
+  "status": "draft",
+  "version": "1.0",
+  "description": "New Zealand legislation establishing minimum entitlements and employer obligations for employee holidays, including annual holidays, public holidays, sick leave, bereavement leave, and family violence leave. Administered by the Ministry of Business, Innovation, and Employment.",
+  "tags": [
+    "employment-law",
+    "holidays",
+    "leave-entitlements",
+    "compliance",
+    "new-zealand",
+    "regulatory"
+  ],
+  "owner": "People Operations / HR Compliance",
+  "source": {
+    "type": "external_url",
+    "url": "https://www.legislation.govt.nz/act/public/2003/129/en/latest/",
+    "page_title": "Holidays Act 2003 | New Zealand Legislation",
+    "content_hash": "a8297a65f60055fa8975581dafaef0a02daf75ebf777d097eea09a2e83c14d3e",
+    "last_fetched": "2026-04-02T07:47:48Z"
+  },
+  "related_guardrails": [
+    "GUARD-GOV-022",
+    "GUARD-GOV-028",
+    "GUARD-GOV-013"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T07:47:48Z",
+      "author": "auto-generated",
+      "summary": "Initial guardrail creation from external legislation source. Establishes employment leave entitlements framework for New Zealand."
+    }
+  ]
+}
