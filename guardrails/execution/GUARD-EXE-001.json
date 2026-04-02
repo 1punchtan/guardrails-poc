@@ -1,0 +1,38 @@
+{
+  "id": "GUARD-EXE-001",
+  "title": "CI/CD Flows Diagram",
+  "category": "execution",
+  "subcategory": "continuous-integration-deployment",
+  "type": "diagram",
+  "description": "Visual architecture diagram defining CI/CD pipeline flows and stages within a DevSecOps framework. Establishes guardrails for automated build, test, and deployment processes.",
+  "tags": [
+    "cicd",
+    "devops",
+    "devsecops",
+    "pipeline",
+    "automation",
+    "deployment"
+  ],
+  "owner": "DevOps Engineering",
+  "status": "draft",
+  "version": "1.0",
+  "source": {
+    "type": "onedrive",
+    "onedrive_item_id": "618A7276C00856EA!s0099c71d9e1441a4b6e77951cf6e8a2b",
+    "url": "https://onedrive.live.com?cid=618A7276C00856EA&id=618A7276C00856EA!s0099c71d9e1441a4b6e77951cf6e8a2b",
+    "filename": "CICD Flows.drawio",
+    "last_modified": "2026-04-01T21:50:53Z"
+  },
+  "related_guardrails": [],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-01",
+      "author": "auto-generated",
+      "summary": "Initial guardrail created from CI/CD Flows diagram source"
+    }
+  ]
+}
