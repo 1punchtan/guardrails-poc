@@ -1,0 +1,42 @@
+{
+  "id": "GUARD-SEC-006",
+  "title": "Federation Assurance Standard",
+  "category": "security",
+  "subcategory": "identification and identity management",
+  "type": "standard",
+  "description": "This standard establishes controls for Credential Providers and Facilitation Providers in federated identity systems. It addresses risk management, assurance levels, privacy preservation, and secure credential presentation to reduce identity theft, entitlement fraud, and misrepresentation.",
+  "tags": [
+    "federation",
+    "credentials",
+    "identity-management",
+    "assurance",
+    "privacy",
+    "authentication"
+  ],
+  "status": "draft",
+  "version": "1.0",
+  "owner": "Identity and Access Management team",
+  "source": {
+    "type": "external_url",
+    "url": "https://www.digital.govt.nz/standards-and-guidance/identity/identification-management/identification-standards/federation-assurance-standard",
+    "page_title": "Federation Assurance Standard | NZ Digital government",
+    "content_hash": "44e4f8bb3f94bc086c146bc04c24ce8b8ca3cdb389dcc4734443a84daf08302c",
+    "last_fetched": "2026-04-02T07:47:22Z"
+  },
+  "related_guardrails": [
+    "GUARD-SEC-003",
+    "GUARD-SEC-004",
+    "GUARD-SEC-005"
+  ],
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T07:47:22Z",
+      "author": "auto-generated",
+      "change": "Initial draft created from NZ Digital government Federation Assurance Standard"
+    }
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null
+}
