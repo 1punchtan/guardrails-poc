@@ -1,0 +1,43 @@
+{
+  "id": "GUARD-GOV-025",
+  "title": "Ombudsmen Act 1975 \u2014 New Zealand Legislation",
+  "category": "governance",
+  "subcategory": "oversight-and-complaints",
+  "type": "policy",
+  "status": "draft",
+  "version": "1.0",
+  "description": "New Zealand legislation establishing the ombudsmen office and framework for investigating complaints against public service agencies, state enterprises, and local organizations. Defines investigative powers, complaint procedures, secrecy obligations, and coordination with other oversight bodies.",
+  "tags": [
+    "ombudsman",
+    "oversight",
+    "complaints",
+    "public-agencies",
+    "new-zealand",
+    "legislation",
+    "accountability"
+  ],
+  "owner": "Ministry of Justice",
+  "related_guardrails": [
+    "GUARD-GOV-024",
+    "GUARD-GOV-020",
+    "GUARD-GOV-013"
+  ],
+  "source": {
+    "type": "external_url",
+    "url": "https://www.legislation.govt.nz/act/public/1975/9/en/latest/",
+    "page_title": "Ombudsmen Act 1975 | New Zealand Legislation",
+    "content_hash": "e6ff8da5bdab326f157ec184d531a4a2f151d4f3e70a7231dd4055ea06ba2e30",
+    "last_fetched": "2026-04-02T07:47:43Z"
+  },
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T07:47:43Z",
+      "author": "auto-generated",
+      "summary": "Initial creation from external legislation source. Establishes ombudsmen office framework and complaint investigation procedures for New Zealand public agencies."
+    }
+  ]
+}
