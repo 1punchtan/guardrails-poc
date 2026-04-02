@@ -1,0 +1,42 @@
+{
+  "id": "GUARD-SEC-005",
+  "title": "Authentication Assurance Standard",
+  "category": "security",
+  "subcategory": "identity-and-access-management",
+  "type": "standard",
+  "description": "New Zealand government standard defining controls to ensure authenticators remain possessed and solely controlled by authorized holders. Establishes requirements for authentication risk assessment, authenticator holder behavior, binding consistency, and authenticator strength across four assurance levels.",
+  "tags": [
+    "authentication",
+    "authenticator",
+    "assurance-levels",
+    "identity-management",
+    "access-control",
+    "multi-factor-authentication"
+  ],
+  "owner": "Identity and Access Management Team",
+  "status": "draft",
+  "version": "1.0",
+  "source": {
+    "type": "external_url",
+    "url": "https://www.digital.govt.nz/standards-and-guidance/identity/identification-management/identification-standards/authentication-assurance-standard",
+    "page_title": "Authentication Assurance Standard | NZ Digital government",
+    "content_hash": "4967b174c0f3351ce1dd59c834eb649f50a481044b53df5d001a26ea0fe2ea74",
+    "last_fetched": "2026-04-02T07:47:20Z"
+  },
+  "related_guardrails": [
+    "GUARD-SEC-003",
+    "GUARD-SEC-004",
+    "GUARD-API-002"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T07:47:20Z",
+      "author": "auto-generated",
+      "summary": "Initial creation of Authentication Assurance Standard guardrail from NZ Digital government source"
+    }
+  ]
+}
