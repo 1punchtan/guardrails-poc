@@ -1,0 +1,42 @@
+{
+  "id": "GUARD-GOV-002",
+  "title": "Algorithm Charter for Aotearoa New Zealand",
+  "category": "governance",
+  "subcategory": "algorithmic accountability",
+  "type": "policy",
+  "status": "draft",
+  "version": "1.0",
+  "description": "Government policy framework establishing principles and commitments for responsible algorithm use in New Zealand public services. Defines risk assessment approach, transparency requirements, and safeguards against bias and unintended consequences, particularly for vulnerable communities.",
+  "tags": [
+    "algorithm",
+    "ai-governance",
+    "transparency",
+    "bias-mitigation",
+    "public-sector",
+    "accountability",
+    "risk-assessment",
+    "ethical-ai"
+  ],
+  "owner": "Chief Privacy Officer / Data Governance Office",
+  "source": {
+    "type": "onedrive",
+    "onedrive_item_id": "618A7276C00856EA!s2fdc29ab87c54423bb5eb9f7e9a0e160",
+    "url": "https://onedrive.live.com?cid=618A7276C00856EA&id=618A7276C00856EA!s2fdc29ab87c54423bb5eb9f7e9a0e160",
+    "filename": "Algorithm-Charter-2020_Final-English-1.pdf",
+    "last_modified": "2026-04-02T07:15:43Z"
+  },
+  "related_guardrails": [
+    "GUARD-GOV-001"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T07:15:43Z",
+      "author": "auto-generated",
+      "change": "Initial guardrail created from New Zealand Algorithm Charter policy document"
+    }
+  ]
+}
