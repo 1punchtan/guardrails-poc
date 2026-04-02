@@ -1,0 +1,43 @@
+{
+  "id": "GUARD-GOV-003",
+  "title": "NZ Information Sharing Standard \u2014 Purpose and Scope",
+  "category": "governance",
+  "subcategory": "data-sharing",
+  "type": "guideline",
+  "description": "New Zealand government standard (effective 1 July 2025) requiring public service agencies to implement controls and legally binding agreements when sharing personal information with non-government third parties delivering public services. Covers risk assessment, due diligence, agreement templates, and compliance with Privacy Act requirements.",
+  "tags": [
+    "data-sharing",
+    "personal-information",
+    "third-party",
+    "information-governance",
+    "nz-government",
+    "compliance",
+    "privacy"
+  ],
+  "status": "draft",
+  "version": "1.0",
+  "owner": "Government Chief Digital Office (GCDO)",
+  "source": {
+    "type": "external_url",
+    "url": "https://www.digital.govt.nz/standards-and-guidance/information-sharing-standard/purpose-and-scope",
+    "page_title": "Purpose and scope | NZ Digital government",
+    "content_hash": "243f6bbcde01d5ec9e228ac75cee8d228440170daab68ac6c29c561499ce7da9",
+    "last_fetched": "2026-04-02T02:40:51Z"
+  },
+  "related_guardrails": [
+    "GUARD-GOV-001",
+    "GUARD-DATA-001",
+    "GUARD-SEC-001"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "author": "auto-generated",
+      "date": "2026-04-02",
+      "summary": "Initial draft created from NZ Government Digital guidance on information sharing standard for third-party data sharing with public service agencies."
+    }
+  ]
+}
