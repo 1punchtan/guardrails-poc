@@ -1,0 +1,43 @@
+{
+  "id": "GUARD-GOV-019",
+  "title": "Data and Statistics Act 2022 (NZ)",
+  "category": "governance",
+  "subcategory": "data-governance",
+  "type": "policy",
+  "status": "draft",
+  "version": "1.0",
+  "description": "New Zealand legislation establishing the statutory framework for collecting, managing, and accessing official statistics and data. Defines roles of Statistics New Zealand and the Government Statistician, governs data collection practices, statistical confidentiality, research access, and enforcement mechanisms for public sector data governance.",
+  "tags": [
+    "data-governance",
+    "legislation",
+    "new-zealand",
+    "confidentiality",
+    "access-control",
+    "official-statistics",
+    "public-sector"
+  ],
+  "owner": "Data Governance Office",
+  "source": {
+    "type": "external_url",
+    "url": "https://www.legislation.govt.nz/act/public/2022/39/en/latest/",
+    "page_title": "Data and Statistics Act 2022 | New Zealand Legislation",
+    "content_hash": "c050d2216eeb48b916f8d86b65c0c1df99e96a4a82f87d0e13334f1cab22b91a",
+    "last_fetched": "2026-04-02T07:47:33Z"
+  },
+  "related_guardrails": [
+    "GUARD-GOV-006",
+    "GUARD-GOV-004",
+    "GUARD-GOV-003"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02",
+      "author": "auto-generated",
+      "change": "Initial draft created from external legislation source. Establishes statutory framework for official statistics and data governance in New Zealand."
+    }
+  ]
+}
