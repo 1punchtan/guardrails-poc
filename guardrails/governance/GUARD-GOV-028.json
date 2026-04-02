@@ -1,0 +1,42 @@
+{
+  "id": "GUARD-GOV-028",
+  "title": "Human Rights Act 1993 - New Zealand Legislation",
+  "category": "governance",
+  "subcategory": "legal-compliance",
+  "type": "policy",
+  "status": "draft",
+  "version": "1.0",
+  "description": "New Zealand legislation consolidating human rights protections, anti-discrimination provisions, and complaint resolution mechanisms. Establishes the Human Rights Commission and Human Rights Review Tribunal with authority over employment, goods/services, housing, education, and other discrimination matters across both public and private sectors.",
+  "tags": [
+    "human-rights",
+    "anti-discrimination",
+    "compliance",
+    "new-zealand",
+    "employment",
+    "legal-framework"
+  ],
+  "owner": "Legal / Compliance",
+  "source": {
+    "type": "external_url",
+    "url": "https://www.legislation.govt.nz/act/public/1993/82/en/latest/",
+    "page_title": "Human Rights Act 1993 | New Zealand Legislation",
+    "content_hash": "cec22d59bb990742a59047eda351737a761ac1f2537c0bef0b13d2ecb7f24c86",
+    "last_fetched": "2026-04-02T07:47:47Z"
+  },
+  "related_guardrails": [
+    "GUARD-GOV-013",
+    "GUARD-GOV-009",
+    "GUARD-GOV-026"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T07:47:47Z",
+      "author": "auto-generated",
+      "change": "Initial draft created from external legislation source"
+    }
+  ]
+}
