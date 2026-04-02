@@ -1,0 +1,42 @@
+{
+  "id": "GUARD-GOV-027",
+  "title": "New Zealand Superannuation and Retirement Income Act 2001",
+  "category": "governance",
+  "subcategory": "regulatory-compliance",
+  "type": "policy",
+  "description": "New Zealand legislation (Public Act 2001 No 84) governing entitlements to New Zealand superannuation, establishment and management of the New Zealand Superannuation Fund, and roles of the Guardians of New Zealand Superannuation and Retirement Commissioner. Administered by Ministry of Social Development and The Treasury.",
+  "tags": [
+    "nz-legislation",
+    "superannuation",
+    "retirement-income",
+    "public-act",
+    "fund-governance",
+    "regulatory"
+  ],
+  "owner": "Ministry of Social Development; The Treasury",
+  "status": "draft",
+  "version": "1.0",
+  "source": {
+    "type": "external_url",
+    "url": "https://www.legislation.govt.nz/act/public/2001/84/en/latest/",
+    "page_title": "New Zealand Superannuation and Retirement Income Act 2001 | New Zealand Legislation",
+    "content_hash": "045e90cf3d259cbada6ff33f1c5d4b40668127a98f403427209989f105f58720",
+    "last_fetched": "2026-04-02T07:47:45Z"
+  },
+  "related_guardrails": [
+    "GUARD-GOV-022",
+    "GUARD-GOV-023",
+    "GUARD-GOV-021"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T07:47:45Z",
+      "author": "auto-generated",
+      "summary": "Initial draft: New Zealand Superannuation and Retirement Income Act 2001 added to governance guardrails library"
+    }
+  ]
+}
