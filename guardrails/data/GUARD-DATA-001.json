@@ -1,0 +1,43 @@
+{
+  "id": "GUARD-DATA-001",
+  "title": "Data Protection and Use Policy (DPUP)",
+  "category": "data",
+  "subcategory": "privacy-and-governance",
+  "type": "policy",
+  "description": "Government data protection framework establishing principles and guidelines for ethical data collection and use across New Zealand agencies, grounded in wellbeing, transparency, and trust values.",
+  "tags": [
+    "data-protection",
+    "privacy",
+    "government",
+    "policy",
+    "data-governance",
+    "ethical-use",
+    "wellbeing"
+  ],
+  "owner": "Data Governance / Privacy Office",
+  "version": "1.0",
+  "status": "draft",
+  "source": {
+    "type": "external_url",
+    "url": "https://www.digital.govt.nz/standards-and-guidance/privacy-security-and-risk/privacy/data-protection-and-use-policy-dpup",
+    "page_title": "Data Protection and Use Policy (DPUP) | NZ Digital government",
+    "content_hash": "d0c52eefb767ee80c2a0e94b53b8df1aaa0493acae400f1f5a7d18292e98826c",
+    "last_fetched": "2026-04-02T02:39:43Z"
+  },
+  "related_guardrails": [
+    "GUARD-GOV-001",
+    "GUARD-SEC-001",
+    "GUARD-API-001"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T02:39:43Z",
+      "author": "auto-generated",
+      "change": "Initial guardrail created from NZ Digital government DPUP source"
+    }
+  ]
+}
