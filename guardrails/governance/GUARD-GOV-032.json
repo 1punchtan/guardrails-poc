@@ -1,0 +1,43 @@
+{
+  "id": "GUARD-GOV-032",
+  "title": "Oranga Tamariki Act 1989 \u2013 Children's and Young People's Well-being",
+  "category": "governance",
+  "subcategory": "legislation",
+  "type": "document",
+  "version": "1.0",
+  "status": "draft",
+  "description": "Primary New Zealand legislation establishing the legal framework for the care, protection, and well-being of children and young persons. Defines powers and duties of the chief executive (Oranga Tamariki\u2014Ministry for Children), establishes family group conference procedures, and sets out grounds and processes for care and protection orders.",
+  "tags": [
+    "child-protection",
+    "legislation",
+    "new-zealand",
+    "social-welfare",
+    "guardianship",
+    "family-law",
+    "statutory-authority"
+  ],
+  "owner": "Oranga Tamariki\u2014Ministry for Children",
+  "related_guardrails": [
+    "GUARD-GOV-022",
+    "GUARD-GOV-023",
+    "GUARD-GOV-028"
+  ],
+  "source": {
+    "type": "external_url",
+    "url": "https://www.legislation.govt.nz/act/public/1989/24/en/latest/",
+    "page_title": "Oranga Tamariki Act 1989 | New Zealand Legislation",
+    "content_hash": "b96a3bdf3192dec36a4182b2e928b4c04666aa2da9272ca9b9e215f2a0e35810",
+    "last_fetched": "2026-04-02T07:47:56Z"
+  },
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02",
+      "author": "auto-generated",
+      "summary": "Initial guardrail creation from external legislation source"
+    }
+  ]
+}
