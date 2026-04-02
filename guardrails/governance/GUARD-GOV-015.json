@@ -1,0 +1,43 @@
+{
+  "id": "GUARD-GOV-015",
+  "title": "NZ Government Web Usability Standard 1.4",
+  "category": "governance",
+  "subcategory": "web standards",
+  "type": "standard",
+  "description": "Mandatory standard for New Zealand public sector organisations requiring compliance with web usability, identity, contact, copyright, and privacy requirements for publicly and internally facing websites. Effective 17 March 2025, replacing version 1.3.",
+  "tags": [
+    "web-standards",
+    "usability",
+    "nz-government",
+    "compliance",
+    "public-sector",
+    "accessibility",
+    "privacy"
+  ],
+  "owner": "Government Chief Digital Officer (GCDO)",
+  "status": "draft",
+  "version": "1.0",
+  "source": {
+    "type": "external_url",
+    "url": "https://www.digital.govt.nz/standards-and-guidance/nz-government-web-standards/web-usability-standard-1-4",
+    "page_title": "Web Usability Standard 1.4 | NZ Digital government",
+    "content_hash": "855190af097a7b1d34fb86b6a97dc747365058c96ba812a11aa18f09637e67c2",
+    "last_fetched": "2026-04-02T07:47:11Z"
+  },
+  "related_guardrails": [
+    "GUARD-GOV-014",
+    "GUARD-ARCH-001",
+    "GUARD-GOV-012"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T07:47:11Z",
+      "author": "auto-generated",
+      "summary": "Initial draft created from NZ Government Web Usability Standard 1.4 external source"
+    }
+  ]
+}
