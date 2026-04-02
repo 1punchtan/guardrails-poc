@@ -1,0 +1,43 @@
+{
+  "id": "GUARD-GOV-023",
+  "title": "Residential Care and Disability Support Services Act 2018 (NZ)",
+  "category": "governance",
+  "subcategory": "regulatory-compliance",
+  "type": "policy",
+  "status": "draft",
+  "version": "1.0",
+  "description": "New Zealand legislation governing funding, needs assessment, and means assessment for long-term residential care and home-based disability support services. Establishes rules for determining qualifying persons, contribution liability, and funder responsibility for care costs.",
+  "tags": [
+    "residential-care",
+    "disability-support",
+    "means-assessment",
+    "funding",
+    "new-zealand",
+    "regulatory",
+    "legislation"
+  ],
+  "owner": "Compliance and Legal",
+  "related_guardrails": [
+    "GUARD-GOV-022",
+    "GUARD-GOV-021",
+    "GUARD-GOV-009"
+  ],
+  "source": {
+    "type": "external_url",
+    "url": "https://www.legislation.govt.nz/act/public/2018/33/en/latest/",
+    "page_title": "Residential Care and Disability Support Services Act 2018 | New Zealand Legislation",
+    "content_hash": "617b1b328642e38df3b71fc7a3503aec0618dd90224d7bba88e1f2145cef925a",
+    "last_fetched": "2026-04-02T07:47:40Z"
+  },
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T07:47:40Z",
+      "author": "auto-generated",
+      "summary": "Initial guardrail created from external legislation source. Establishes regulatory framework for residential care and disability support services funding and assessment in New Zealand."
+    }
+  ]
+}
