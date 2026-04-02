@@ -1,0 +1,43 @@
+{
+  "id": "GUARD-GOV-030",
+  "title": "Health and Safety at Work Act 2015 (New Zealand)",
+  "category": "governance",
+  "subcategory": "legal-compliance",
+  "type": "policy",
+  "status": "draft",
+  "version": "1.0",
+  "description": "New Zealand legislation establishing comprehensive health and safety obligations for persons conducting a business or undertaking (PCBUs), officers, and workers. Covers duty of care, worker participation, hazard management, enforcement mechanisms, and liability frameworks applicable to workplace operations.",
+  "tags": [
+    "health-and-safety",
+    "legislation",
+    "compliance",
+    "pcbu",
+    "worker-protection",
+    "new-zealand",
+    "enforcement"
+  ],
+  "owner": "Legal / Compliance",
+  "source": {
+    "type": "external_url",
+    "url": "https://www.legislation.govt.nz/act/public/2015/70/en/latest/",
+    "page_title": "Health and Safety at Work Act 2015 | New Zealand Legislation",
+    "content_hash": "f1c59b3bb9842258c9382c3ca1bf596d14d5b5cf331d674700099000e6563021",
+    "last_fetched": "2026-04-02T07:47:50Z"
+  },
+  "related_guardrails": [
+    "GUARD-GOV-013",
+    "GUARD-SEC-002",
+    "GUARD-GOV-024"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T07:47:50Z",
+      "author": "auto-generated",
+      "summary": "Initial guardrail entry for Health and Safety at Work Act 2015 (NZ). Established as new governance policy covering PCBU obligations, worker protection, and enforcement mechanisms."
+    }
+  ]
+}
