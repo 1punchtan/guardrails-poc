@@ -1,0 +1,44 @@
+{
+  "id": "GUARD-GOV-007",
+  "title": "Data Protection and Use Policy (DPUP) v1.2",
+  "category": "governance",
+  "subcategory": "data-protection",
+  "type": "policy",
+  "description": "A comprehensive policy framework for the respectful, trusted, and transparent use of personal information in the social sector. Establishes five principles (He T\u0101ngata, Manaakitanga, Mana Whakahaere, Kaitiakitanga, Mahitahitanga) and four guidelines (Purpose Matters, Transparency and Choice, Access to Information, Sharing Value) to guide agencies in data collection, use, and sharing practices.",
+  "tags": [
+    "data-protection",
+    "privacy",
+    "policy",
+    "governance",
+    "transparency",
+    "consent",
+    "m\u0101ori-perspectives",
+    "personal-information"
+  ],
+  "status": "draft",
+  "version": "1.0",
+  "owner": "Data Governance or Privacy Team",
+  "source": {
+    "type": "onedrive",
+    "onedrive_item_id": "618A7276C00856EA!scd78f557c8f943e399183b4f9095a34b",
+    "url": "https://onedrive.live.com?cid=618A7276C00856EA&id=618A7276C00856EA!scd78f557c8f943e399183b4f9095a34b",
+    "filename": "Data-Protection-and-Use-Policy-DPUP-January-2022-Version-1.2.pdf",
+    "last_modified": "2026-04-02T06:29:08Z"
+  },
+  "related_guardrails": [
+    "GUARD-GOV-005",
+    "GUARD-GOV-006",
+    "GUARD-GOV-003"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T06:29:08Z",
+      "author": "auto-generated",
+      "change": "Initial guardrail created from OneDrive source. Policy framework for data protection and use in social sector with M\u0101ori-informed principles."
+    }
+  ]
+}
