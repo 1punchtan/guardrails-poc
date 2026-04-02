@@ -1,0 +1,42 @@
+{
+  "id": "GUARD-GOV-009",
+  "title": "Health Information Privacy Code 2020",
+  "category": "governance",
+  "subcategory": "privacy-and-compliance",
+  "type": "policy",
+  "description": "New Zealand regulatory code governing the collection, storage, use, and disclosure of health information by health agencies, disability support service providers, and related organizations. Establishes 13 core privacy rules aligned with the Privacy Act 2020 and specifies obligations for entities handling personal health data.",
+  "tags": [
+    "health-information",
+    "privacy",
+    "new-zealand",
+    "compliance",
+    "data-protection",
+    "regulatory"
+  ],
+  "version": "1.0",
+  "status": "draft",
+  "owner": "Privacy and Compliance Officer",
+  "source": {
+    "type": "onedrive",
+    "onedrive_item_id": "618A7276C00856EA!sc2f12e7b45ec49d291b53b5cb796e0a9",
+    "url": "https://onedrive.live.com?cid=618A7276C00856EA&id=618A7276C00856EA!sc2f12e7b45ec49d291b53b5cb796e0a9",
+    "filename": "Health-Information-Privacy-Code-2020-website-version.pdf",
+    "last_modified": "2026-04-02T06:36:35Z"
+  },
+  "related_guardrails": [
+    "GUARD-GOV-005",
+    "GUARD-GOV-007",
+    "GUARD-GOV-006"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T06:36:35Z",
+      "author": "auto-generated",
+      "change_summary": "Initial guardrail entry for Health Information Privacy Code 2020 from OneDrive source"
+    }
+  ]
+}
