@@ -1,0 +1,43 @@
+{
+  "id": "GUARD-API-004",
+  "title": "New Zealand API Standard",
+  "category": "api",
+  "subcategory": "government-standards",
+  "type": "standard",
+  "status": "draft",
+  "version": "1.0",
+  "description": "Normative specification for New Zealand government agencies developing, deploying, and operating APIs. Consolidates three NZ API Guideline documents (Parts A, B, C) into a single standard covering design, development, security, deployment, and operations of REST APIs.",
+  "tags": [
+    "api-design",
+    "api-security",
+    "government",
+    "nz-standard",
+    "rest-api",
+    "api-governance",
+    "api-lifecycle"
+  ],
+  "owner": "Government Chief Digital Office (GCDO)",
+  "source": {
+    "type": "external_url",
+    "url": "https://docref.digital.govt.nz/nz/dia/nz-api-standard/exposuredraft/en/",
+    "page_title": "The New Zealand API Standard | Version: exposuredraft",
+    "content_hash": "641dc3afdf217ca105cdab3437f46f266840f673cc6f0289aeceea80a40146ad",
+    "last_fetched": "2026-04-02T07:47:00Z"
+  },
+  "related_guardrails": [
+    "GUARD-API-001",
+    "GUARD-API-002",
+    "GUARD-API-003"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T07:47:00Z",
+      "author": "auto-generated",
+      "summary": "Initial draft created from New Zealand API Standard exposure draft document"
+    }
+  ]
+}
