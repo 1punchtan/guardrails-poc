@@ -1,0 +1,44 @@
+{
+  "id": "GUARD-CLOUD-002",
+  "title": "All of Government Cloud Sourcing Strategy",
+  "category": "cloud",
+  "subcategory": "procurement and vendor management",
+  "type": "policy",
+  "status": "draft",
+  "version": "1.0",
+  "description": "New Zealand government strategy for procuring secure and resilient cloud services across agencies. Establishes a consolidated Marketplace channel for IaaS and cloud services, introduces security tiering, supports multi-cloud and hybrid approaches, and incorporates M\u0101ori data sovereignty and Te Tiriti considerations into cloud procurement.",
+  "tags": [
+    "cloud-procurement",
+    "marketplace",
+    "government-strategy",
+    "security-assurance",
+    "multi-cloud",
+    "iaas",
+    "data-sovereignty",
+    "te-tiriti"
+  ],
+  "owner": "Chief Digital Officer / Digital Government Team",
+  "related_guardrails": [
+    "GUARD-CLOUD-001",
+    "GUARD-GOV-008",
+    "GUARD-SEC-001"
+  ],
+  "source": {
+    "type": "external_url",
+    "url": "https://www.digital.govt.nz/dmsdocument/249~all-of-government-cloud-sourcing-strategy/html",
+    "page_title": "All of Government Cloud Sourcing Strategy | NZ Digital government",
+    "content_hash": "da9797cc900e030cb789a59bf6df350cfa7af009f4b67de847e9e3d2784fdcbf",
+    "last_fetched": "2026-04-02T07:46:49Z"
+  },
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T07:46:49Z",
+      "author": "auto-generated",
+      "summary": "Initial guardrail created from external source. Defines NZ government cloud procurement strategy with focus on marketplace consolidation, security tiering, multi-cloud approach, and data sovereignty principles."
+    }
+  ]
+}
