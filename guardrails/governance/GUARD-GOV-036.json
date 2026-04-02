@@ -1,0 +1,44 @@
+{
+  "id": "GUARD-GOV-036",
+  "title": "Copyright Act 1994 \u2014 New Zealand Legislation",
+  "category": "governance",
+  "subcategory": "intellectual-property",
+  "type": "policy",
+  "status": "under-review",
+  "version": "2.0",
+  "description": "New Zealand statutory legislation governing copyright ownership, infringement, moral rights, and enforcement mechanisms. Establishes legal framework for protection of original works including literary, dramatic, musical, artistic works, sound recordings, films, and communication works, with provisions for permitted uses and remedies.",
+  "tags": [
+    "copyright",
+    "intellectual-property",
+    "infringement",
+    "legal-compliance",
+    "new-zealand",
+    "content-protection",
+    "licensing",
+    "enforcement"
+  ],
+  "suggested_owner": "Legal & Compliance",
+  "source": {
+    "type": "external_url",
+    "url": "https://www.legislation.govt.nz/act/public/1994/143/en/latest/",
+    "page_title": "Copyright Act 1994 | New Zealand Legislation",
+    "content_hash": "96633d2364846eadb93c17c988fa70f148373f7486f5db238f8b42f84878e7b6",
+    "last_fetched": "2026-04-02T08:46:34Z"
+  },
+  "related_guardrails": [
+    "GUARD-GOV-010",
+    "GUARD-GOV-026",
+    "GUARD-GOV-024"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "changelog": [
+    {
+      "version": "2.0",
+      "date": "2026-04-02T08:46:34Z",
+      "author": "auto-generated",
+      "change_summary": "Updated source metadata and description with additional enforcement and licensing context; enhanced tag set to include 'licensing' and 'enforcement' provisions; identified as substantive update to existing GUARD-GOV-034 with refined metadata"
+    }
+  ]
+}
