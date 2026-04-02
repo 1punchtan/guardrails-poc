@@ -1,0 +1,42 @@
+{
+  "id": "GUARD-GOV-002",
+  "title": "NZ Government Web Standards (WCAG 2.2 aligned)",
+  "category": "governance",
+  "subcategory": "web-accessibility-and-usability",
+  "type": "standard",
+  "description": "Mandatory web accessibility and usability standards for NZ Government agencies, effective March 2025. Comprises two standards: Web Accessibility Standard 1.2 (aligned with WCAG 2.2) and Web Usability Standard 1.4. Requires self-assessment, risk reporting, and conformance monitoring.",
+  "tags": [
+    "wcag-2.2",
+    "web-accessibility",
+    "web-usability",
+    "government-mandate",
+    "nz-government",
+    "compliance-assessment"
+  ],
+  "version": "1.0",
+  "status": "draft",
+  "source": {
+    "type": "external_url",
+    "url": "https://www.digital.govt.nz/standards-and-guidance/nz-government-web-standards",
+    "page_title": "NZ Government Web Standards | NZ Digital government",
+    "content_hash": "cbefb210ef3fcccd653131f865e84c54ebb7be0ddfd97a003bf82a6659778a0a",
+    "last_fetched": "2026-04-02T02:40:17Z"
+  },
+  "owner": "Government Chief Digital Officer (GCDO)",
+  "related_guardrails": [
+    "GUARD-ARCH-001",
+    "GUARD-API-001",
+    "GUARD-SEC-001"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "author": "auto-generated",
+      "date": "2026-04-02T02:40:17Z",
+      "summary": "New guardrail created from NZ Government Web Standards (WCAG 2.2 aligned). Establishes mandatory web accessibility and usability requirements for NZ government agencies effective March 2025."
+    }
+  ]
+}
