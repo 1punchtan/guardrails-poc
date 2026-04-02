@@ -1,0 +1,43 @@
+{
+  "id": "GUARD-GOV-031",
+  "title": "Employment Relations Act 2000 \u2013 New Zealand Labour Law",
+  "category": "governance",
+  "subcategory": "employment-law",
+  "type": "policy",
+  "status": "draft",
+  "version": "1.0",
+  "description": "New Zealand legislation governing employment relationships, union operations, collective bargaining, individual employment agreements, and employee protections. Establishes duties of good faith, freedom of association, minimum entitlements, and dispute resolution mechanisms for employment relations.",
+  "tags": [
+    "employment-law",
+    "labor-relations",
+    "new-zealand",
+    "collective-bargaining",
+    "good-faith",
+    "union-rights",
+    "employee-protection"
+  ],
+  "owner": "Legal & Compliance",
+  "related_guardrails": [
+    "GUARD-GOV-029",
+    "GUARD-GOV-028",
+    "GUARD-GOV-030"
+  ],
+  "source": {
+    "type": "external_url",
+    "url": "https://www.legislation.govt.nz/act/public/2000/24/en/latest/",
+    "page_title": "Employment Relations Act 2000 | New Zealand Legislation",
+    "content_hash": "5f17eba9bcc95c4d244c65da98eca6650ebbeada5cb8f455426a2f7be89fab95",
+    "last_fetched": "2026-04-02T07:47:53Z"
+  },
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T07:47:53Z",
+      "author": "auto-generated",
+      "summary": "Initial guardrail creation from external legislative source"
+    }
+  ]
+}
