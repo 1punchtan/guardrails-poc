@@ -1,0 +1,43 @@
+{
+  "id": "GUARD-API-002",
+  "title": "NZ Government API Guidelines 2022",
+  "category": "api",
+  "subcategory": "design and implementation",
+  "type": "guideline",
+  "description": "Comprehensive government API standards covering business context, security architecture, and technical implementation guidance. Structured in three parts: API concepts and management, API security, and API development. Intended to help NZ government agencies achieve consistent, secure API delivery with recommended practices for REST and other API standards.",
+  "tags": [
+    "api",
+    "rest",
+    "security",
+    "government",
+    "standards",
+    "architecture",
+    "best-practices"
+  ],
+  "status": "draft",
+  "version": "1.0",
+  "source": {
+    "type": "external_url",
+    "url": "https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/application-programming-interfaces-apis/api-guidelines",
+    "page_title": "API guidelines | NZ Digital government",
+    "content_hash": "6d1c7ebb3d1bd55f71e50fe7d60a11538de7de4f5eee58093e18b41e19423a1f",
+    "last_fetched": "2026-04-02T02:39:36Z"
+  },
+  "related_guardrails": [
+    "GUARD-API-001",
+    "GUARD-SEC-001",
+    "GUARD-GOV-001"
+  ],
+  "owner": "Enterprise Architecture / API Governance",
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "author": "auto-generated",
+      "date": "2026-04-02T02:39:36Z",
+      "summary": "Initial creation from NZ Digital government API guidelines external source"
+    }
+  ]
+}
