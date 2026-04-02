@@ -1,0 +1,42 @@
+{
+  "id": "GUARD-ARCH-002",
+  "title": "GEANZ Standards and Guidance Catalogue",
+  "category": "architecture",
+  "subcategory": "government digital standards",
+  "type": "document",
+  "description": "Comprehensive catalogue of New Zealand government digital standards and guidance for service design, business architecture, system transformation, and digital development. Provides normative requirements (MUST, SHOULD, COULD) for government organisations undertaking digital initiatives.",
+  "tags": [
+    "government",
+    "standards",
+    "service-design",
+    "architecture",
+    "digital-transformation",
+    "nz-government"
+  ],
+  "status": "draft",
+  "version": "1.0",
+  "owner": "NZ Digital Government / GEANZ",
+  "source": {
+    "type": "external_url",
+    "url": "https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/government-digital-standards-catalogue",
+    "page_title": "GEANZ Standards and Guidance Catalogue | NZ Digital government",
+    "content_hash": "3171159a2d8ce0e1c84a271464a0776e33974c8dcaaf4b45874c27dfb4ba0b49",
+    "last_fetched": "2026-04-02T02:40:52Z"
+  },
+  "related_guardrails": [
+    "GUARD-ARCH-001",
+    "GUARD-API-002",
+    "GUARD-GOV-001"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T02:40:52Z",
+      "author": "auto-generated",
+      "summary": "Initial creation of GEANZ Standards and Guidance Catalogue as comprehensive NZ government digital standards reference"
+    }
+  ]
+}
