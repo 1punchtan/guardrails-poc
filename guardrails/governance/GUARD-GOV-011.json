@@ -1,0 +1,42 @@
+{
+  "id": "GUARD-GOV-011",
+  "title": "Telecommunications Information Privacy Code 2020",
+  "category": "governance",
+  "subcategory": "privacy",
+  "type": "policy",
+  "description": "New Zealand code of practice governing how telecommunications agencies must collect, store, use, and disclose telecommunications information and subscriber data. Establishes 13 privacy rules covering lawful purpose, data security, individual access rights, accuracy, retention, and cross-border disclosure of telecommunications and traffic information.",
+  "tags": [
+    "telecommunications",
+    "privacy",
+    "data-protection",
+    "compliance",
+    "subscriber-information",
+    "new-zealand"
+  ],
+  "owner": "Privacy/Compliance Team",
+  "status": "draft",
+  "version": "1.0",
+  "source": {
+    "type": "onedrive",
+    "onedrive_item_id": "618A7276C00856EA!sb48b9c0817e9431a8b9b563f216a7348",
+    "url": "https://onedrive.live.com?cid=618A7276C00856EA&id=618A7276C00856EA!sb48b9c0817e9431a8b9b563f216a7348",
+    "filename": "Telecommunications-Information-Privacy-Code-2020-website-version.pdf",
+    "last_modified": "2026-04-02T06:41:03Z"
+  },
+  "related_guardrails": [
+    "GUARD-GOV-005",
+    "GUARD-GOV-009",
+    "GUARD-GOV-006"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T06:41:03Z",
+      "author": "auto-generated",
+      "change": "Initial draft created from onedrive source. Establishes privacy governance framework for New Zealand telecommunications sector with 13 privacy rules aligned with Privacy Act 2020."
+    }
+  ]
+}
