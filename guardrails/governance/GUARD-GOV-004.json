@@ -1,0 +1,42 @@
+{
+  "id": "GUARD-GOV-004",
+  "title": "UN Fundamental Principles of Official Statistics",
+  "category": "governance",
+  "subcategory": "data governance",
+  "type": "policy",
+  "description": "UN Economic Commission for Europe resolution establishing 10 core principles for official statistical agencies, covering professional independence, data confidentiality, scientific standards, and international cooperation. Provides foundational governance framework for statistical data collection, processing, and dissemination in democratic societies.",
+  "tags": [
+    "official-statistics",
+    "data-governance",
+    "confidentiality",
+    "professional-standards",
+    "international-cooperation",
+    "statistical-principles"
+  ],
+  "owner": "Data Governance / Statistics Office",
+  "status": "draft",
+  "version": "1.0",
+  "source": {
+    "type": "onedrive",
+    "onedrive_item_id": "618A7276C00856EA!s8a85034c2d504899be6857beda0cfe0b",
+    "url": "https://onedrive.live.com?cid=618A7276C00856EA&id=618A7276C00856EA!s8a85034c2d504899be6857beda0cfe0b",
+    "filename": "United Nations - Fundamental Principles of Official Statistics.pdf",
+    "last_modified": "2026-04-02T06:34:33Z"
+  },
+  "related_guardrails": [
+    "GUARD-GOV-003",
+    "GUARD-GOV-001",
+    "GUARD-GOV-002"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02",
+      "author": "auto-generated",
+      "summary": "Initial draft created from UN ECE official statistics policy document. Establishes international foundational principles for official statistical governance."
+    }
+  ]
+}
