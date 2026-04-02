@@ -1,0 +1,42 @@
+{
+  "id": "GUARD-GOV-013",
+  "title": "Privacy Act 2020 \u2014 New Zealand",
+  "category": "governance",
+  "subcategory": "regulatory-compliance",
+  "type": "policy",
+  "description": "New Zealand's primary legislation governing the protection of personal information and individual privacy rights. Establishes information privacy principles, access and correction rights, complaint mechanisms, notifiable breach requirements, and frameworks for information sharing and matching between agencies.",
+  "tags": [
+    "privacy",
+    "new-zealand",
+    "compliance",
+    "data-protection",
+    "personal-information",
+    "regulatory"
+  ],
+  "version": "1.0",
+  "status": "draft",
+  "related_guardrails": [
+    "GUARD-GOV-005",
+    "GUARD-GOV-009",
+    "GUARD-GOV-011"
+  ],
+  "source": {
+    "type": "external_url",
+    "url": "https://www.legislation.govt.nz/act/public/2020/31/en/latest/",
+    "page_title": "Privacy Act 2020 | New Zealand Legislation",
+    "content_hash": "4f6ea99e49003a2366a418707f1d275a8231db5c58a632ec143b0835b4ffe2af",
+    "last_fetched": "2026-04-02T07:47:05Z"
+  },
+  "owner": "Privacy and Compliance Officer",
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T07:47:05Z",
+      "author": "auto-generated",
+      "summary": "Initial guardrail created from external legislation source. Documents foundational privacy legislation establishing information privacy principles, individual rights, and agency compliance requirements."
+    }
+  ]
+}
