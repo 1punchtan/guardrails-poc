@@ -1,0 +1,44 @@
+{
+  "id": "GUARD-GOV-024",
+  "title": "Public Records Act 2005 (New Zealand)",
+  "category": "governance",
+  "subcategory": "records-management",
+  "type": "policy",
+  "status": "draft",
+  "version": "1.0",
+  "description": "New Zealand legislation establishing requirements for creation, maintenance, disposal, and public access to public records and local authority records. Defines the role of Archives New Zealand and the Chief Archivist in ensuring government accountability, long-term preservation of records, and public access to official documentation.",
+  "tags": [
+    "records-management",
+    "public-records",
+    "compliance",
+    "data-retention",
+    "government",
+    "accountability",
+    "new-zealand",
+    "legislation"
+  ],
+  "owner": "Records Management / Compliance / Information Governance",
+  "source": {
+    "type": "external_url",
+    "url": "https://www.legislation.govt.nz/act/public/2005/40/en/latest/",
+    "page_title": "Public Records Act 2005 | New Zealand Legislation",
+    "content_hash": "59ec5a78f2d5e0be0f962f33235b34e61784c8e922230770ea13f9cfe86cecae",
+    "last_fetched": "2026-04-02T07:47:42Z"
+  },
+  "related_guardrails": [
+    "GUARD-GOV-006",
+    "GUARD-GOV-012",
+    "GUARD-GOV-013"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T07:47:42Z",
+      "author": "auto-generated",
+      "change_summary": "Initial draft created from external legislation source"
+    }
+  ]
+}
