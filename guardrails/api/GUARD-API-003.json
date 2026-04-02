@@ -1,0 +1,44 @@
+{
+  "id": "GUARD-API-003",
+  "title": "API Guidelines Part C: API Development 2022",
+  "category": "api",
+  "subcategory": "api-development",
+  "type": "guideline",
+  "description": "Comprehensive technical guidelines for API development covering design principles, HTTP standards, API types (REST, GraphQL, AsyncAPI, gRPC), layering architecture, and implementation standards. Establishes minimum deliverables including interface specifications, code, policies, tests, and SLAs for API projects.",
+  "tags": [
+    "api-design",
+    "rest",
+    "graphql",
+    "asyncapi",
+    "grpc",
+    "http",
+    "standards",
+    "development"
+  ],
+  "status": "draft",
+  "version": "1.0",
+  "owner": "API Platform Team",
+  "source": {
+    "type": "external_url",
+    "url": "https://www.digital.govt.nz/dmsdocument/232~api-guidelines-part-c-api-development-2022/html",
+    "page_title": "API guidelines \u2014 Part C: API development 2022 | NZ Digital government",
+    "content_hash": "574d964f719cf3d1a1fc02a7999821131a390b3aed794aae0c5552edf7bd2d8f",
+    "last_fetched": "2026-04-02T07:46:55Z"
+  },
+  "related_guardrails": [
+    "GUARD-API-001",
+    "GUARD-API-002",
+    "GUARD-GOV-001"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T07:46:55Z",
+      "author": "auto-generated",
+      "summary": "Initial draft created from NZ Digital Government API Guidelines Part C: API Development 2022"
+    }
+  ]
+}
