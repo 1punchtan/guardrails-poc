@@ -1,0 +1,43 @@
+{
+  "id": "GUARD-SEC-002",
+  "title": "PSR Information Security (INFOSEC) Policy Framework",
+  "category": "security",
+  "subcategory": "information-security-governance",
+  "type": "policy",
+  "description": "New Zealand Government mandatory information security policy framework defining requirements across four pillars: understanding information assets, designing security measures, validating implementation, and maintaining ongoing security. Applies to all mandated government agencies and recommended as best practice for other organisations.",
+  "tags": [
+    "infosec",
+    "information-security",
+    "policy-framework",
+    "compliance",
+    "risk-management",
+    "classification-system",
+    "incident-response"
+  ],
+  "owner": "Information Security / Governance Team",
+  "version": "1.0",
+  "status": "draft",
+  "source": {
+    "type": "external_url",
+    "url": "https://www.protectivesecurity.govt.nz/policy/information-security",
+    "page_title": "Information security (INFOSEC) | Protective Security Requirements",
+    "content_hash": "86cc85f12909354cb6f5c6a838a2b8ba28a1d80ecd1d45c5fcec5e791c93f4af",
+    "last_fetched": "2026-04-02T07:47:12Z"
+  },
+  "related_guardrails": [
+    "GUARD-SEC-001",
+    "GUARD-GOV-013",
+    "GUARD-CLOUD-002"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T07:47:12Z",
+      "author": "auto-generated",
+      "change_summary": "Initial creation from Protective Security Requirements Information Security policy framework"
+    }
+  ]
+}
