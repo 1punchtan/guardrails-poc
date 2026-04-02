@@ -1,0 +1,43 @@
+{
+  "id": "GUARD-SEC-007",
+  "title": "New Zealand Government Cloud Adoption Security and Privacy Framework",
+  "category": "security",
+  "subcategory": "compliance",
+  "type": "guideline",
+  "description": "Microsoft's compliance documentation for New Zealand government organizations adopting public cloud services. Outlines the GCDO-mandated framework requiring risk assessments, privacy compliance with the Privacy Act 2020, and adherence to the Risk Discovery Tool covering data sovereignty, security, governance, and incident response.",
+  "tags": [
+    "new-zealand",
+    "government",
+    "cloud-adoption",
+    "privacy",
+    "risk-assessment",
+    "compliance",
+    "data-sovereignty"
+  ],
+  "status": "draft",
+  "version": "1.0",
+  "source": {
+    "type": "external_url",
+    "url": "https://learn.microsoft.com/en-us/compliance/regulatory/offering-nz-cc-framework-nz",
+    "page_title": "New Zealand Government Information Security and Privacy Considerations - Microsoft Compliance | Microsoft Learn",
+    "content_hash": "e951ca257554b428d6acb580d227eb63e3a291b4ea06065ddab09bf5bff420b0",
+    "last_fetched": "2026-04-02T07:47:28Z"
+  },
+  "owner": "Security and Compliance",
+  "related_guardrails": [
+    "GUARD-CLOUD-002",
+    "GUARD-SEC-001",
+    "GUARD-GOV-005"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T07:47:28Z",
+      "author": "auto-generated",
+      "change": "Initial draft created from external Microsoft Learn resource on NZ government cloud adoption security and privacy framework"
+    }
+  ]
+}
