@@ -1,0 +1,48 @@
+{
+  "id": "GUARD-GOV-037",
+  "title": "Copyright Act 1994 \u2014 New Zealand Legislation",
+  "category": "governance",
+  "subcategory": "intellectual-property",
+  "type": "policy",
+  "description": "New Zealand's primary legislation governing copyright ownership, infringement, moral rights, and remedies. Establishes legal framework for protection of literary, dramatic, musical, artistic works, sound recordings, films, and communication works, with provisions for permitted acts, enforcement mechanisms, and digital-age amendments including internet service provider liability.",
+  "tags": [
+    "copyright",
+    "intellectual-property",
+    "infringement",
+    "new-zealand",
+    "licensing",
+    "enforcement"
+  ],
+  "status": "under-review",
+  "version": "2.0",
+  "owner": "Legal / Compliance",
+  "related_guardrails": [
+    "GUARD-GOV-036",
+    "GUARD-GOV-010",
+    "GUARD-GOV-026"
+  ],
+  "source": {
+    "type": "external_url",
+    "url": "https://www.legislation.govt.nz/act/public/1994/143/en/latest/",
+    "page_title": "Copyright Act 1994 | New Zealand Legislation",
+    "content_hash": "310e55e8d8c209a2dcd572724b3f624d8757e110d2f78c8f830798e19ff6e52f",
+    "last_fetched": "2026-04-02T08:51:37Z"
+  },
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "2025-01-01",
+      "author": "auto-generated",
+      "change": "Initial guardrail created from external legislation source"
+    },
+    {
+      "version": "2.0",
+      "date": "2026-04-02",
+      "author": "auto-generated",
+      "change": "Updated metadata with latest source content hash and fetch timestamp; consolidated with existing GUARD-GOV-036 entry; version incremented for governance review cycle"
+    }
+  ]
+}
