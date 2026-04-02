@@ -1,0 +1,43 @@
+{
+  "id": "GUARD-GOV-008",
+  "title": "Government Procurement Rules 5th Edition 2025",
+  "category": "governance",
+  "subcategory": "procurement",
+  "type": "policy",
+  "status": "draft",
+  "version": "1.0",
+  "description": "New Zealand government procurement policy document establishing mandatory rules and principles for responsible expenditure of public funds. Covers the complete procurement lifecycle including planning, market approach, contract award, and system requirements with emphasis on public value, integrity, transparency, and economic benefits to New Zealand.",
+  "tags": [
+    "procurement",
+    "public-value",
+    "governance",
+    "government-spending",
+    "new-zealand",
+    "compliance",
+    "contract-management"
+  ],
+  "owner": "Procurement Team / Government Procurement System Lead",
+  "related_guardrails": [
+    "GUARD-GOV-005",
+    "GUARD-GOV-006",
+    "GUARD-GOV-007"
+  ],
+  "source": {
+    "type": "onedrive",
+    "onedrive_item_id": "618A7276C00856EA!s5a4e6be6f29c470e90a6cf844d4b8df7",
+    "url": "https://onedrive.live.com?cid=618A7276C00856EA&id=618A7276C00856EA!s5a4e6be6f29c470e90a6cf844d4b8df7",
+    "filename": "government-procurement-rules-5th-edition.pdf",
+    "last_modified": "2026-04-02T07:14:46Z"
+  },
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T07:14:46Z",
+      "author": "auto-generated",
+      "summary": "Initial guardrail created from Government Procurement Rules 5th Edition 2025 source document"
+    }
+  ]
+}
