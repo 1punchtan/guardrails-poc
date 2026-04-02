@@ -76,5 +76,29 @@
     "label": "Information Sharing Standard",
     "category": "data",
     "hint": "Requirements for public service agencies handling personal information shared with third parties"
+  },
+  {
+    "url": "https://www.digital.govt.nz/standards-and-guidance/identity/identification-management/identification-standards/information-assurance-standard",
+    "label": "Identification Standard - Information Assurance Standard",
+    "category": "security",
+    "hint": "This standard provides specific information management controls to ensure information collected is suitable for accurate decisions to be made regarding the eligibility or capability of an Entity."
+  },
+  {
+    "url": "https://www.digital.govt.nz/standards-and-guidance/identity/identification-management/identification-standards/binding-assurance-standard",
+    "label": "Identification Standard - Binding Assurance Standard",
+    "category": "security",
+    "hint": "This standard provides specific controls for ensuring an entity is appropriately bound to their entity information in order to prevent identity theft."
+  },
+  {
+    "url": "https://www.digital.govt.nz/standards-and-guidance/identity/identification-management/identification-standards/authentication-assurance-standard",
+    "label": "Identification Standard - Authentication Assurance Standard",
+    "category": "security",
+    "hint": "This standard provides the controls used to ensure that 1 or more Authenticators are still possessed and solely controlled by the authorised holder."
+  },
+  {
+    "url": "https://www.digital.govt.nz/standards-and-guidance/identity/identification-management/identification-standards/federation-assurance-standard",
+    "label": "Identification Standard - Federation Assurance Standard",
+    "category": "security",
+    "hint": "This standard provides additional controls for parties that provide credentials and/or presentation facilitation mechanisms on which others rely."
   }
 ]
