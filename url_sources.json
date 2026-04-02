@@ -1,9 +1,9 @@
 [
   {
-    "url": "https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/cloud-services/cloud-adoption-policy-and-strategy",
-    "label": "Cloud Adoption Policy and Strategy",
+    "url": "https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/cloud-services/cloud-adoption-policy-and-strategy/cabinet-requirement",
+    "label": "Cloud First Policy",
     "category": "cloud",
-    "hint": "NZ Government Cloud First Policy — mandates cloud-first approach for agency IT investment, including cabinet decisions and requirements"
+    "hint": "Government organisations must use public cloud services, when possible, for information systems. This is the NZ government’s Cloud First policy."
   },
   {
     "url": "https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/application-programming-interfaces-apis/api-guidelines",

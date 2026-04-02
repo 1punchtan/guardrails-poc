@@ -1,19 +1,34 @@
 import hashlib
 import json
+from contextlib import contextmanager
 from datetime import datetime, timezone
 
-import httpx
 from bs4 import BeautifulSoup
+from playwright.sync_api import Page, sync_playwright
 
 from state import UrlRecord
 
-_HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/120.0.0.0 Safari/537.36"
-    )
-}
+
+@contextmanager
+def browser_context():
+    """
+    Context manager that launches a single headless Chromium browser for the
+    duration of the with-block. Yields a Playwright Page ready for navigation.
+    Reusing one browser across all URLs avoids per-URL startup overhead.
+    """
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page(
+            user_agent=(
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/120.0.0.0 Safari/537.36"
+            )
+        )
+        try:
+            yield page
+        finally:
+            browser.close()
 
 
 def load_url_sources(path: str) -> list[dict]:
@@ -22,9 +37,9 @@ def load_url_sources(path: str) -> list[dict]:
         return json.load(f)
 
 
-def scrape(entry: dict) -> tuple[UrlRecord | None, str | None]:
+def scrape(entry: dict, page: Page) -> tuple[UrlRecord | None, str | None]:
     """
-    Fetch and parse one URL entry from url_sources.json.
+    Fetch and parse one URL entry using a headless browser.
 
     Returns (UrlRecord, None) on success, or (None, reason) on failure so the
     caller can record the failure reason in the state file.
@@ -32,22 +47,22 @@ def scrape(entry: dict) -> tuple[UrlRecord | None, str | None]:
     url = entry["url"]
 
     try:
-        response = httpx.get(url, headers=_HEADERS, follow_redirects=True, timeout=20)
+        response = page.goto(url, wait_until="networkidle", timeout=30_000)
     except Exception as exc:
-        reason = f"fetch error: {exc}"
+        reason = f"navigation error: {exc}"
         print(f"  WARNING: {reason}")
         return None, reason
 
-    if response.status_code != 200:
-        reason = f"HTTP {response.status_code}"
+    if response is None or not response.ok:
+        status = response.status if response else "no response"
+        reason = f"HTTP {status}"
         print(f"  WARNING: {url} returned {reason} — skipping")
         return None, reason
 
-    soup = BeautifulSoup(response.text, "html.parser")
+    page_title = page.title() or url
+    html = page.content()
 
-    # Page title
-    title_tag = soup.find("title")
-    page_title = title_tag.get_text(strip=True) if title_tag else url
+    soup = BeautifulSoup(html, "html.parser")
 
     # Remove navigation noise before extracting body text
     for tag in soup.find_all(["nav", "header", "footer", "script", "style", "aside"]):
@@ -59,7 +74,7 @@ def scrape(entry: dict) -> tuple[UrlRecord | None, str | None]:
 
     words = raw_text.split()
     if len(words) < 200:
-        reason = f"only {len(words)} words extracted — likely JS-rendered or bot-blocked"
+        reason = f"only {len(words)} words extracted — page may require authentication or further interaction"
         print(f"  WARNING: {url}: {reason}; skipping")
         return None, reason
 

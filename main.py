@@ -7,7 +7,7 @@ from extractor import extract_text
 from github_client import connect, create_pr, get_existing_metafiles
 from inference import infer_metadata, produce_metafile
 from onedrive import authenticate, download_file, list_folder_recursive
-from scraper import load_url_sources, scrape
+from scraper import browser_context, load_url_sources, scrape
 from state import diff_files, diff_urls, load_state, save_state
 
 
@@ -186,21 +186,22 @@ def main() -> None:
 
     # Scrape all URLs first so we can diff the whole batch against state
     scraped: list = []
-    for entry in url_sources:
-        url = entry["url"]
-        print(f"\nScraping: {url}")
-        record, failure_reason = scrape(entry)
-        if record is None:
-            state["scrape_failures"][url] = {
-                "url": url,
-                "reason": failure_reason,
-                "last_attempted": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-            }
-            continue
-        # Successfully scraped — clear any prior failure record
-        state["scrape_failures"].pop(url, None)
-        print(f"  done ({_plural(len(record.extracted_text.split()), 'word')} extracted)")
-        scraped.append(record)
+    with browser_context() as page:
+        for entry in url_sources:
+            url = entry["url"]
+            print(f"\nScraping: {url}")
+            record, failure_reason = scrape(entry, page)
+            if record is None:
+                state["scrape_failures"][url] = {
+                    "url": url,
+                    "reason": failure_reason,
+                    "last_attempted": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                }
+                continue
+            # Successfully scraped — clear any prior failure record
+            state["scrape_failures"].pop(url, None)
+            print(f"  done ({_plural(len(record.extracted_text.split()), 'word')} extracted)")
+            scraped.append(record)
 
     new_urls, changed_urls = diff_urls(scraped, state)
     url_to_process = [(r, False) for r in new_urls] + [(r, True) for r in changed_urls]
