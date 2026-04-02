@@ -1,0 +1,42 @@
+{
+  "id": "GUARD-ARCH-001",
+  "title": "NZ Digital Service Design Standard",
+  "category": "architecture",
+  "subcategory": "digital service design",
+  "type": "standard",
+  "description": "New Zealand government standard establishing 12 core principles for designing user-focused, inclusive, and secure digital services. Covers the full service lifecycle from user understanding through transparent accountability, with emphasis on security, privacy, collaboration, and data stewardship.",
+  "tags": [
+    "digital-service",
+    "design-standard",
+    "user-centered",
+    "nz-government",
+    "principles",
+    "service-delivery"
+  ],
+  "status": "draft",
+  "version": "1.0",
+  "owner": "Digital Service Design / Government Architecture",
+  "source": {
+    "type": "external_url",
+    "url": "https://www.digital.govt.nz/standards-and-guidance/digital-service-design-standard",
+    "page_title": "Digital Service Design Standard | NZ Digital government",
+    "content_hash": "61df6f7878528573d3d3aabea3236edd6f865adb95e8573b8cc77df32f120ee7",
+    "last_fetched": "2026-04-02T07:47:07Z"
+  },
+  "related_guardrails": [
+    "GUARD-GOV-001",
+    "GUARD-API-001",
+    "GUARD-GOV-012"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T07:47:07Z",
+      "author": "auto-generated",
+      "summary": "Initial ingestion from NZ Digital government standards and guidance portal. Establishes 12 core principles for user-focused, inclusive, and secure digital service design across government."
+    }
+  ]
+}
