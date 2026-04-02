@@ -15,7 +15,7 @@
     "rest-api",
     "threat-protection"
   ],
-  "status": "draft",
+  "status": "approved",
   "version": "1.0",
   "owner": "API Security & Architecture Team",
   "source": {

@@ -4,7 +4,7 @@
   "category": "api",
   "subcategory": "government-standards",
   "type": "standard",
-  "status": "draft",
+  "status": "approved",
   "version": "1.0",
   "description": "Normative specification for New Zealand government agencies developing, deploying, and operating APIs. Consolidates three NZ API Guideline documents (Parts A, B, C) into a single standard covering design, development, security, deployment, and operations of REST APIs.",
   "tags": [

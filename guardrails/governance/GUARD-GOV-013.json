@@ -14,7 +14,7 @@
     "regulatory"
   ],
   "version": "1.0",
-  "status": "draft",
+  "status": "approved",
   "related_guardrails": [
     "GUARD-GOV-005",
     "GUARD-GOV-009",

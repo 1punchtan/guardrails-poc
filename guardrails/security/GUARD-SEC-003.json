@@ -15,7 +15,7 @@
     "compliance"
   ],
   "owner": "Identity and Access Management team",
-  "status": "draft",
+  "status": "approved",
   "version": "1.0",
   "related_guardrails": [
     "GUARD-SEC-001",

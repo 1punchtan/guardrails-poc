@@ -4,7 +4,7 @@
   "category": "cloud",
   "subcategory": "procurement and vendor management",
   "type": "policy",
-  "status": "draft",
+  "status": "approved",
   "version": "1.0",
   "description": "New Zealand government strategy for procuring secure and resilient cloud services across agencies. Establishes a consolidated Marketplace channel for IaaS and cloud services, introduces security tiering, supports multi-cloud and hybrid approaches, and incorporates M\u0101ori data sovereignty and Te Tiriti considerations into cloud procurement.",
   "tags": [

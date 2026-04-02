@@ -4,7 +4,7 @@
   "category": "api",
   "subcategory": "governance",
   "type": "guideline",
-  "status": "draft",
+  "status": "approved",
   "version": "1.0",
   "description": "Comprehensive government API guidelines covering business context, principles, lifecycle management, and governance considerations for API development within public sector organizations. Addresses interoperability, privacy compliance, organizational drivers, and standardization across government agencies.",
   "tags": [

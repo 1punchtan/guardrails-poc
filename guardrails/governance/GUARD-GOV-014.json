@@ -14,7 +14,7 @@
     "mandatory"
   ],
   "version": "1.0",
-  "status": "draft",
+  "status": "approved",
   "owner": "Government Chief Digital Officer (GCDO)",
   "related_guardrails": [
     "GUARD-ARCH-001",
