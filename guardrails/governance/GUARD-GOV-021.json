@@ -1,0 +1,42 @@
+{
+  "id": "GUARD-GOV-021",
+  "title": "Social Welfare (Reciprocity Agreements, and New Zealand Artificial Limb Service) Act 1990",
+  "category": "governance",
+  "subcategory": "legislation",
+  "type": "policy",
+  "status": "draft",
+  "version": "1.0",
+  "description": "New Zealand legislation (repealed 2018) that established reciprocity agreements with other countries for social welfare benefits, veterans' pensions, and superannuation portability, and governed the New Zealand Artificial Limb Service. Administered by Ministry of Social Development.",
+  "tags": [
+    "legislation",
+    "social-welfare",
+    "reciprocity",
+    "pensions",
+    "veterans",
+    "new-zealand"
+  ],
+  "owner": "Ministry of Social Development",
+  "related_guardrails": [
+    "GUARD-GOV-018",
+    "GUARD-GOV-006",
+    "GUARD-GOV-013"
+  ],
+  "source": {
+    "type": "external_url",
+    "url": "https://www.legislation.govt.nz/act/public/1990/26/en/latest/",
+    "page_title": "Social Welfare (Reciprocity Agreements, and New Zealand Artificial Limb Service) Act 1990 | New Zealand Legislation",
+    "content_hash": "862a893d0a6cd3cb2327571f75af63f47bb3de684ba49d51b322072e232680d5",
+    "last_fetched": "2026-04-02T07:47:35Z"
+  },
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T07:47:35Z",
+      "author": "auto-generated",
+      "summary": "Initial guardrail created from external legislation source. Metadata extracted and categorized for governance and social welfare legislation."
+    }
+  ]
+}
