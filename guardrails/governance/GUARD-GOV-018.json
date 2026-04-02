@@ -1,0 +1,43 @@
+{
+  "id": "GUARD-GOV-018",
+  "title": "War Pensions Act 1954 - New Zealand Legislation",
+  "category": "governance",
+  "subcategory": "policy",
+  "type": "policy",
+  "description": "New Zealand legislation governing the administration and payment of war pensions and allowances to disabled members of the armed forces, their dependants, and related beneficiaries. Repealed in 2014 by the Veterans' Support Act 2014 but represents the historical legislative framework for veteran support and benefit governance.",
+  "tags": [
+    "veterans",
+    "pensions",
+    "policy",
+    "governance",
+    "legislation",
+    "new-zealand",
+    "defense"
+  ],
+  "status": "draft",
+  "version": "1.0",
+  "owner": "New Zealand Defence Force",
+  "source": {
+    "type": "external_url",
+    "url": "https://www.legislation.govt.nz/act/public/1954/54/en/latest/",
+    "page_title": "War Pensions Act 1954 | New Zealand Legislation",
+    "content_hash": "6f0b60df4a80aa350167424816c5f2740c7ab2c5fed5f76f76a4f062b1caa759",
+    "last_fetched": "2026-04-02T07:47:32Z"
+  },
+  "related_guardrails": [
+    "GUARD-GOV-013",
+    "GUARD-GOV-009",
+    "GUARD-GOV-005"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T07:47:32Z",
+      "author": "auto-generated",
+      "summary": "Initial guardrail created from external legislation source. Historical legislative framework for veteran support and benefit governance in New Zealand."
+    }
+  ]
+}
