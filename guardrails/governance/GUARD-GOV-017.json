@@ -1,0 +1,42 @@
+{
+  "id": "GUARD-GOV-017",
+  "title": "Risk assessment for public cloud services",
+  "category": "governance",
+  "subcategory": "cloud risk management",
+  "type": "guideline",
+  "status": "draft",
+  "version": "1.0",
+  "description": "NZ Government guidance on assessing risks when adopting public cloud services in government agencies. Covers risk discovery, jurisdictional considerations, risk approval processes, and organizational implementation of cloud risk assessment frameworks.",
+  "tags": [
+    "cloud",
+    "risk-assessment",
+    "governance",
+    "public-sector",
+    "security-controls",
+    "compliance"
+  ],
+  "owner": "Chief Information Security Officer / Enterprise Architecture",
+  "related_guardrails": [
+    "GUARD-CLOUD-001",
+    "GUARD-CLOUD-002",
+    "GUARD-SEC-007"
+  ],
+  "source": {
+    "type": "external_url",
+    "url": "https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/cloud-services/assess-the-risks",
+    "page_title": "Risks assessment for public cloud services | NZ Digital government",
+    "content_hash": "2c50467728bddd5439a9fd414c884f26a4620486eb2f8f41b73e4bd87e07ce1c",
+    "last_fetched": "2026-04-02T07:47:30Z"
+  },
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02",
+      "author": "auto-generated",
+      "summary": "Initial guardrail creation from NZ Digital government source"
+    }
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null
+}
