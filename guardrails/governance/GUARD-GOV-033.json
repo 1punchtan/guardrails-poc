@@ -1,0 +1,41 @@
+{
+  "id": "GUARD-GOV-033",
+  "title": "Bill of Rights 1688 \u2014 English Constitutional Rights and Liberties",
+  "category": "governance",
+  "subcategory": "constitutional-law",
+  "type": "policy",
+  "description": "Imperial Act establishing foundational constitutional rights and liberties, including prohibitions on arbitrary taxation, standing armies, and limits on executive power without parliamentary consent. Foundational legal document for Commonwealth governance frameworks.",
+  "tags": [
+    "constitutional-rights",
+    "parliamentary-sovereignty",
+    "executive-limits",
+    "common-law",
+    "governance-framework"
+  ],
+  "status": "draft",
+  "version": "1.0",
+  "owner": null,
+  "related_guardrails": [
+    "GUARD-GOV-026",
+    "GUARD-GOV-028",
+    "GUARD-GOV-013"
+  ],
+  "source": {
+    "type": "external_url",
+    "url": "https://www.legislation.govt.nz/act/imperial/1688/2/en/latest/",
+    "page_title": "Bill of Rights 1688 | New Zealand Legislation",
+    "content_hash": "c1fe5280d98d557034f2ef0d8e662f5ac031a2de13a469cb6805cb4aa6880a8c",
+    "last_fetched": "2026-04-02T07:47:57Z"
+  },
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T07:47:57Z",
+      "author": "auto-generated",
+      "change": "Initial draft created from external legislation source"
+    }
+  ]
+}
