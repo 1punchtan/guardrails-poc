@@ -1,0 +1,44 @@
+{
+  "id": "GUARD-GOV-010",
+  "title": "NZGOAL Software Extension: Open Source Licensing Framework for Government Software",
+  "category": "governance",
+  "subcategory": "open-source-policy",
+  "type": "policy",
+  "description": "New Zealand Government policy framework for open access and licensing of government-owned software under free and open source software (FOSS) licenses. Provides legal context, policy principles, guidance on selecting appropriate FOSS licenses (permissive vs. copyleft), and a structured review and release process to ensure legally robust public software releases.",
+  "tags": [
+    "open-source",
+    "foss",
+    "licensing",
+    "government-software",
+    "intellectual-property",
+    "policy",
+    "nz-government",
+    "release-process"
+  ],
+  "status": "draft",
+  "version": "1.0",
+  "owner": "Architecture Governance / Policy & Standards",
+  "source": {
+    "type": "onedrive",
+    "onedrive_item_id": "618A7276C00856EA!se781a12b5020400b9e94514768dfac9d",
+    "url": "https://onedrive.live.com?cid=618A7276C00856EA&id=618A7276C00856EA!se781a12b5020400b9e94514768dfac9d",
+    "filename": "nzgoal-software-extension-version-1-july-2016.pdf",
+    "last_modified": "2026-04-02T06:46:50Z"
+  },
+  "related_guardrails": [
+    "GUARD-GOV-008",
+    "GUARD-GOV-006",
+    "GUARD-GOV-001"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T06:46:50Z",
+      "author": "auto-generated",
+      "summary": "Initial creation of guardrail from NZGOAL Software Extension policy document"
+    }
+  ]
+}
