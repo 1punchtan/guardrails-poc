@@ -100,5 +100,125 @@
     "label": "Identification Standard - Federation Assurance Standard",
     "category": "security",
     "hint": "This standard provides additional controls for parties that provide credentials and/or presentation facilitation mechanisms on which others rely."
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/compliance/regulatory/offering-nz-cc-framework-nz",
+    "label": "Microsoft Compliance - New Zealand Government Information Security and Privacy Considerations",
+    "category": "security",
+    "hint": "This page outlines the New Zealand government's framework for adopting public cloud services, emphasizing compliance with security and privacy considerations. It details the actions required by government organizations before utilizing cloud services, including risk assessments and adherence to the New Zealand Privacy Act 2020."
+  },
+  {
+    "url": "https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/cloud-services/assess-the-risks",
+    "label": "Risks assessment for public cloud services",
+    "category": "governance",
+    "hint": "How to assess the risks of using public cloud services in your government agency and how to use your risk assessment."
+  },
+  {
+    "url": "https://www.legislation.govt.nz/act/public/1954/54/en/latest/",
+    "label": "War Pensions Act 1954",
+    "category": "governance",
+    "hint": "An Act to consolidate and amend the law relating to war pensions and allowances."
+  },
+  {
+    "url": "https://www.legislation.govt.nz/act/public/2022/39/en/latest/",
+    "label": "Data and Statistics Act 2022",
+    "category": "governance",
+    "hint": "This Act is the Data and Statistics Act 2022."
+  },
+  {
+    "url": "https://www.legislation.govt.nz/act/public/1988/20/en/latest/",
+    "label": "State Sector Act 1988",
+    "category": "governance",
+    "hint": "This Act may be cited as the State Sector Act 1988"
+  },
+  {
+    "url": "https://www.legislation.govt.nz/act/public/1990/26/en/latest/",
+    "label": "Social Welfare (Reciprocity Agreements, and New Zealand Artificial Limb Service) Act 1990",
+    "category": "governance",
+    "hint": "This Act is the Social Welfare (Reciprocity Agreements, and New Zealand Artificial Limb Service) Act 1990."
+  },
+  {
+    "url": "https://www.legislation.govt.nz/act/public/2018/32/en/latest/",
+    "label": "Social Security Act 2018",
+    "category": "governance",
+    "hint": "This Act is the Social Security Act 2018."
+  },
+  {
+    "url": "https://www.legislation.govt.nz/act/public/2018/33/en/latest/",
+    "label": "Residential Care and Disability Support Services Act 2018",
+    "category": "governance",
+    "hint": "This Act is the Residential Care and Disability Support Services Act 2018."
+  },
+  {
+    "url": "https://www.legislation.govt.nz/act/public/2005/40/en/latest/",
+    "label": "Public Records Act 2005",
+    "category": "governance",
+    "hint": "This Act is the Public Records Act 2005."
+  },
+  {
+    "url": "https://www.legislation.govt.nz/act/public/1975/9/en/latest/",
+    "label": "Ombudsmen Act 1975",
+    "category": "governance",
+    "hint": "This Act is the Ombudsmen Act 1975."
+  },
+  {
+    "url": "https://www.legislation.govt.nz/act/public/1982/156/en/latest/",
+    "label": "Official Information Act 1982",
+    "category": "governance",
+    "hint": "An Act to make official information more freely available, to provide for proper access by each person to official information relating to that person, to protect official information to the extent consistent with the public interest and the preservation of personal privacy, to establish procedures for the achievement of those purposes, and to repeal the Official Secrets Act 1951."
+  },
+  {
+    "url": "https://www.legislation.govt.nz/act/public/2001/84/en/latest/",
+    "label": "New Zealand Superannuation and Retirement Income Act 2001",
+    "category": "governance",
+    "hint": "This Act is the New Zealand Superannuation and Retirement Income Act 2001."
+  },
+  {
+    "url": "https://www.legislation.govt.nz/act/public/1993/82/en/latest/",
+    "label": "Human Rights Act 1993",
+    "category": "governance",
+    "hint": "An Act to consolidate and amend the Race Relations Act 1971 and the Human Rights Commission Act 1977 and to provide better protection of human rights in New Zealand in general accordance with United Nations Covenants or Conventions on Human Rights."
+  },
+  {
+    "url": "https://www.legislation.govt.nz/act/public/2003/129/en/latest/",
+    "label": "Holidays Act 2003",
+    "category": "governance",
+    "hint": "This Act is the Holidays Act 2003."
+  },
+  {
+    "url": "https://www.legislation.govt.nz/act/public/2015/70/en/latest/",
+    "label": "Health and Safety at Work Act 2015",
+    "category": "governance",
+    "hint": "This Act is the Health and Safety at Work Act 2015."
+  },
+  {
+    "url": "https://www.legislation.govt.nz/act/public/2000/24/en/latest/",
+    "label": "Employment Relations Act 2000",
+    "category": "governance",
+    "hint": "This Act is the Employment Relations Act 2000."
+  },
+  {
+    "url": "https://www.legislation.govt.nz/act/public/1989/24/en/latest/",
+    "label": "Oranga Tamariki Act 1989 - Children’s and Young People’s Well-being Act 1989",
+    "category": "governance",
+    "hint": "This Act is the Oranga Tamariki Act 1989."
+  },
+  {
+    "url": "https://www.legislation.govt.nz/act/imperial/1688/2/en/latest/",
+    "label": "Bill of Rights 1688",
+    "category": "governance",
+    "hint": "An Act declaring the rights and liberties of the subject, and settling the succession of the Crown."
+  },
+  {
+    "url": "https://www.legislation.govt.nz/act/public/1994/143/en/latest/",
+    "label": "Copyright Act 1994",
+    "category": "governance",
+    "hint": "An Act to consolidate and amend the law relating to copyright."
+  },
+  {
+    "url": "https://www.legislation.govt.nz/secondary-legislation/pco-drafted/1998/277/en/latest/",
+    "label": "Student Allowances Regulations 1998",
+    "category": "governance",
+    "hint": "This Act is the Student Allowances Regulations Act 1998"
   }
 ]
