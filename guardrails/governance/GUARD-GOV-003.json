@@ -1,0 +1,42 @@
+{
+  "id": "GUARD-GOV-003",
+  "title": "Principles and Protocols for Producers of Tier 1 Statistics",
+  "category": "governance",
+  "subcategory": "data governance",
+  "type": "standard",
+  "description": "New Zealand government standard defining 10 core principles and 6 operational protocols for producing official Tier 1 statistics. Covers relevance, integrity, quality, coherence, accessibility, efficiency, privacy protection, respondent management, data frameworks, and statistical records management.",
+  "tags": [
+    "official-statistics",
+    "data-quality",
+    "governance",
+    "privacy",
+    "standards",
+    "new-zealand",
+    "tier-1-statistics"
+  ],
+  "status": "draft",
+  "version": "1.0",
+  "owner": "Data Governance / Statistics Team",
+  "source": {
+    "type": "onedrive",
+    "onedrive_item_id": "618A7276C00856EA!s4355fc1b90b644bd934fcc64810c7bb7",
+    "url": "https://onedrive.live.com?cid=618A7276C00856EA&id=618A7276C00856EA!s4355fc1b90b644bd934fcc64810c7bb7",
+    "filename": "principles-and-protocols-for-producers-of-tier-1-stats.pdf",
+    "last_modified": "2026-04-02T06:32:00Z"
+  },
+  "related_guardrails": [
+    "GUARD-GOV-001",
+    "GUARD-GOV-002"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-02T06:32:00Z",
+      "author": "auto-generated",
+      "summary": "Initial guardrail created from New Zealand government Tier 1 statistics standard document"
+    }
+  ]
+}
