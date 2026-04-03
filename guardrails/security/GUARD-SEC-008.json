@@ -1,0 +1,42 @@
+{
+  "id": "GUARD-SEC-008",
+  "title": "Information Assurance Standard \u2014 NZ Digital Government",
+  "category": "security",
+  "subcategory": "identity-and-access-management",
+  "type": "standard",
+  "description": "New Zealand government standard specifying information management controls to ensure collected identity information is accurate, protected, and suitable for eligibility and capability decisions. Covers entity information quality, evidence verification levels, and fraud prevention measures for relying parties.",
+  "tags": [
+    "identity-assurance",
+    "information-quality",
+    "entity-binding",
+    "fraud-prevention",
+    "evidence-verification",
+    "new-zealand"
+  ],
+  "owner": "identity-and-access-management-team",
+  "status": "under-review",
+  "version": "2.0",
+  "related_guardrails": [
+    "GUARD-SEC-003",
+    "GUARD-SEC-004",
+    "GUARD-SEC-005"
+  ],
+  "source": {
+    "type": "external_url",
+    "url": "https://www.digital.govt.nz/standards-and-guidance/identity/identification-management/identification-standards/information-assurance-standard",
+    "page_title": "Information Assurance Standard | NZ Digital government",
+    "content_hash": "e1109e386203ffda08db46fd3ff0bfeb3bd1e949ea907f9e60195f498052fe6e",
+    "last_fetched": "2026-04-03T03:27:35Z"
+  },
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "2.0",
+      "date": "2026-04-03T03:27:35Z",
+      "author": "auto-generated",
+      "summary": "Updated source URL, content hash, and last_fetched timestamp. Refreshed metadata alignment with current NZ Digital Government publication."
+    }
+  ]
+}
