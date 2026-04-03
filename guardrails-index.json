@@ -664,25 +664,25 @@
         "accessibility",
         "wcag",
         "web-standards",
-        "nz-government",
         "compliance",
-        "mandatory"
+        "nz-government",
+        "public-sector"
       ],
-      "description": "Mandatory standard requiring all NZ public service departments and Executive branch non-public service departments to conform their web pages to WCAG 2.2 Level AA, effective 17 March 2025. Includes specific exemptions and modified requirements for complex visual maps, audio-only/video-only content, captions, and audio descriptions.",
+      "description": "Mandatory standard requiring all NZ public service departments and Executive branch agencies to conform web pages (public and internal) to WCAG 2.2 Level AA, effective 17 March 2025. Defines scope, requirements, exemptions, and assessment obligations for web accessibility compliance.",
       "owner": "Government Chief Digital Officer (GCDO)",
       "source": {
         "type": "external_url",
         "url": "https://www.digital.govt.nz/standards-and-guidance/nz-government-web-standards/web-accessibility-standard-1-2",
         "page_title": "Web Accessibility Standard 1.2 | NZ Digital government",
-        "content_hash": "434a6df89aa75b99c1786add00a9cb9622769931d2935ec4e29d8ee23a7315a1",
-        "last_fetched": "2026-04-02T07:47:09Z"
+        "content_hash": "71d97f11722192add56bcc7d3948cde33db1243eaaff2e95500392152f3ec8a6",
+        "last_fetched": "2026-04-03T03:27:28Z"
       },
       "related_guardrails": [
+        "GUARD-GOV-015",
         "GUARD-ARCH-001",
-        "GUARD-GOV-012",
-        "GUARD-SEC-001"
+        "GUARD-GOV-012"
       ],
-      "version": "1.0",
+      "version": "1.1",
       "approved_date": null,
       "review_due": null,
       "_source_file": "guardrails/governance/GUARD-GOV-014.json"
