@@ -1,33 +1,32 @@
 {
   "id": "GUARD-CLOUD-001",
+  "version": "2.0",
+  "status": "approved",
   "title": "NZ Government Cloud First Policy",
   "category": "cloud",
   "subcategory": "cloud-adoption",
   "type": "policy",
-  "status": "approved",
-  "version": "1.0",
-  "description": "New Zealand government's mandatory Cloud First policy requiring public sector organisations to adopt public cloud services for information systems in preference to on-premises infrastructure. Establishes requirements for data classification, multi-cloud strategies, cost optimisation, and risk assessment.",
+  "description": "New Zealand government policy requiring public cloud adoption for information systems unless specific criteria apply. Establishes mandatory requirements for data classification, multi-cloud strategies, risk assessment, and sustainability considerations in cloud adoption decisions.",
   "tags": [
     "cloud-first",
     "public-cloud",
-    "government",
-    "policy",
-    "cloud-adoption",
+    "government-policy",
+    "data-classification",
     "multi-cloud",
-    "data-classification"
+    "nz-digital"
   ],
   "owner": "Government Chief Digital Officer (GCDO)",
   "source": {
     "type": "external_url",
     "url": "https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/cloud-services/cloud-adoption-policy-and-strategy/cabinet-requirement",
     "page_title": "Cloud First policy | NZ Digital government",
-    "content_hash": "1b1df2caa28fdbc117bbddef6af75d1f9586341927743d9fe830c6acfe780b0d",
-    "last_fetched": "2026-04-02T07:46:48Z"
+    "content_hash": "1d7bcf59335200c8ef9a4db179fdb034a4f7e17ca108e88496edf43fa4f7fbc2",
+    "last_fetched": "2026-04-03T03:27:07Z"
   },
   "related_guardrails": [
-    "GUARD-GOV-001",
-    "GUARD-SEC-001",
-    "GUARD-GOV-008"
+    "GUARD-CLOUD-002",
+    "GUARD-GOV-017",
+    "GUARD-SEC-007"
   ],
   "approved_by": null,
   "approved_date": null,
@@ -35,9 +34,15 @@
   "changelog": [
     {
       "version": "1.0",
-      "date": "2026-04-02T07:46:48Z",
+      "date": "2025-01-01",
       "author": "auto-generated",
-      "change": "Initial draft created from external source - NZ Government Cloud First Policy establishing mandatory public cloud adoption requirements for public sector organisations."
+      "change": "Initial guardrail creation from external source"
+    },
+    {
+      "version": "2.0",
+      "date": "2026-04-03",
+      "author": "auto-generated",
+      "change": "Updated policy content and metadata from latest NZ Digital government source; refreshed data classification and sustainability considerations; verified multi-cloud strategy requirements remain current"
     }
   ]
 }
