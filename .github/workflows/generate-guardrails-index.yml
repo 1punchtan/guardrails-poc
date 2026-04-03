@@ -1,0 +1,38 @@
+name: Regenerate guardrails index
+ 
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "guardrails/**"
+      - "generate_index.py"
+ 
+  # Allow manual trigger from the Actions tab
+  workflow_dispatch:
+ 
+jobs:
+  generate-index:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+ 
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+ 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+ 
+      - name: Generate guardrails-index.json
+        run: python generate_index.py
+ 
+      - name: Commit updated index
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: regenerate guardrails-index.json [skip ci]"
+          file_pattern: guardrails-index.json
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"

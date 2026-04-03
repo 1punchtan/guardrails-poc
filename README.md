@@ -200,40 +200,45 @@ planned downstream use cases.
  
 ---
  
-### Stage 2 — Document review via Claude skill
+### Stage 2 (Completed) — Document review via Claude skill
  
-**Use case:** An architect writes a solution architecture document, access
-control policy, or new guardrail proposal in Claude Chat or Cowork. A Claude
-skill retrieves the relevant approved guardrails from the Git repo and asks
-Claude to assess whether the document under review conflicts with any of them.
+**Use case:** An architect uploads a solution architecture document, access control policy, or guardrail proposal to a Claude Chat project. Claude assesses whether the document conflicts with any approved guardrails in the library.
  
 **How it works:**
  
-A Claude skill exposes the guardrails library as a tool. When invoked, it:
+A Claude Chat project is configured with a system prompt (found in `review-document-instruction.md`) that defines the reviewer role, review scope, and output format. Each review conversation includes two attachments:
  
-1. Reads the metafiles from the GitHub repo (via the GitHub API or a
-   pre-built index)
-2. Filters to `status: approved` guardrails, optionally narrowing by category
-   relevant to the document type
-3. Passes the filtered guardrail metadata — and links to the full source
-   documents — as context to Claude
-4. Claude reasons over the document content and the guardrails, identifying
-   conflicts, gaps, or areas that need attention
-5. Returns a structured review report: which guardrails were checked, which
-   were satisfied, which were violated or uncertain, and why
+- `guardrails-index.json` — a flattened index of all approved guardrails, auto-generated from the metafiles in this repo
+- The document under review
+ 
+Claude reads both files, identifies which guardrails are relevant to the document's subject matter, and produces a structured review report.
+ 
+**Review scope — conflict detection only:**
+ 
+The reviewer flags where a document explicitly or implicitly contradicts an approved guardrail — for example, proposing a disallowed integration pattern, storing data outside approved regions, or using an excluded authentication mechanism. It does not flag gaps (topics the document omits). Uncertain findings are surfaced with reasoning rather than suppressed.
+ 
+**Output format:**
+ 
+- A short summary: what the document covers, which guardrail categories were assessed, and the overall finding
+- A findings table: one row per assessed guardrail, with finding (Satisfied / Conflict / Uncertain / Not applicable), severity, evidence from the document, and reviewer notes
+ 
+**Components:**
+ 
+- `generate_index.py` — reads all metafiles from `guardrails/**/*.json` and writes `guardrails-index.json` to the repo root. Excludes draft and deprecated guardrails.
+- `.github/workflows/generate-guardrails-index.yml` — GitHub Action that runs `generate_index.py` and auto-commits the updated index on every merge to `main` that touches `guardrails/**`.
+- `skills/review-document-instruction.md` — the system prompt for the Claude Chat project.
+ 
+**Workflow:**
+ 
+1. Merge a guardrail PR — the GitHub Action regenerates `guardrails-index.json` automatically
+2. Copy the updated index content into the Claude Chat project instructions (one manual step — no API available to automate this on personal Claude.ai)
+3. Start a review conversation: attach `guardrails-index.json` and the document, ask for a review
  
 **Why the metafile design supports this:**
  
-The `status`, `category`, `tags`, and `description` fields allow the skill to
-retrieve a focused, relevant subset of the library rather than passing
-everything into the context window. A solution architecture document tagged
-`cloud, integration` pulls only guardrails in those categories — keeping the
-review targeted and token-efficient.
+The `status` field limits the index to approved guardrails only. The `category` and `tags` fields let Claude scope its assessment to relevant guardrails rather than checking everything. The `description` field carries enough context for a confident assessment in most cases; where it doesn't, Claude surfaces this in the findings and directs the reviewer to the source document.
  
-**Scope note:** This use case works best for architectural decisions expressed
-in prose — choice of integration pattern, data residency approach,
-authentication design. It is not a substitute for policy-as-code tooling for
-fine-grained configuration enforcement.
+**Scope note:** This works best for documents that make explicit architectural decisions in prose. It is not a substitute for policy-as-code tooling or static analysis for fine-grained configuration enforcement.
  
 ---
  
