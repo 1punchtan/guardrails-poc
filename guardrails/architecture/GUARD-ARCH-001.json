@@ -1,42 +1,48 @@
 {
   "id": "GUARD-ARCH-001",
-  "title": "NZ Digital Service Design Standard",
+  "title": "Digital Service Design Standard",
   "category": "architecture",
-  "subcategory": "digital service design",
+  "subcategory": "service design",
   "type": "standard",
-  "description": "New Zealand government standard establishing 12 core principles for designing user-focused, inclusive, and secure digital services. Covers the full service lifecycle from user understanding through transparent accountability, with emphasis on security, privacy, collaboration, and data stewardship.",
+  "description": "New Zealand government standard providing design principles and guidance for creating user-focused, secure, and inclusive digital services. Establishes 12 core principles covering user needs, security, equity, collaboration, and accountability.",
   "tags": [
     "digital-service",
     "design-standard",
     "user-centered",
-    "nz-government",
+    "government",
     "principles",
     "service-delivery"
   ],
-  "status": "approved",
-  "version": "1.0",
-  "owner": "Digital Service Design / Government Architecture",
+  "owner": "NZ Digital Government",
+  "status": "under-review",
+  "version": "2.0",
   "source": {
     "type": "external_url",
     "url": "https://www.digital.govt.nz/standards-and-guidance/digital-service-design-standard",
     "page_title": "Digital Service Design Standard | NZ Digital government",
-    "content_hash": "61df6f7878528573d3d3aabea3236edd6f865adb95e8573b8cc77df32f120ee7",
-    "last_fetched": "2026-04-02T07:47:07Z"
+    "content_hash": "1f91bfd9fb924e127b0f57adc9b3ba7573d46a93eacbc49cae133d8ac8129e94",
+    "last_fetched": "2026-04-03T03:27:26Z"
   },
   "related_guardrails": [
-    "GUARD-GOV-001",
-    "GUARD-API-001",
-    "GUARD-GOV-012"
+    "GUARD-GOV-015",
+    "GUARD-SEC-001",
+    "GUARD-CLOUD-001"
   ],
   "approved_by": null,
   "approved_date": null,
   "review_due": null,
-  "change_log": [
+  "changelog": [
     {
       "version": "1.0",
-      "date": "2026-04-02T07:47:07Z",
+      "date": "2025-01-01",
       "author": "auto-generated",
-      "summary": "Initial ingestion from NZ Digital government standards and guidance portal. Establishes 12 core principles for user-focused, inclusive, and secure digital service design across government."
+      "summary": "Initial guardrail creation for NZ Digital Service Design Standard"
+    },
+    {
+      "version": "2.0",
+      "date": "2026-04-03",
+      "author": "auto-generated",
+      "summary": "Updated source metadata with latest content hash and fetch timestamp from external_url"
     }
   ]
 }
