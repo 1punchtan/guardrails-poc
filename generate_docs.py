@@ -7,7 +7,6 @@ MkDocs Material static site under docs-site/.
 Outputs:
   docs-site/mkdocs.yml                              (full site config + nav)
   docs-site/docs/index.md                           (home page)
-  docs-site/docs/tags.md                            (tag index)
   docs-site/docs/guardrails/{category}/index.md     (category overview)
   docs-site/docs/guardrails/{category}/{ID}.md      (individual guardrail page)
 
@@ -426,7 +425,6 @@ theme:
 
 plugins:
   - search
-  - tags
 
 markdown_extensions:
   - tables
@@ -440,7 +438,6 @@ markdown_extensions:
 def write_mkdocs_yml(by_category: dict) -> None:
     nav_lines = ["nav:"]
     nav_lines.append("  - Home: index.md")
-    nav_lines.append("  - Tags: tags.md")
 
     ordered = [c for c in CATEGORY_ORDER if c in by_category]
     extras = sorted(c for c in by_category if c not in CATEGORY_ORDER)
@@ -489,7 +486,6 @@ def main() -> None:
     for cat, glist in by_category.items():
         write_category_index(cat, glist)
     write_home_page(guardrails, by_category)
-    write_tags_page()
     write_mkdocs_yml(by_category)
 
     # Summary
@@ -501,7 +497,6 @@ def main() -> None:
         print(f"  {cat}: {len(by_category[cat])} pages")
     print(f"✓ Written {len(by_category)} category index pages")
     print("✓ Written home page (index.md)")
-    print("✓ Written tags.md")
     print("✓ Written mkdocs.yml")
 
     if skipped:

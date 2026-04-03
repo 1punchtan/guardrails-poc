@@ -21,7 +21,6 @@ theme:
 
 plugins:
   - search
-  - tags
 
 markdown_extensions:
   - tables
@@ -31,7 +30,6 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Tags: tags.md
   - Governance:
     - guardrails/governance/index.md
     - "GUARD-GOV-001 — Digital Strategy 2.0 – National Digital Dev…": guardrails/governance/GUARD-GOV-001.md
