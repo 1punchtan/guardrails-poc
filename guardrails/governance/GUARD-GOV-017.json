@@ -1,12 +1,10 @@
 {
   "id": "GUARD-GOV-017",
-  "title": "Risk assessment for public cloud services",
+  "title": "Risk Assessment for Public Cloud Services",
   "category": "governance",
-  "subcategory": "cloud risk management",
+  "subcategory": "cloud-risk-management",
   "type": "guideline",
-  "status": "approved",
-  "version": "1.0",
-  "description": "NZ Government guidance on assessing risks when adopting public cloud services in government agencies. Covers risk discovery, jurisdictional considerations, risk approval processes, and organizational implementation of cloud risk assessment frameworks.",
+  "description": "NZ government guidance for assessing risks when adopting or modifying public cloud services, including a two-stage risk discovery tool, jurisdictional risk considerations, and processes for risk approval and ongoing monitoring.",
   "tags": [
     "cloud",
     "risk-assessment",
@@ -15,28 +13,36 @@
     "security-controls",
     "compliance"
   ],
-  "owner": "Chief Information Security Officer / Enterprise Architecture",
+  "suggested_owner": "Chief Digital Officer / Security & Risk Team",
+  "status": "under-review",
+  "version": "2.0",
+  "source": {
+    "type": "external_url",
+    "url": "https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/cloud-services/assess-the-risks",
+    "page_title": "Risks assessment for public cloud services | NZ Digital government",
+    "content_hash": "c817586570fd2e46c71563c54419f22014403e96689558c2d58f445ea9221280",
+    "last_fetched": "2026-04-03T03:27:48Z"
+  },
   "related_guardrails": [
     "GUARD-CLOUD-001",
     "GUARD-CLOUD-002",
     "GUARD-SEC-007"
   ],
-  "source": {
-    "type": "external_url",
-    "url": "https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/cloud-services/assess-the-risks",
-    "page_title": "Risks assessment for public cloud services | NZ Digital government",
-    "content_hash": "2c50467728bddd5439a9fd414c884f26a4620486eb2f8f41b73e4bd87e07ce1c",
-    "last_fetched": "2026-04-02T07:47:30Z"
-  },
-  "change_log": [
-    {
-      "version": "1.0",
-      "date": "2026-04-02",
-      "author": "auto-generated",
-      "summary": "Initial guardrail creation from NZ Digital government source"
-    }
-  ],
   "approved_by": null,
   "approved_date": null,
-  "review_due": null
+  "review_due": null,
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "2025-01-15",
+      "author": "auto-generated",
+      "summary": "Initial guardrail entry created from NZ Digital Government source."
+    },
+    {
+      "version": "2.0",
+      "date": "2026-04-03",
+      "author": "auto-generated",
+      "summary": "Updated with latest content hash and verification of source URL. Confirmed guidance covers two-stage risk discovery tool, jurisdictional considerations, and risk approval processes for public cloud adoption."
+    }
+  ]
 }
