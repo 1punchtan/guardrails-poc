@@ -722,34 +722,34 @@
     },
     {
       "id": "GUARD-GOV-016",
-      "title": "NZ Information Sharing Standard – Purpose and Scope",
+      "title": "NZ Information Sharing Standard — Purpose and Scope",
       "status": "approved",
       "category": "governance",
       "tags": [
         "information-sharing",
         "personal-data",
         "third-party",
+        "government",
         "compliance",
+        "nz-standard",
+        "data-governance",
         "risk-assessment",
-        "legally-binding-agreements",
-        "nz-government",
-        "data-governance"
+        "legally-binding-agreements"
       ],
-      "description": "New Zealand government standard (effective 1 July 2025) mandating requirements for public service agencies sharing personal information with non-government third parties. Covers legally binding information sharing agreements, risk assessment, controls, and compliance with privacy and security obligations.",
-      "owner": "Government Chief Digital Office (GCDO)",
+      "description": "New Zealand government standard requiring public service agencies to implement controls and legal agreements when sharing personal information with non-government third parties delivering public services. Mandatory from 1 July 2025, it establishes best practice approaches for information sharing agreements that protect personal data and ensure adequate safeguards.",
       "source": {
         "type": "external_url",
         "url": "https://www.digital.govt.nz/standards-and-guidance/information-sharing-standard/purpose-and-scope",
         "page_title": "Purpose and scope | NZ Digital government",
-        "content_hash": "243f6bbcde01d5ec9e228ac75cee8d228440170daab68ac6c29c561499ce7da9",
-        "last_fetched": "2026-04-02T07:47:14Z"
+        "content_hash": "a9ee27313275698479779648e4713b3598d727d97dad737eb83e87da8207cf1f",
+        "last_fetched": "2026-04-03T03:27:33Z"
       },
       "related_guardrails": [
-        "GUARD-GOV-013",
         "GUARD-GOV-005",
-        "GUARD-GOV-007"
+        "GUARD-GOV-013",
+        "GUARD-SEC-002"
       ],
-      "version": "1.0",
+      "version": "2.0",
       "approved_date": null,
       "review_due": null,
       "_source_file": "guardrails/governance/GUARD-GOV-016.json"
