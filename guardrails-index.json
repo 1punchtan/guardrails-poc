@@ -1,0 +1,1609 @@
+{
+  "generated_by": "generate_index.py",
+  "description": "Auto-generated index of approved architecture guardrails. Do not edit manually — regenerated on every merge to main.",
+  "guardrail_count": 49,
+  "guardrails": [
+    {
+      "id": "GUARD-API-001",
+      "title": "API Guidelines — Part A: API Concepts and Management 2022",
+      "status": "approved",
+      "category": "api",
+      "tags": [
+        "api",
+        "governance",
+        "interoperability",
+        "public-sector",
+        "standards",
+        "lifecycle-management",
+        "privacy"
+      ],
+      "description": "Comprehensive government API guidelines covering business context, principles, lifecycle management, and governance considerations for API development within public sector organizations. Addresses interoperability, privacy compliance, organizational drivers, and standardization across government agencies.",
+      "owner": "API governance or digital transformation team",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.digital.govt.nz/dmsdocument/230~api-guidelines-part-a-api-concepts-and-management-2022/html",
+        "page_title": "API guidelines — Part A: API concepts and management 2022 | NZ Digital government",
+        "content_hash": "03cf1b1509e5fec47f343802aeb41540c76dba52dbef636af05af55bee814cae",
+        "last_fetched": "2026-04-02T07:46:51Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-001",
+        "GUARD-GOV-005",
+        "GUARD-SEC-001"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/api/GUARD-API-001.json"
+    },
+    {
+      "id": "GUARD-API-002",
+      "title": "API Security Guidelines — Part B (NZ Digital Government 2022)",
+      "status": "approved",
+      "category": "api",
+      "tags": [
+        "api-security",
+        "authentication",
+        "authorization",
+        "oauth",
+        "zero-trust",
+        "identity-management",
+        "rest-api",
+        "threat-protection"
+      ],
+      "description": "Comprehensive reference architecture and technical implementation guidance for securing RESTful and modern APIs (GraphQL, AsyncAPI, gRPC). Covers authentication, authorization, identity management, threat protection, and Zero Trust principles for government API deployments.",
+      "owner": "API Security & Architecture Team",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.digital.govt.nz/dmsdocument/231~api-guidelines-part-b-api-security-2022/html",
+        "page_title": "API guidelines — Part B: API security 2022 | NZ Digital government",
+        "content_hash": "ce2699dc9c000de085404fc2b59f5f8382abf3fc729397402850353c42335dcd",
+        "last_fetched": "2026-04-02T07:46:53Z"
+      },
+      "related_guardrails": [
+        "GUARD-API-001",
+        "GUARD-SEC-001",
+        "GUARD-GOV-005"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/api/GUARD-API-002.json"
+    },
+    {
+      "id": "GUARD-API-003",
+      "title": "API Guidelines Part C: API Development 2022",
+      "status": "approved",
+      "category": "api",
+      "tags": [
+        "api-design",
+        "rest",
+        "graphql",
+        "asyncapi",
+        "grpc",
+        "http",
+        "standards",
+        "development"
+      ],
+      "description": "Comprehensive technical guidelines for API development covering design principles, HTTP standards, API types (REST, GraphQL, AsyncAPI, gRPC), layering architecture, and implementation standards. Establishes minimum deliverables including interface specifications, code, policies, tests, and SLAs for API projects.",
+      "owner": "API Platform Team",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.digital.govt.nz/dmsdocument/232~api-guidelines-part-c-api-development-2022/html",
+        "page_title": "API guidelines — Part C: API development 2022 | NZ Digital government",
+        "content_hash": "574d964f719cf3d1a1fc02a7999821131a390b3aed794aae0c5552edf7bd2d8f",
+        "last_fetched": "2026-04-02T07:46:55Z"
+      },
+      "related_guardrails": [
+        "GUARD-API-001",
+        "GUARD-API-002",
+        "GUARD-GOV-001"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/api/GUARD-API-003.json"
+    },
+    {
+      "id": "GUARD-API-004",
+      "title": "New Zealand API Standard",
+      "status": "approved",
+      "category": "api",
+      "tags": [
+        "api-design",
+        "api-security",
+        "government",
+        "nz-standard",
+        "rest-api",
+        "api-governance",
+        "api-lifecycle"
+      ],
+      "description": "Normative specification for New Zealand government agencies developing, deploying, and operating APIs. Consolidates three NZ API Guideline documents (Parts A, B, C) into a single standard covering design, development, security, deployment, and operations of REST APIs.",
+      "owner": "Government Chief Digital Office (GCDO)",
+      "source": {
+        "type": "external_url",
+        "url": "https://docref.digital.govt.nz/nz/dia/nz-api-standard/exposuredraft/en/",
+        "page_title": "The New Zealand API Standard | Version: exposuredraft",
+        "content_hash": "641dc3afdf217ca105cdab3437f46f266840f673cc6f0289aeceea80a40146ad",
+        "last_fetched": "2026-04-02T07:47:00Z"
+      },
+      "related_guardrails": [
+        "GUARD-API-001",
+        "GUARD-API-002",
+        "GUARD-API-003"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/api/GUARD-API-004.json"
+    },
+    {
+      "id": "GUARD-ARCH-001",
+      "title": "NZ Digital Service Design Standard",
+      "status": "approved",
+      "category": "architecture",
+      "tags": [
+        "digital-service",
+        "design-standard",
+        "user-centered",
+        "nz-government",
+        "principles",
+        "service-delivery"
+      ],
+      "description": "New Zealand government standard establishing 12 core principles for designing user-focused, inclusive, and secure digital services. Covers the full service lifecycle from user understanding through transparent accountability, with emphasis on security, privacy, collaboration, and data stewardship.",
+      "owner": "Digital Service Design / Government Architecture",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.digital.govt.nz/standards-and-guidance/digital-service-design-standard",
+        "page_title": "Digital Service Design Standard | NZ Digital government",
+        "content_hash": "61df6f7878528573d3d3aabea3236edd6f865adb95e8573b8cc77df32f120ee7",
+        "last_fetched": "2026-04-02T07:47:07Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-001",
+        "GUARD-API-001",
+        "GUARD-GOV-012"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/architecture/GUARD-ARCH-001.json"
+    },
+    {
+      "id": "GUARD-CLOUD-001",
+      "title": "NZ Government Cloud First Policy",
+      "status": "approved",
+      "category": "cloud",
+      "tags": [
+        "cloud-first",
+        "public-cloud",
+        "government",
+        "policy",
+        "cloud-adoption",
+        "multi-cloud",
+        "data-classification"
+      ],
+      "description": "New Zealand government's mandatory Cloud First policy requiring public sector organisations to adopt public cloud services for information systems in preference to on-premises infrastructure. Establishes requirements for data classification, multi-cloud strategies, cost optimisation, and risk assessment.",
+      "owner": "Government Chief Digital Officer (GCDO)",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/cloud-services/cloud-adoption-policy-and-strategy/cabinet-requirement",
+        "page_title": "Cloud First policy | NZ Digital government",
+        "content_hash": "1b1df2caa28fdbc117bbddef6af75d1f9586341927743d9fe830c6acfe780b0d",
+        "last_fetched": "2026-04-02T07:46:48Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-001",
+        "GUARD-SEC-001",
+        "GUARD-GOV-008"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/cloud/GUARD-CLOUD-001.json"
+    },
+    {
+      "id": "GUARD-CLOUD-002",
+      "title": "All of Government Cloud Sourcing Strategy",
+      "status": "approved",
+      "category": "cloud",
+      "tags": [
+        "cloud-procurement",
+        "marketplace",
+        "government-strategy",
+        "security-assurance",
+        "multi-cloud",
+        "iaas",
+        "data-sovereignty",
+        "te-tiriti"
+      ],
+      "description": "New Zealand government strategy for procuring secure and resilient cloud services across agencies. Establishes a consolidated Marketplace channel for IaaS and cloud services, introduces security tiering, supports multi-cloud and hybrid approaches, and incorporates Māori data sovereignty and Te Tiriti considerations into cloud procurement.",
+      "owner": "Chief Digital Officer / Digital Government Team",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.digital.govt.nz/dmsdocument/249~all-of-government-cloud-sourcing-strategy/html",
+        "page_title": "All of Government Cloud Sourcing Strategy | NZ Digital government",
+        "content_hash": "da9797cc900e030cb789a59bf6df350cfa7af009f4b67de847e9e3d2784fdcbf",
+        "last_fetched": "2026-04-02T07:46:49Z"
+      },
+      "related_guardrails": [
+        "GUARD-CLOUD-001",
+        "GUARD-GOV-008",
+        "GUARD-SEC-001"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/cloud/GUARD-CLOUD-002.json"
+    },
+    {
+      "id": "GUARD-GOV-001",
+      "title": "Digital Strategy 2.0 – National Digital Development Framework",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "digital-strategy",
+        "broadband",
+        "digital-skills",
+        "economic-development",
+        "governance",
+        "inclusion",
+        "digital-transformation"
+      ],
+      "description": "National-level digital strategy document from New Zealand's Ministry of Economic Development outlining the vision and framework for digital development across economy, environment, and society. Covers four pillars: connection, capability, confidence, and content, with emphasis on broadband infrastructure, digital skills, cybersecurity, and inclusive participation.",
+      "owner": "Chief Digital Officer or Digital Strategy Office",
+      "source": {
+        "type": "onedrive",
+        "onedrive_item_id": "618A7276C00856EA!s126efff6281b475a8e90b33499bfbf6a",
+        "url": "https://onedrive.live.com?cid=618A7276C00856EA&id=618A7276C00856EA!s126efff6281b475a8e90b33499bfbf6a",
+        "filename": "Digital Strategy 2.0.pdf",
+        "last_modified": "2026-04-02T06:45:10Z"
+      },
+      "related_guardrails": [],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-001.json"
+    },
+    {
+      "id": "GUARD-GOV-002",
+      "title": "Algorithm Charter for Aotearoa New Zealand",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "algorithm",
+        "ai-governance",
+        "transparency",
+        "bias-mitigation",
+        "public-sector",
+        "accountability",
+        "risk-assessment",
+        "ethical-ai"
+      ],
+      "description": "Government policy framework establishing principles and commitments for responsible algorithm use in New Zealand public services. Defines risk assessment approach, transparency requirements, and safeguards against bias and unintended consequences, particularly for vulnerable communities.",
+      "owner": "Chief Privacy Officer / Data Governance Office",
+      "source": {
+        "type": "onedrive",
+        "onedrive_item_id": "618A7276C00856EA!s2fdc29ab87c54423bb5eb9f7e9a0e160",
+        "url": "https://onedrive.live.com?cid=618A7276C00856EA&id=618A7276C00856EA!s2fdc29ab87c54423bb5eb9f7e9a0e160",
+        "filename": "Algorithm-Charter-2020_Final-English-1.pdf",
+        "last_modified": "2026-04-02T07:15:43Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-001"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-002.json"
+    },
+    {
+      "id": "GUARD-GOV-003",
+      "title": "Principles and Protocols for Producers of Tier 1 Statistics",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "official-statistics",
+        "data-quality",
+        "governance",
+        "privacy",
+        "standards",
+        "new-zealand",
+        "tier-1-statistics"
+      ],
+      "description": "New Zealand government standard defining 10 core principles and 6 operational protocols for producing official Tier 1 statistics. Covers relevance, integrity, quality, coherence, accessibility, efficiency, privacy protection, respondent management, data frameworks, and statistical records management.",
+      "owner": "Data Governance / Statistics Team",
+      "source": {
+        "type": "onedrive",
+        "onedrive_item_id": "618A7276C00856EA!s4355fc1b90b644bd934fcc64810c7bb7",
+        "url": "https://onedrive.live.com?cid=618A7276C00856EA&id=618A7276C00856EA!s4355fc1b90b644bd934fcc64810c7bb7",
+        "filename": "principles-and-protocols-for-producers-of-tier-1-stats.pdf",
+        "last_modified": "2026-04-02T06:32:00Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-001",
+        "GUARD-GOV-002"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-003.json"
+    },
+    {
+      "id": "GUARD-GOV-004",
+      "title": "UN Fundamental Principles of Official Statistics",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "official-statistics",
+        "data-governance",
+        "confidentiality",
+        "professional-standards",
+        "international-cooperation",
+        "statistical-principles"
+      ],
+      "description": "UN Economic Commission for Europe resolution establishing 10 core principles for official statistical agencies, covering professional independence, data confidentiality, scientific standards, and international cooperation. Provides foundational governance framework for statistical data collection, processing, and dissemination in democratic societies.",
+      "owner": "Data Governance / Statistics Office",
+      "source": {
+        "type": "onedrive",
+        "onedrive_item_id": "618A7276C00856EA!s8a85034c2d504899be6857beda0cfe0b",
+        "url": "https://onedrive.live.com?cid=618A7276C00856EA&id=618A7276C00856EA!s8a85034c2d504899be6857beda0cfe0b",
+        "filename": "United Nations - Fundamental Principles of Official Statistics.pdf",
+        "last_modified": "2026-04-02T06:34:33Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-003",
+        "GUARD-GOV-001",
+        "GUARD-GOV-002"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-004.json"
+    },
+    {
+      "id": "GUARD-GOV-005",
+      "title": "Privacy Principles Quick Tour — NZ Privacy Act 2020",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "privacy",
+        "nz-privacy-act",
+        "compliance",
+        "personal-data",
+        "governance",
+        "data-protection"
+      ],
+      "description": "Overview of the 13 privacy principles from the New Zealand Privacy Act 2020 governing collection, handling, and use of personal information. Covers lawful purpose, transparency, security, access rights, data accuracy, retention, use limitations, and cross-border transfer requirements.",
+      "owner": "Privacy & Compliance Team",
+      "source": {
+        "type": "onedrive",
+        "onedrive_item_id": "618A7276C00856EA!sdc6d8f7e96c04ee5aa3a66b4f7131c91",
+        "url": "https://onedrive.live.com?cid=618A7276C00856EA&id=618A7276C00856EA!sdc6d8f7e96c04ee5aa3a66b4f7131c91",
+        "filename": "20250326-A-quick-tour-of-the-privacy-principles.pdf",
+        "last_modified": "2026-04-02T06:40:09Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-003",
+        "GUARD-GOV-004"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-005.json"
+    },
+    {
+      "id": "GUARD-GOV-006",
+      "title": "Data and Statistics Act 2022 (New Zealand Public Act)",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "data-governance",
+        "legislation",
+        "statistics",
+        "privacy",
+        "confidentiality",
+        "compliance",
+        "new-zealand"
+      ],
+      "description": "New Zealand legislation establishing the framework for collection, management, and use of official statistics and research data across government. Defines roles of Statistics New Zealand and the Government Statistician, sets requirements for data confidentiality and privacy protection, and establishes compliance and enforcement mechanisms.",
+      "owner": "Data Governance / Statistics New Zealand",
+      "source": {
+        "type": "onedrive",
+        "onedrive_item_id": "618A7276C00856EA!s80e7505600f947388e66949d09b5ff03",
+        "url": "https://onedrive.live.com?cid=618A7276C00856EA&id=618A7276C00856EA!s80e7505600f947388e66949d09b5ff03",
+        "filename": "Data and Statistics Act 2022 version 60_0 as at 08 August 2022.pdf",
+        "last_modified": "2026-04-01T21:45:41Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-003",
+        "GUARD-GOV-004",
+        "GUARD-GOV-005"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-006.json"
+    },
+    {
+      "id": "GUARD-GOV-007",
+      "title": "Data Protection and Use Policy (DPUP) v1.2",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "data-protection",
+        "privacy",
+        "policy",
+        "governance",
+        "transparency",
+        "consent",
+        "māori-perspectives",
+        "personal-information"
+      ],
+      "description": "A comprehensive policy framework for the respectful, trusted, and transparent use of personal information in the social sector. Establishes five principles (He Tāngata, Manaakitanga, Mana Whakahaere, Kaitiakitanga, Mahitahitanga) and four guidelines (Purpose Matters, Transparency and Choice, Access to Information, Sharing Value) to guide agencies in data collection, use, and sharing practices.",
+      "owner": "Data Governance or Privacy Team",
+      "source": {
+        "type": "onedrive",
+        "onedrive_item_id": "618A7276C00856EA!scd78f557c8f943e399183b4f9095a34b",
+        "url": "https://onedrive.live.com?cid=618A7276C00856EA&id=618A7276C00856EA!scd78f557c8f943e399183b4f9095a34b",
+        "filename": "Data-Protection-and-Use-Policy-DPUP-January-2022-Version-1.2.pdf",
+        "last_modified": "2026-04-02T06:29:08Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-005",
+        "GUARD-GOV-006",
+        "GUARD-GOV-003"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-007.json"
+    },
+    {
+      "id": "GUARD-GOV-008",
+      "title": "Government Procurement Rules 5th Edition 2025",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "procurement",
+        "public-value",
+        "governance",
+        "government-spending",
+        "new-zealand",
+        "compliance",
+        "contract-management"
+      ],
+      "description": "New Zealand government procurement policy document establishing mandatory rules and principles for responsible expenditure of public funds. Covers the complete procurement lifecycle including planning, market approach, contract award, and system requirements with emphasis on public value, integrity, transparency, and economic benefits to New Zealand.",
+      "owner": "Procurement Team / Government Procurement System Lead",
+      "source": {
+        "type": "onedrive",
+        "onedrive_item_id": "618A7276C00856EA!s5a4e6be6f29c470e90a6cf844d4b8df7",
+        "url": "https://onedrive.live.com?cid=618A7276C00856EA&id=618A7276C00856EA!s5a4e6be6f29c470e90a6cf844d4b8df7",
+        "filename": "government-procurement-rules-5th-edition.pdf",
+        "last_modified": "2026-04-02T07:14:46Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-005",
+        "GUARD-GOV-006",
+        "GUARD-GOV-007"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-008.json"
+    },
+    {
+      "id": "GUARD-GOV-009",
+      "title": "Health Information Privacy Code 2020",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "health-information",
+        "privacy",
+        "new-zealand",
+        "compliance",
+        "data-protection",
+        "regulatory"
+      ],
+      "description": "New Zealand regulatory code governing the collection, storage, use, and disclosure of health information by health agencies, disability support service providers, and related organizations. Establishes 13 core privacy rules aligned with the Privacy Act 2020 and specifies obligations for entities handling personal health data.",
+      "owner": "Privacy and Compliance Officer",
+      "source": {
+        "type": "onedrive",
+        "onedrive_item_id": "618A7276C00856EA!sc2f12e7b45ec49d291b53b5cb796e0a9",
+        "url": "https://onedrive.live.com?cid=618A7276C00856EA&id=618A7276C00856EA!sc2f12e7b45ec49d291b53b5cb796e0a9",
+        "filename": "Health-Information-Privacy-Code-2020-website-version.pdf",
+        "last_modified": "2026-04-02T06:36:35Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-005",
+        "GUARD-GOV-007",
+        "GUARD-GOV-006"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-009.json"
+    },
+    {
+      "id": "GUARD-GOV-010",
+      "title": "NZGOAL Software Extension: Open Source Licensing Framework for Government Software",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "open-source",
+        "foss",
+        "licensing",
+        "government-software",
+        "intellectual-property",
+        "policy",
+        "nz-government",
+        "release-process"
+      ],
+      "description": "New Zealand Government policy framework for open access and licensing of government-owned software under free and open source software (FOSS) licenses. Provides legal context, policy principles, guidance on selecting appropriate FOSS licenses (permissive vs. copyleft), and a structured review and release process to ensure legally robust public software releases.",
+      "owner": "Architecture Governance / Policy & Standards",
+      "source": {
+        "type": "onedrive",
+        "onedrive_item_id": "618A7276C00856EA!se781a12b5020400b9e94514768dfac9d",
+        "url": "https://onedrive.live.com?cid=618A7276C00856EA&id=618A7276C00856EA!se781a12b5020400b9e94514768dfac9d",
+        "filename": "nzgoal-software-extension-version-1-july-2016.pdf",
+        "last_modified": "2026-04-02T06:46:50Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-008",
+        "GUARD-GOV-006",
+        "GUARD-GOV-001"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-010.json"
+    },
+    {
+      "id": "GUARD-GOV-011",
+      "title": "Telecommunications Information Privacy Code 2020",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "telecommunications",
+        "privacy",
+        "data-protection",
+        "compliance",
+        "subscriber-information",
+        "new-zealand"
+      ],
+      "description": "New Zealand code of practice governing how telecommunications agencies must collect, store, use, and disclose telecommunications information and subscriber data. Establishes 13 privacy rules covering lawful purpose, data security, individual access rights, accuracy, retention, and cross-border disclosure of telecommunications and traffic information.",
+      "owner": "Privacy/Compliance Team",
+      "source": {
+        "type": "onedrive",
+        "onedrive_item_id": "618A7276C00856EA!sb48b9c0817e9431a8b9b563f216a7348",
+        "url": "https://onedrive.live.com?cid=618A7276C00856EA&id=618A7276C00856EA!sb48b9c0817e9431a8b9b563f216a7348",
+        "filename": "Telecommunications-Information-Privacy-Code-2020-website-version.pdf",
+        "last_modified": "2026-04-02T06:41:03Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-005",
+        "GUARD-GOV-009",
+        "GUARD-GOV-006"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-011.json"
+    },
+    {
+      "id": "GUARD-GOV-012",
+      "title": "New Zealand Data and Information Management Principles",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "data-governance",
+        "open-data",
+        "public-sector",
+        "nz-government",
+        "data-stewardship",
+        "information-management",
+        "accessibility"
+      ],
+      "description": "New Zealand government data and information management principles established in 2011, covering seven core principles: open, protected, readily available, trusted and authoritative, well managed, reasonably priced, and reusable. Defines how government agencies should manage data as a public asset with emphasis on accessibility, quality, stewardship, and lifecycle management.",
+      "owner": "Data Governance Office",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.data.govt.nz/toolkit/policies/new-zealand-data-and-information-management-principles",
+        "page_title": "New Zealand Data and Information Management Principles - data.govt.nz",
+        "content_hash": "5a1bbff2dc77bb266711b9849b9b59175885404166f7af4aa356a09c6cf9a9eb",
+        "last_fetched": "2026-04-02T07:47:02Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-006",
+        "GUARD-GOV-004",
+        "GUARD-GOV-005"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-012.json"
+    },
+    {
+      "id": "GUARD-GOV-013",
+      "title": "Privacy Act 2020 — New Zealand",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "privacy",
+        "new-zealand",
+        "compliance",
+        "data-protection",
+        "personal-information",
+        "regulatory"
+      ],
+      "description": "New Zealand's primary legislation governing the protection of personal information and individual privacy rights. Establishes information privacy principles, access and correction rights, complaint mechanisms, notifiable breach requirements, and frameworks for information sharing and matching between agencies.",
+      "owner": "Privacy and Compliance Officer",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.legislation.govt.nz/act/public/2020/31/en/latest/",
+        "page_title": "Privacy Act 2020 | New Zealand Legislation",
+        "content_hash": "4f6ea99e49003a2366a418707f1d275a8231db5c58a632ec143b0835b4ffe2af",
+        "last_fetched": "2026-04-02T07:47:05Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-005",
+        "GUARD-GOV-009",
+        "GUARD-GOV-011"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-013.json"
+    },
+    {
+      "id": "GUARD-GOV-014",
+      "title": "NZ Government Web Accessibility Standard 1.2",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "accessibility",
+        "wcag",
+        "web-standards",
+        "nz-government",
+        "compliance",
+        "mandatory"
+      ],
+      "description": "Mandatory standard requiring all NZ public service departments and Executive branch non-public service departments to conform their web pages to WCAG 2.2 Level AA, effective 17 March 2025. Includes specific exemptions and modified requirements for complex visual maps, audio-only/video-only content, captions, and audio descriptions.",
+      "owner": "Government Chief Digital Officer (GCDO)",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.digital.govt.nz/standards-and-guidance/nz-government-web-standards/web-accessibility-standard-1-2",
+        "page_title": "Web Accessibility Standard 1.2 | NZ Digital government",
+        "content_hash": "434a6df89aa75b99c1786add00a9cb9622769931d2935ec4e29d8ee23a7315a1",
+        "last_fetched": "2026-04-02T07:47:09Z"
+      },
+      "related_guardrails": [
+        "GUARD-ARCH-001",
+        "GUARD-GOV-012",
+        "GUARD-SEC-001"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-014.json"
+    },
+    {
+      "id": "GUARD-GOV-015",
+      "title": "NZ Government Web Usability Standard 1.4",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "web-standards",
+        "usability",
+        "nz-government",
+        "compliance",
+        "public-sector",
+        "accessibility",
+        "privacy"
+      ],
+      "description": "Mandatory standard for New Zealand public sector organisations requiring compliance with web usability, identity, contact, copyright, and privacy requirements for publicly and internally facing websites. Effective 17 March 2025, replacing version 1.3.",
+      "owner": "Government Chief Digital Officer (GCDO)",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.digital.govt.nz/standards-and-guidance/nz-government-web-standards/web-usability-standard-1-4",
+        "page_title": "Web Usability Standard 1.4 | NZ Digital government",
+        "content_hash": "855190af097a7b1d34fb86b6a97dc747365058c96ba812a11aa18f09637e67c2",
+        "last_fetched": "2026-04-02T07:47:11Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-014",
+        "GUARD-ARCH-001",
+        "GUARD-GOV-012"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-015.json"
+    },
+    {
+      "id": "GUARD-GOV-016",
+      "title": "NZ Information Sharing Standard – Purpose and Scope",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "information-sharing",
+        "personal-data",
+        "third-party",
+        "compliance",
+        "risk-assessment",
+        "legally-binding-agreements",
+        "nz-government",
+        "data-governance"
+      ],
+      "description": "New Zealand government standard (effective 1 July 2025) mandating requirements for public service agencies sharing personal information with non-government third parties. Covers legally binding information sharing agreements, risk assessment, controls, and compliance with privacy and security obligations.",
+      "owner": "Government Chief Digital Office (GCDO)",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.digital.govt.nz/standards-and-guidance/information-sharing-standard/purpose-and-scope",
+        "page_title": "Purpose and scope | NZ Digital government",
+        "content_hash": "243f6bbcde01d5ec9e228ac75cee8d228440170daab68ac6c29c561499ce7da9",
+        "last_fetched": "2026-04-02T07:47:14Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-013",
+        "GUARD-GOV-005",
+        "GUARD-GOV-007"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-016.json"
+    },
+    {
+      "id": "GUARD-GOV-017",
+      "title": "Risk assessment for public cloud services",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "cloud",
+        "risk-assessment",
+        "governance",
+        "public-sector",
+        "security-controls",
+        "compliance"
+      ],
+      "description": "NZ Government guidance on assessing risks when adopting public cloud services in government agencies. Covers risk discovery, jurisdictional considerations, risk approval processes, and organizational implementation of cloud risk assessment frameworks.",
+      "owner": "Chief Information Security Officer / Enterprise Architecture",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/cloud-services/assess-the-risks",
+        "page_title": "Risks assessment for public cloud services | NZ Digital government",
+        "content_hash": "2c50467728bddd5439a9fd414c884f26a4620486eb2f8f41b73e4bd87e07ce1c",
+        "last_fetched": "2026-04-02T07:47:30Z"
+      },
+      "related_guardrails": [
+        "GUARD-CLOUD-001",
+        "GUARD-CLOUD-002",
+        "GUARD-SEC-007"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-017.json"
+    },
+    {
+      "id": "GUARD-GOV-018",
+      "title": "War Pensions Act 1954 - New Zealand Legislation",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "veterans",
+        "pensions",
+        "policy",
+        "governance",
+        "legislation",
+        "new-zealand",
+        "defense"
+      ],
+      "description": "New Zealand legislation governing the administration and payment of war pensions and allowances to disabled members of the armed forces, their dependants, and related beneficiaries. Repealed in 2014 by the Veterans' Support Act 2014 but represents the historical legislative framework for veteran support and benefit governance.",
+      "owner": "New Zealand Defence Force",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.legislation.govt.nz/act/public/1954/54/en/latest/",
+        "page_title": "War Pensions Act 1954 | New Zealand Legislation",
+        "content_hash": "6f0b60df4a80aa350167424816c5f2740c7ab2c5fed5f76f76a4f062b1caa759",
+        "last_fetched": "2026-04-02T07:47:32Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-013",
+        "GUARD-GOV-009",
+        "GUARD-GOV-005"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-018.json"
+    },
+    {
+      "id": "GUARD-GOV-019",
+      "title": "Data and Statistics Act 2022 (NZ)",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "data-governance",
+        "legislation",
+        "new-zealand",
+        "confidentiality",
+        "access-control",
+        "official-statistics",
+        "public-sector"
+      ],
+      "description": "New Zealand legislation establishing the statutory framework for collecting, managing, and accessing official statistics and data. Defines roles of Statistics New Zealand and the Government Statistician, governs data collection practices, statistical confidentiality, research access, and enforcement mechanisms for public sector data governance.",
+      "owner": "Data Governance Office",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.legislation.govt.nz/act/public/2022/39/en/latest/",
+        "page_title": "Data and Statistics Act 2022 | New Zealand Legislation",
+        "content_hash": "c050d2216eeb48b916f8d86b65c0c1df99e96a4a82f87d0e13334f1cab22b91a",
+        "last_fetched": "2026-04-02T07:47:33Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-006",
+        "GUARD-GOV-004",
+        "GUARD-GOV-003"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-019.json"
+    },
+    {
+      "id": "GUARD-GOV-020",
+      "title": "State Sector Act 1988 — New Zealand Public Service Governance",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "new-zealand",
+        "public-service",
+        "legislation",
+        "governance",
+        "chief-executive",
+        "commissioner",
+        "employment",
+        "state-sector"
+      ],
+      "description": "New Zealand legislation establishing the governance framework for the State Sector, defining roles and responsibilities of the State Services Commissioner, chief executives, and public service personnel. This Act (now repealed as of August 2020 by the Public Service Act 2020) established foundational principles for public service management, employment conditions, and organizational structure.",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.legislation.govt.nz/act/public/1988/20/en/latest/",
+        "page_title": "State Sector Act 1988 | New Zealand Legislation",
+        "content_hash": "e0ac419aeea5be40a5fdf5a5a8a9b06526af77988c087797c4cdbeddc0976bf7",
+        "last_fetched": "2026-04-02T07:47:34Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-006",
+        "GUARD-GOV-019",
+        "GUARD-GOV-013"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-020.json"
+    },
+    {
+      "id": "GUARD-GOV-021",
+      "title": "Social Welfare (Reciprocity Agreements, and New Zealand Artificial Limb Service) Act 1990",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "legislation",
+        "social-welfare",
+        "reciprocity",
+        "pensions",
+        "veterans",
+        "new-zealand"
+      ],
+      "description": "New Zealand legislation (repealed 2018) that established reciprocity agreements with other countries for social welfare benefits, veterans' pensions, and superannuation portability, and governed the New Zealand Artificial Limb Service. Administered by Ministry of Social Development.",
+      "owner": "Ministry of Social Development",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.legislation.govt.nz/act/public/1990/26/en/latest/",
+        "page_title": "Social Welfare (Reciprocity Agreements, and New Zealand Artificial Limb Service) Act 1990 | New Zealand Legislation",
+        "content_hash": "862a893d0a6cd3cb2327571f75af63f47bb3de684ba49d51b322072e232680d5",
+        "last_fetched": "2026-04-02T07:47:35Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-018",
+        "GUARD-GOV-006",
+        "GUARD-GOV-013"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-021.json"
+    },
+    {
+      "id": "GUARD-GOV-022",
+      "title": "Social Security Act 2018 — New Zealand",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "legislation",
+        "social-security",
+        "benefits",
+        "new-zealand",
+        "compliance",
+        "welfare",
+        "regulatory"
+      ],
+      "description": "Primary legislation governing social security assistance in New Zealand, including benefit eligibility, rates, beneficiary obligations, and administration by the Ministry of Social Development. Establishes legal framework for jobseeker support, sole parent support, supported living payments, and various allowances.",
+      "owner": "Ministry of Social Development",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.legislation.govt.nz/act/public/2018/32/en/latest/",
+        "page_title": "Social Security Act 2018 | New Zealand Legislation",
+        "content_hash": "6b65f29212c3c80200217ce784e106ae53a1b347c4b0ee39f95a5b6ecc9d9144",
+        "last_fetched": "2026-04-02T07:47:39Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-018",
+        "GUARD-GOV-021",
+        "GUARD-GOV-007"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-022.json"
+    },
+    {
+      "id": "GUARD-GOV-023",
+      "title": "Residential Care and Disability Support Services Act 2018 (NZ)",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "residential-care",
+        "disability-support",
+        "means-assessment",
+        "funding",
+        "new-zealand",
+        "regulatory",
+        "legislation"
+      ],
+      "description": "New Zealand legislation governing funding, needs assessment, and means assessment for long-term residential care and home-based disability support services. Establishes rules for determining qualifying persons, contribution liability, and funder responsibility for care costs.",
+      "owner": "Compliance and Legal",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.legislation.govt.nz/act/public/2018/33/en/latest/",
+        "page_title": "Residential Care and Disability Support Services Act 2018 | New Zealand Legislation",
+        "content_hash": "617b1b328642e38df3b71fc7a3503aec0618dd90224d7bba88e1f2145cef925a",
+        "last_fetched": "2026-04-02T07:47:40Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-022",
+        "GUARD-GOV-021",
+        "GUARD-GOV-009"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-023.json"
+    },
+    {
+      "id": "GUARD-GOV-024",
+      "title": "Public Records Act 2005 (New Zealand)",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "records-management",
+        "public-records",
+        "compliance",
+        "data-retention",
+        "government",
+        "accountability",
+        "new-zealand",
+        "legislation"
+      ],
+      "description": "New Zealand legislation establishing requirements for creation, maintenance, disposal, and public access to public records and local authority records. Defines the role of Archives New Zealand and the Chief Archivist in ensuring government accountability, long-term preservation of records, and public access to official documentation.",
+      "owner": "Records Management / Compliance / Information Governance",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.legislation.govt.nz/act/public/2005/40/en/latest/",
+        "page_title": "Public Records Act 2005 | New Zealand Legislation",
+        "content_hash": "59ec5a78f2d5e0be0f962f33235b34e61784c8e922230770ea13f9cfe86cecae",
+        "last_fetched": "2026-04-02T07:47:42Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-006",
+        "GUARD-GOV-012",
+        "GUARD-GOV-013"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-024.json"
+    },
+    {
+      "id": "GUARD-GOV-025",
+      "title": "Ombudsmen Act 1975 — New Zealand Legislation",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "ombudsman",
+        "oversight",
+        "complaints",
+        "public-agencies",
+        "new-zealand",
+        "legislation",
+        "accountability"
+      ],
+      "description": "New Zealand legislation establishing the ombudsmen office and framework for investigating complaints against public service agencies, state enterprises, and local organizations. Defines investigative powers, complaint procedures, secrecy obligations, and coordination with other oversight bodies.",
+      "owner": "Ministry of Justice",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.legislation.govt.nz/act/public/1975/9/en/latest/",
+        "page_title": "Ombudsmen Act 1975 | New Zealand Legislation",
+        "content_hash": "e6ff8da5bdab326f157ec184d531a4a2f151d4f3e70a7231dd4055ea06ba2e30",
+        "last_fetched": "2026-04-02T07:47:43Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-024",
+        "GUARD-GOV-020",
+        "GUARD-GOV-013"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-025.json"
+    },
+    {
+      "id": "GUARD-GOV-026",
+      "title": "Official Information Act 1982 - NZ Legislation",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "information-access",
+        "transparency",
+        "privacy",
+        "compliance",
+        "new-zealand",
+        "public-sector",
+        "ombudsman-review",
+        "legislation"
+      ],
+      "description": "New Zealand legislation establishing mandatory procedures for public access to official information, personal information rights, and withholding criteria. Establishes frameworks for information requests, ombudsman review, and transparency obligations for government agencies and public organizations.",
+      "owner": "Legal-Compliance",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.legislation.govt.nz/act/public/1982/156/en/latest/",
+        "page_title": "Official Information Act 1982 | New Zealand Legislation",
+        "content_hash": "4c0f95b868e66a7c785ab1debe0cba668e89ac69009745848633ec02347a2703",
+        "last_fetched": "2026-04-02T07:47:44Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-025",
+        "GUARD-GOV-013",
+        "GUARD-GOV-024"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-026.json"
+    },
+    {
+      "id": "GUARD-GOV-027",
+      "title": "New Zealand Superannuation and Retirement Income Act 2001",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "nz-legislation",
+        "superannuation",
+        "retirement-income",
+        "public-act",
+        "fund-governance",
+        "regulatory"
+      ],
+      "description": "New Zealand legislation (Public Act 2001 No 84) governing entitlements to New Zealand superannuation, establishment and management of the New Zealand Superannuation Fund, and roles of the Guardians of New Zealand Superannuation and Retirement Commissioner. Administered by Ministry of Social Development and The Treasury.",
+      "owner": "Ministry of Social Development; The Treasury",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.legislation.govt.nz/act/public/2001/84/en/latest/",
+        "page_title": "New Zealand Superannuation and Retirement Income Act 2001 | New Zealand Legislation",
+        "content_hash": "045e90cf3d259cbada6ff33f1c5d4b40668127a98f403427209989f105f58720",
+        "last_fetched": "2026-04-02T07:47:45Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-022",
+        "GUARD-GOV-023",
+        "GUARD-GOV-021"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-027.json"
+    },
+    {
+      "id": "GUARD-GOV-028",
+      "title": "Human Rights Act 1993 - New Zealand Legislation",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "human-rights",
+        "anti-discrimination",
+        "compliance",
+        "new-zealand",
+        "employment",
+        "legal-framework"
+      ],
+      "description": "New Zealand legislation consolidating human rights protections, anti-discrimination provisions, and complaint resolution mechanisms. Establishes the Human Rights Commission and Human Rights Review Tribunal with authority over employment, goods/services, housing, education, and other discrimination matters across both public and private sectors.",
+      "owner": "Legal / Compliance",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.legislation.govt.nz/act/public/1993/82/en/latest/",
+        "page_title": "Human Rights Act 1993 | New Zealand Legislation",
+        "content_hash": "cec22d59bb990742a59047eda351737a761ac1f2537c0bef0b13d2ecb7f24c86",
+        "last_fetched": "2026-04-02T07:47:47Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-013",
+        "GUARD-GOV-009",
+        "GUARD-GOV-026"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-028.json"
+    },
+    {
+      "id": "GUARD-GOV-029",
+      "title": "Holidays Act 2003 – New Zealand Employment Leave Legislation",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "employment-law",
+        "holidays",
+        "leave-entitlements",
+        "compliance",
+        "new-zealand",
+        "regulatory"
+      ],
+      "description": "New Zealand legislation establishing minimum entitlements and employer obligations for employee holidays, including annual holidays, public holidays, sick leave, bereavement leave, and family violence leave. Administered by the Ministry of Business, Innovation, and Employment.",
+      "owner": "People Operations / HR Compliance",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.legislation.govt.nz/act/public/2003/129/en/latest/",
+        "page_title": "Holidays Act 2003 | New Zealand Legislation",
+        "content_hash": "a8297a65f60055fa8975581dafaef0a02daf75ebf777d097eea09a2e83c14d3e",
+        "last_fetched": "2026-04-02T07:47:48Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-022",
+        "GUARD-GOV-028",
+        "GUARD-GOV-013"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-029.json"
+    },
+    {
+      "id": "GUARD-GOV-030",
+      "title": "Health and Safety at Work Act 2015 (New Zealand)",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "health-and-safety",
+        "legislation",
+        "compliance",
+        "pcbu",
+        "worker-protection",
+        "new-zealand",
+        "enforcement"
+      ],
+      "description": "New Zealand legislation establishing comprehensive health and safety obligations for persons conducting a business or undertaking (PCBUs), officers, and workers. Covers duty of care, worker participation, hazard management, enforcement mechanisms, and liability frameworks applicable to workplace operations.",
+      "owner": "Legal / Compliance",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.legislation.govt.nz/act/public/2015/70/en/latest/",
+        "page_title": "Health and Safety at Work Act 2015 | New Zealand Legislation",
+        "content_hash": "f1c59b3bb9842258c9382c3ca1bf596d14d5b5cf331d674700099000e6563021",
+        "last_fetched": "2026-04-02T07:47:50Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-013",
+        "GUARD-SEC-002",
+        "GUARD-GOV-024"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-030.json"
+    },
+    {
+      "id": "GUARD-GOV-031",
+      "title": "Employment Relations Act 2000 – New Zealand Labour Law",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "employment-law",
+        "labor-relations",
+        "new-zealand",
+        "collective-bargaining",
+        "good-faith",
+        "union-rights",
+        "employee-protection"
+      ],
+      "description": "New Zealand legislation governing employment relationships, union operations, collective bargaining, individual employment agreements, and employee protections. Establishes duties of good faith, freedom of association, minimum entitlements, and dispute resolution mechanisms for employment relations.",
+      "owner": "Legal & Compliance",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.legislation.govt.nz/act/public/2000/24/en/latest/",
+        "page_title": "Employment Relations Act 2000 | New Zealand Legislation",
+        "content_hash": "5f17eba9bcc95c4d244c65da98eca6650ebbeada5cb8f455426a2f7be89fab95",
+        "last_fetched": "2026-04-02T07:47:53Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-029",
+        "GUARD-GOV-028",
+        "GUARD-GOV-030"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-031.json"
+    },
+    {
+      "id": "GUARD-GOV-032",
+      "title": "Oranga Tamariki Act 1989 – Children's and Young People's Well-being",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "child-protection",
+        "legislation",
+        "new-zealand",
+        "social-welfare",
+        "guardianship",
+        "family-law",
+        "statutory-authority"
+      ],
+      "description": "Primary New Zealand legislation establishing the legal framework for the care, protection, and well-being of children and young persons. Defines powers and duties of the chief executive (Oranga Tamariki—Ministry for Children), establishes family group conference procedures, and sets out grounds and processes for care and protection orders.",
+      "owner": "Oranga Tamariki—Ministry for Children",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.legislation.govt.nz/act/public/1989/24/en/latest/",
+        "page_title": "Oranga Tamariki Act 1989 | New Zealand Legislation",
+        "content_hash": "b96a3bdf3192dec36a4182b2e928b4c04666aa2da9272ca9b9e215f2a0e35810",
+        "last_fetched": "2026-04-02T07:47:56Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-022",
+        "GUARD-GOV-023",
+        "GUARD-GOV-028"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-032.json"
+    },
+    {
+      "id": "GUARD-GOV-033",
+      "title": "Bill of Rights 1688 — English Constitutional Rights and Liberties",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "constitutional-rights",
+        "parliamentary-sovereignty",
+        "executive-limits",
+        "common-law",
+        "governance-framework"
+      ],
+      "description": "Imperial Act establishing foundational constitutional rights and liberties, including prohibitions on arbitrary taxation, standing armies, and limits on executive power without parliamentary consent. Foundational legal document for Commonwealth governance frameworks.",
+      "owner": null,
+      "source": {
+        "type": "external_url",
+        "url": "https://www.legislation.govt.nz/act/imperial/1688/2/en/latest/",
+        "page_title": "Bill of Rights 1688 | New Zealand Legislation",
+        "content_hash": "c1fe5280d98d557034f2ef0d8e662f5ac031a2de13a469cb6805cb4aa6880a8c",
+        "last_fetched": "2026-04-02T07:47:57Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-026",
+        "GUARD-GOV-028",
+        "GUARD-GOV-013"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-033.json"
+    },
+    {
+      "id": "GUARD-GOV-035",
+      "title": "Student Allowances Regulations 1998 (New Zealand)",
+      "status": "approved",
+      "category": "governance",
+      "tags": [
+        "student-allowances",
+        "eligibility",
+        "income-assessment",
+        "education-policy",
+        "new-zealand",
+        "secondary-legislation",
+        "compliance"
+      ],
+      "description": "New Zealand secondary legislation (SR 1998/277) governing student allowances, eligibility criteria, income assessment, payment terms, and suspension conditions. Administered by the Ministry of Social Development under the Education Act 1989. Relevant for organizations managing student financial assistance programs or compliance with NZ education regulations.",
+      "owner": "Ministry of Social Development",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.legislation.govt.nz/secondary-legislation/pco-drafted/1998/277/en/latest/",
+        "page_title": "Student Allowances Regulations 1998 | New Zealand Legislation",
+        "content_hash": "8b1a02a0de41f8f32d20c8fc7d4f0795b8c0f6e190741b39e049f0648b2e3846",
+        "last_fetched": "2026-04-02T07:48:01Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-022",
+        "GUARD-GOV-023",
+        "GUARD-GOV-027"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-035.json"
+    },
+    {
+      "id": "GUARD-GOV-036",
+      "title": "Copyright Act 1994 — New Zealand Legislation",
+      "status": "under-review",
+      "category": "governance",
+      "tags": [
+        "copyright",
+        "intellectual-property",
+        "infringement",
+        "legal-compliance",
+        "new-zealand",
+        "content-protection",
+        "licensing",
+        "enforcement"
+      ],
+      "description": "New Zealand statutory legislation governing copyright ownership, infringement, moral rights, and enforcement mechanisms. Establishes legal framework for protection of original works including literary, dramatic, musical, artistic works, sound recordings, films, and communication works, with provisions for permitted uses and remedies.",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.legislation.govt.nz/act/public/1994/143/en/latest/",
+        "page_title": "Copyright Act 1994 | New Zealand Legislation",
+        "content_hash": "96633d2364846eadb93c17c988fa70f148373f7486f5db238f8b42f84878e7b6",
+        "last_fetched": "2026-04-02T08:46:34Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-010",
+        "GUARD-GOV-026",
+        "GUARD-GOV-024"
+      ],
+      "version": "2.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/governance/GUARD-GOV-036.json"
+    },
+    {
+      "id": "GUARD-SEC-001",
+      "title": "New Zealand Information Security Manual (NZISM) v3.9",
+      "status": "approved",
+      "category": "security",
+      "tags": [
+        "nzism",
+        "information-security",
+        "baseline-controls",
+        "certification-accreditation",
+        "classification",
+        "nz-government",
+        "compliance"
+      ],
+      "description": "The NZISM is New Zealand Government's comprehensive information security standard defining baseline and enhanced controls for protecting government information and systems across all classification levels. It establishes certification and accreditation processes, roles and responsibilities, and compliance requirements for government departments, agencies, and entities.",
+      "owner": "Security Team / Information Security Office",
+      "source": {
+        "type": "onedrive",
+        "onedrive_item_id": "618A7276C00856EA!s190b164ea59e4806b5aa0c8e7dbde9fc",
+        "url": "https://onedrive.live.com?cid=618A7276C00856EA&id=618A7276C00856EA!s190b164ea59e4806b5aa0c8e7dbde9fc",
+        "filename": "NZISM-ISM Document-V.-3.9-November-2025.pdf",
+        "last_modified": "2026-04-02T06:52:21Z"
+      },
+      "related_guardrails": [
+        "GUARD-GOV-005",
+        "GUARD-GOV-009",
+        "GUARD-GOV-011"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/security/GUARD-SEC-001.json"
+    },
+    {
+      "id": "GUARD-SEC-002",
+      "title": "PSR Information Security (INFOSEC) Policy Framework",
+      "status": "approved",
+      "category": "security",
+      "tags": [
+        "infosec",
+        "information-security",
+        "policy-framework",
+        "compliance",
+        "risk-management",
+        "classification-system",
+        "incident-response"
+      ],
+      "description": "New Zealand Government mandatory information security policy framework defining requirements across four pillars: understanding information assets, designing security measures, validating implementation, and maintaining ongoing security. Applies to all mandated government agencies and recommended as best practice for other organisations.",
+      "owner": "Information Security / Governance Team",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.protectivesecurity.govt.nz/policy/information-security",
+        "page_title": "Information security (INFOSEC) | Protective Security Requirements",
+        "content_hash": "86cc85f12909354cb6f5c6a838a2b8ba28a1d80ecd1d45c5fcec5e791c93f4af",
+        "last_fetched": "2026-04-02T07:47:12Z"
+      },
+      "related_guardrails": [
+        "GUARD-SEC-001",
+        "GUARD-GOV-013",
+        "GUARD-CLOUD-002"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/security/GUARD-SEC-002.json"
+    },
+    {
+      "id": "GUARD-SEC-003",
+      "title": "Information Assurance Standard — Entity Information Quality Controls",
+      "status": "approved",
+      "category": "security",
+      "tags": [
+        "identity-management",
+        "information-assurance",
+        "data-quality",
+        "fraud-prevention",
+        "entity-binding",
+        "new-zealand",
+        "compliance"
+      ],
+      "description": "New Zealand government standard establishing mandatory controls for ensuring entity information collected by relying parties is accurate, distinctive, and suitable for eligibility and capability decisions. Covers information risk assessment, data protection, verification integrity, and fraud prevention across four assurance levels.",
+      "owner": "Identity and Access Management team",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.digital.govt.nz/standards-and-guidance/identity/identification-management/identification-standards/information-assurance-standard",
+        "page_title": "Information Assurance Standard | NZ Digital government",
+        "content_hash": "bc539afa5259f692e7b26dfa120701c5467fbc0a50d04b13da32db4d8fd102b1",
+        "last_fetched": "2026-04-02T07:47:16Z"
+      },
+      "related_guardrails": [
+        "GUARD-SEC-001",
+        "GUARD-SEC-002",
+        "GUARD-API-002"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/security/GUARD-SEC-003.json"
+    },
+    {
+      "id": "GUARD-SEC-004",
+      "title": "Binding Assurance Standard",
+      "status": "approved",
+      "category": "security",
+      "tags": [
+        "identity-management",
+        "binding-assurance",
+        "authentication",
+        "entity-verification",
+        "fraud-prevention",
+        "nz-government",
+        "access-control"
+      ],
+      "description": "New Zealand government standard that defines controls for binding entities to their entity information to prevent identity theft and account takeover. Establishes binding assurance levels (1-4) with corresponding factor requirements and ongoing integrity maintenance controls.",
+      "owner": "Identity and Access Management",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.digital.govt.nz/standards-and-guidance/identity/identification-management/identification-standards/binding-assurance-standard",
+        "page_title": "Binding Assurance Standard | NZ Digital government",
+        "content_hash": "8ff9f71b0743cfdb93fd8df5343d20048d3f6fc5a8667c354d7565405a04a62d",
+        "last_fetched": "2026-04-02T07:47:18Z"
+      },
+      "related_guardrails": [
+        "GUARD-SEC-003",
+        "GUARD-API-002",
+        "GUARD-SEC-001"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/security/GUARD-SEC-004.json"
+    },
+    {
+      "id": "GUARD-SEC-005",
+      "title": "Authentication Assurance Standard",
+      "status": "approved",
+      "category": "security",
+      "tags": [
+        "authentication",
+        "authenticator",
+        "assurance-levels",
+        "identity-management",
+        "access-control",
+        "multi-factor-authentication"
+      ],
+      "description": "New Zealand government standard defining controls to ensure authenticators remain possessed and solely controlled by authorized holders. Establishes requirements for authentication risk assessment, authenticator holder behavior, binding consistency, and authenticator strength across four assurance levels.",
+      "owner": "Identity and Access Management Team",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.digital.govt.nz/standards-and-guidance/identity/identification-management/identification-standards/authentication-assurance-standard",
+        "page_title": "Authentication Assurance Standard | NZ Digital government",
+        "content_hash": "4967b174c0f3351ce1dd59c834eb649f50a481044b53df5d001a26ea0fe2ea74",
+        "last_fetched": "2026-04-02T07:47:20Z"
+      },
+      "related_guardrails": [
+        "GUARD-SEC-003",
+        "GUARD-SEC-004",
+        "GUARD-API-002"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/security/GUARD-SEC-005.json"
+    },
+    {
+      "id": "GUARD-SEC-006",
+      "title": "Federation Assurance Standard",
+      "status": "approved",
+      "category": "security",
+      "tags": [
+        "federation",
+        "credentials",
+        "identity-management",
+        "assurance",
+        "privacy",
+        "authentication"
+      ],
+      "description": "This standard establishes controls for Credential Providers and Facilitation Providers in federated identity systems. It addresses risk management, assurance levels, privacy preservation, and secure credential presentation to reduce identity theft, entitlement fraud, and misrepresentation.",
+      "owner": "Identity and Access Management team",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.digital.govt.nz/standards-and-guidance/identity/identification-management/identification-standards/federation-assurance-standard",
+        "page_title": "Federation Assurance Standard | NZ Digital government",
+        "content_hash": "44e4f8bb3f94bc086c146bc04c24ce8b8ca3cdb389dcc4734443a84daf08302c",
+        "last_fetched": "2026-04-02T07:47:22Z"
+      },
+      "related_guardrails": [
+        "GUARD-SEC-003",
+        "GUARD-SEC-004",
+        "GUARD-SEC-005"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/security/GUARD-SEC-006.json"
+    },
+    {
+      "id": "GUARD-SEC-007",
+      "title": "New Zealand Government Cloud Adoption Security and Privacy Framework",
+      "status": "approved",
+      "category": "security",
+      "tags": [
+        "new-zealand",
+        "government",
+        "cloud-adoption",
+        "privacy",
+        "risk-assessment",
+        "compliance",
+        "data-sovereignty"
+      ],
+      "description": "Microsoft's compliance documentation for New Zealand government organizations adopting public cloud services. Outlines the GCDO-mandated framework requiring risk assessments, privacy compliance with the Privacy Act 2020, and adherence to the Risk Discovery Tool covering data sovereignty, security, governance, and incident response.",
+      "owner": "Security and Compliance",
+      "source": {
+        "type": "external_url",
+        "url": "https://learn.microsoft.com/en-us/compliance/regulatory/offering-nz-cc-framework-nz",
+        "page_title": "New Zealand Government Information Security and Privacy Considerations - Microsoft Compliance | Microsoft Learn",
+        "content_hash": "e951ca257554b428d6acb580d227eb63e3a291b4ea06065ddab09bf5bff420b0",
+        "last_fetched": "2026-04-02T07:47:28Z"
+      },
+      "related_guardrails": [
+        "GUARD-CLOUD-002",
+        "GUARD-SEC-001",
+        "GUARD-GOV-005"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/security/GUARD-SEC-007.json"
+    }
+  ]
+}
