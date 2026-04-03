@@ -1,7 +1,7 @@
 {
   "generated_by": "generate_index.py",
   "description": "Auto-generated index of approved architecture guardrails. Do not edit manually — regenerated on every merge to main.",
-  "guardrail_count": 49,
+  "guardrail_count": 50,
   "guardrails": [
     {
       "id": "GUARD-API-001",
@@ -756,7 +756,7 @@
     },
     {
       "id": "GUARD-GOV-017",
-      "title": "Risk assessment for public cloud services",
+      "title": "Risk Assessment for Public Cloud Services",
       "status": "approved",
       "category": "governance",
       "tags": [
@@ -767,21 +767,20 @@
         "security-controls",
         "compliance"
       ],
-      "description": "NZ Government guidance on assessing risks when adopting public cloud services in government agencies. Covers risk discovery, jurisdictional considerations, risk approval processes, and organizational implementation of cloud risk assessment frameworks.",
-      "owner": "Chief Information Security Officer / Enterprise Architecture",
+      "description": "NZ government guidance for assessing risks when adopting or modifying public cloud services, including a two-stage risk discovery tool, jurisdictional risk considerations, and processes for risk approval and ongoing monitoring.",
       "source": {
         "type": "external_url",
         "url": "https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/cloud-services/assess-the-risks",
         "page_title": "Risks assessment for public cloud services | NZ Digital government",
-        "content_hash": "2c50467728bddd5439a9fd414c884f26a4620486eb2f8f41b73e4bd87e07ce1c",
-        "last_fetched": "2026-04-02T07:47:30Z"
+        "content_hash": "c817586570fd2e46c71563c54419f22014403e96689558c2d58f445ea9221280",
+        "last_fetched": "2026-04-03T03:27:48Z"
       },
       "related_guardrails": [
         "GUARD-CLOUD-001",
         "GUARD-CLOUD-002",
         "GUARD-SEC-007"
       ],
-      "version": "1.0",
+      "version": "2.0",
       "approved_date": null,
       "review_due": null,
       "_source_file": "guardrails/governance/GUARD-GOV-017.json"
@@ -1604,6 +1603,38 @@
       "approved_date": null,
       "review_due": null,
       "_source_file": "guardrails/security/GUARD-SEC-007.json"
+    },
+    {
+      "id": "GUARD-SEC-008",
+      "title": "Information Assurance Standard — NZ Digital Government",
+      "status": "approved",
+      "category": "security",
+      "tags": [
+        "identity-assurance",
+        "information-quality",
+        "entity-binding",
+        "fraud-prevention",
+        "evidence-verification",
+        "new-zealand"
+      ],
+      "description": "New Zealand government standard specifying information management controls to ensure collected identity information is accurate, protected, and suitable for eligibility and capability decisions. Covers entity information quality, evidence verification levels, and fraud prevention measures for relying parties.",
+      "owner": "identity-and-access-management-team",
+      "source": {
+        "type": "external_url",
+        "url": "https://www.digital.govt.nz/standards-and-guidance/identity/identification-management/identification-standards/information-assurance-standard",
+        "page_title": "Information Assurance Standard | NZ Digital government",
+        "content_hash": "e1109e386203ffda08db46fd3ff0bfeb3bd1e949ea907f9e60195f498052fe6e",
+        "last_fetched": "2026-04-03T03:27:35Z"
+      },
+      "related_guardrails": [
+        "GUARD-SEC-003",
+        "GUARD-SEC-004",
+        "GUARD-SEC-005"
+      ],
+      "version": "2.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/security/GUARD-SEC-008.json"
     }
   ]
 }
