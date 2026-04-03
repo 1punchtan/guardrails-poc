@@ -1,0 +1,44 @@
+{
+  "id": "GUARD-GOV-037",
+  "title": "Responsible AI Guidance for Businesses",
+  "category": "governance",
+  "subcategory": "ai-ethics-and-responsible-use",
+  "type": "guideline",
+  "description": "Comprehensive voluntary guidance for New Zealand businesses on adopting and deploying AI systems responsibly. Covers governance, risk management, compliance, data ethics, transparency, and stakeholder engagement across the AI lifecycle, aligned with OECD principles and New Zealand values.",
+  "tags": [
+    "responsible-ai",
+    "governance",
+    "risk-management",
+    "ai-ethics",
+    "compliance",
+    "data-ethics",
+    "transparency",
+    "stakeholder-engagement"
+  ],
+  "version": "1.0",
+  "status": "draft",
+  "source": {
+    "type": "onedrive",
+    "onedrive_item_id": "618A7276C00856EA!s7aa16f223bbb41248120d676584b6122",
+    "url": "https://onedrive.live.com?cid=618A7276C00856EA&id=618A7276C00856EA!s7aa16f223bbb41248120d676584b6122",
+    "filename": "responsible-ai-guidance-for-businesses.pdf",
+    "last_modified": "2026-04-03T03:25:45Z"
+  },
+  "suggested_owner": "Governance / Chief Digital Officer",
+  "related_guardrails": [
+    "GUARD-GOV-002",
+    "GUARD-GOV-012",
+    "GUARD-SEC-007"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2026-04-03T03:25:45Z",
+      "author": "auto-generated",
+      "change_summary": "Initial guardrail creation from OneDrive source. Comprehensive guidance for responsible AI adoption by NZ businesses."
+    }
+  ]
+}
