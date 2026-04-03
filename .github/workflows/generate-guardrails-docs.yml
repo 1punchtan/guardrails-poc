@@ -1,0 +1,53 @@
+name: Generate and deploy guardrails site
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "guardrails/**"
+      - "generate_docs.py"
+
+  # Allow manual trigger from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install mkdocs-material
+
+      - name: Generate docs from metafiles
+        run: python generate_docs.py
+
+      - name: Build MkDocs site
+        run: mkdocs build --config-file docs-site/mkdocs.yml
+
+      - name: Commit generated docs to main
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: regenerate guardrails docs [skip ci]"
+          file_pattern: docs-site/docs/** docs-site/mkdocs.yml
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./site
+          commit_message: "chore: deploy guardrails site [skip ci]"
