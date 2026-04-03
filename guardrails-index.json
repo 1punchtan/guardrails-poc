@@ -139,32 +139,32 @@
     },
     {
       "id": "GUARD-ARCH-001",
-      "title": "NZ Digital Service Design Standard",
+      "title": "Digital Service Design Standard",
       "status": "approved",
       "category": "architecture",
       "tags": [
         "digital-service",
         "design-standard",
         "user-centered",
-        "nz-government",
+        "government",
         "principles",
         "service-delivery"
       ],
-      "description": "New Zealand government standard establishing 12 core principles for designing user-focused, inclusive, and secure digital services. Covers the full service lifecycle from user understanding through transparent accountability, with emphasis on security, privacy, collaboration, and data stewardship.",
-      "owner": "Digital Service Design / Government Architecture",
+      "description": "New Zealand government standard providing design principles and guidance for creating user-focused, secure, and inclusive digital services. Establishes 12 core principles covering user needs, security, equity, collaboration, and accountability.",
+      "owner": "NZ Digital Government",
       "source": {
         "type": "external_url",
         "url": "https://www.digital.govt.nz/standards-and-guidance/digital-service-design-standard",
         "page_title": "Digital Service Design Standard | NZ Digital government",
-        "content_hash": "61df6f7878528573d3d3aabea3236edd6f865adb95e8573b8cc77df32f120ee7",
-        "last_fetched": "2026-04-02T07:47:07Z"
+        "content_hash": "1f91bfd9fb924e127b0f57adc9b3ba7573d46a93eacbc49cae133d8ac8129e94",
+        "last_fetched": "2026-04-03T03:27:26Z"
       },
       "related_guardrails": [
-        "GUARD-GOV-001",
-        "GUARD-API-001",
-        "GUARD-GOV-012"
+        "GUARD-GOV-015",
+        "GUARD-SEC-001",
+        "GUARD-CLOUD-001"
       ],
-      "version": "1.0",
+      "version": "2.0",
       "approved_date": null,
       "review_due": null,
       "_source_file": "guardrails/architecture/GUARD-ARCH-001.json"
