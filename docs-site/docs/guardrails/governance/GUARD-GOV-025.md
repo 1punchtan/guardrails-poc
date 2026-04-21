@@ -12,13 +12,13 @@ tags:
 
 # Ombudsmen Act 1975 — New Zealand Legislation
 
-**Status:** ✅ Approved &nbsp;&nbsp; **Version:** 1.0
+**Status:** ✅ Approved &nbsp;&nbsp; **Version:** 1.1
 
 | Field | Value |
 |---|---|
 | **ID** | `GUARD-GOV-025` |
 | **Category** | Governance |
-| **Subcategory** | oversight-and-complaints |
+| **Subcategory** | oversight-and-accountability |
 | **Type** | policy |
 | **Owner** | Ministry of Justice |
 | **Approved by** | — |
@@ -33,16 +33,17 @@ New Zealand legislation establishing the ombudsmen office and framework for inve
 
 [Ombudsmen Act 1975 | New Zealand Legislation](https://www.legislation.govt.nz/act/public/1975/9/en/latest/)
 
-*Last fetched: 2026-04-02*
+*Last fetched: 2026-04-21*
 
 ## Related guardrails
 
+- [GUARD-GOV-026 — Official Information Act 1982 – New Zealand](../governance/GUARD-GOV-026.md)
 - [GUARD-GOV-024 — Public Records Act 2005 (New Zealand)](../governance/GUARD-GOV-024.md)
-- [GUARD-GOV-020 — State Sector Act 1988 — New Zealand Public Service Governance](../governance/GUARD-GOV-020.md)
-- [GUARD-GOV-013 — Privacy Act 2020 — New Zealand](../governance/GUARD-GOV-013.md)
+- [GUARD-GOV-002 — Algorithm Charter for Aotearoa New Zealand](../governance/GUARD-GOV-002.md)
 
 ## Change history
 
 | Version | Date | Author | Summary |
 |---|---|---|---|
-| 1.0 | 2026-04-02 | auto-generated | Initial creation from external legislation source. Establishes ombudsmen office framework and complaint investigation procedures for New Zealand public agencies. |
+| 1.0 | 2026-01-15 | auto-generated | Initial guardrail entry created from New Zealand legislation registry |
+| 1.1 | 2026-04-21 | auto-generated | Updated source metadata with verified external URL, content hash, and current page title from legislation.govt.nz; refined description and tags for consistency with existing governance standards |

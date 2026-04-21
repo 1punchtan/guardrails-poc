@@ -22,6 +22,8 @@ This library contains the approved architecture guardrails for the organisation.
 
 | ID | Title | Category | Last updated |
 |---|---|---|---|
+| [GUARD-GOV-025](guardrails/governance/GUARD-GOV-025.md) | Ombudsmen Act 1975 — New Zealand Legislation | Governance | 2026-04-21 |
+| [GUARD-GOV-026](guardrails/governance/GUARD-GOV-026.md) | Official Information Act 1982 – New Zealand | Governance | 2026-04-21 |
 | [GUARD-GOV-027](guardrails/governance/GUARD-GOV-027.md) | New Zealand Superannuation and Retirement Income Act 2001 | Governance | 2026-04-21 |
 | [GUARD-GOV-031](guardrails/governance/GUARD-GOV-031.md) | Employment Relations Act 2000 (New Zealand) | Governance | 2026-04-21 |
 | [GUARD-GOV-035](guardrails/governance/GUARD-GOV-035.md) | Student Allowances Regulations 1998 (New Zealand) | Governance | 2026-04-21 |
@@ -30,5 +32,3 @@ This library contains the approved architecture guardrails for the organisation.
 | [GUARD-CLOUD-001](guardrails/cloud/GUARD-CLOUD-001.md) | NZ Government Cloud First Policy | Cloud | 2026-04-03 |
 | [GUARD-GOV-014](guardrails/governance/GUARD-GOV-014.md) | NZ Government Web Accessibility Standard 1.2 | Governance | 2026-04-03 |
 | [GUARD-GOV-017](guardrails/governance/GUARD-GOV-017.md) | Risk Assessment for Public Cloud Services | Governance | 2026-04-03 |
-| [GUARD-GOV-037](guardrails/governance/GUARD-GOV-037.md) | Responsible AI Guidance for Businesses | Governance | 2026-04-03 |
-| [GUARD-SEC-008](guardrails/security/GUARD-SEC-008.md) | Information Assurance Standard — NZ Digital Government | Security | 2026-04-03 |

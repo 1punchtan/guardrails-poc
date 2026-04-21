@@ -38,7 +38,7 @@ New Zealand legislation consolidating human rights protections, anti-discriminat
 
 - [GUARD-GOV-013 — Privacy Act 2020 — New Zealand](../governance/GUARD-GOV-013.md)
 - [GUARD-GOV-009 — Health Information Privacy Code 2020](../governance/GUARD-GOV-009.md)
-- [GUARD-GOV-026 — Official Information Act 1982 - NZ Legislation](../governance/GUARD-GOV-026.md)
+- [GUARD-GOV-026 — Official Information Act 1982 – New Zealand](../governance/GUARD-GOV-026.md)
 
 ## Change history
 

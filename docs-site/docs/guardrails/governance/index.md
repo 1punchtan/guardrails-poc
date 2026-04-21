@@ -32,8 +32,8 @@ title: "Governance Guardrails"
 | [GUARD-GOV-022](GUARD-GOV-022.md) | Social Security Act 2018 — New Zealand | ✅ Approved | 1.0 | — |
 | [GUARD-GOV-023](GUARD-GOV-023.md) | Residential Care and Disability Support Services Act 2018 (NZ) | ✅ Approved | 1.0 | — |
 | [GUARD-GOV-024](GUARD-GOV-024.md) | Public Records Act 2005 (New Zealand) | ✅ Approved | 1.0 | — |
-| [GUARD-GOV-025](GUARD-GOV-025.md) | Ombudsmen Act 1975 — New Zealand Legislation | ✅ Approved | 1.0 | — |
-| [GUARD-GOV-026](GUARD-GOV-026.md) | Official Information Act 1982 - NZ Legislation | ✅ Approved | 1.0 | — |
+| [GUARD-GOV-025](GUARD-GOV-025.md) | Ombudsmen Act 1975 — New Zealand Legislation | ✅ Approved | 1.1 | — |
+| [GUARD-GOV-026](GUARD-GOV-026.md) | Official Information Act 1982 – New Zealand | ✅ Approved | 2.0 | — |
 | [GUARD-GOV-027](GUARD-GOV-027.md) | New Zealand Superannuation and Retirement Income Act 2001 | ✅ Approved | 2.0 | — |
 | [GUARD-GOV-028](GUARD-GOV-028.md) | Human Rights Act 1993 - New Zealand Legislation | ✅ Approved | 1.0 | — |
 | [GUARD-GOV-029](GUARD-GOV-029.md) | Holidays Act 2003 – New Zealand Employment Leave Legislation | ✅ Approved | 1.0 | — |
