@@ -1213,33 +1213,32 @@
     },
     {
       "id": "GUARD-GOV-031",
-      "title": "Employment Relations Act 2000 – New Zealand Labour Law",
+      "title": "Employment Relations Act 2000 (New Zealand)",
       "status": "approved",
       "category": "governance",
       "tags": [
         "employment-law",
-        "labor-relations",
         "new-zealand",
+        "governance",
+        "labor-relations",
         "collective-bargaining",
-        "good-faith",
-        "union-rights",
-        "employee-protection"
+        "employee-rights",
+        "compliance"
       ],
-      "description": "New Zealand legislation governing employment relationships, union operations, collective bargaining, individual employment agreements, and employee protections. Establishes duties of good faith, freedom of association, minimum entitlements, and dispute resolution mechanisms for employment relations.",
-      "owner": "Legal & Compliance",
+      "description": "New Zealand legislation governing employment relationships, including provisions on good faith dealings, union recognition, collective bargaining, individual employment agreements, and employee protections. Administered by the Ministry of Business, Innovation, and Employment.",
       "source": {
         "type": "external_url",
         "url": "https://www.legislation.govt.nz/act/public/2000/24/en/latest/",
         "page_title": "Employment Relations Act 2000 | New Zealand Legislation",
-        "content_hash": "5f17eba9bcc95c4d244c65da98eca6650ebbeada5cb8f455426a2f7be89fab95",
-        "last_fetched": "2026-04-02T07:47:53Z"
+        "content_hash": "4e73b1ba34ab03e9831007473ce7173afb95a56ce5e877a25a584fe8fd7dac35",
+        "last_fetched": "2026-04-21T21:40:24Z"
       },
       "related_guardrails": [
         "GUARD-GOV-029",
-        "GUARD-GOV-028",
-        "GUARD-GOV-030"
+        "GUARD-GOV-030",
+        "GUARD-GOV-028"
       ],
-      "version": "1.0",
+      "version": "2.0",
       "approved_date": null,
       "review_due": null,
       "_source_file": "guardrails/governance/GUARD-GOV-031.json"
