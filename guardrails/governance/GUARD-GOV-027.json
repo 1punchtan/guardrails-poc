@@ -3,25 +3,28 @@
   "title": "New Zealand Superannuation and Retirement Income Act 2001",
   "category": "governance",
   "subcategory": "regulatory-compliance",
-  "type": "policy",
-  "description": "New Zealand legislation (Public Act 2001 No 84) governing entitlements to New Zealand superannuation, establishment and management of the New Zealand Superannuation Fund, and roles of the Guardians of New Zealand Superannuation and Retirement Commissioner. Administered by Ministry of Social Development and The Treasury.",
+  "type": "legislation",
+  "status": "under-review",
+  "version": "2.0",
+  "description": "New Zealand legislation establishing the legal framework for superannuation entitlements, the New Zealand Superannuation Fund, the Guardians of New Zealand Superannuation, and the Retirement Commissioner. Administered by the Ministry of Social Development and The Treasury, it defines age and residential qualifications, payment structures, fund management, and oversight mechanisms for retirement income.",
   "tags": [
-    "nz-legislation",
     "superannuation",
     "retirement-income",
+    "fund-management",
+    "regulatory-framework",
+    "new-zealand",
+    "governance",
+    "nz-legislation",
     "public-act",
-    "fund-governance",
-    "regulatory"
+    "fund-governance"
   ],
-  "owner": "Ministry of Social Development; The Treasury",
-  "status": "approved",
-  "version": "1.0",
+  "suggested_owner": "Ministry of Social Development; The Treasury",
   "source": {
     "type": "external_url",
     "url": "https://www.legislation.govt.nz/act/public/2001/84/en/latest/",
     "page_title": "New Zealand Superannuation and Retirement Income Act 2001 | New Zealand Legislation",
-    "content_hash": "045e90cf3d259cbada6ff33f1c5d4b40668127a98f403427209989f105f58720",
-    "last_fetched": "2026-04-02T07:47:45Z"
+    "content_hash": "bcf3c9d247b7b517aabcefca56cf83a80666fde1c0cce31f0fe224cf24a06a9d",
+    "last_fetched": "2026-04-21T21:40:17Z"
   },
   "related_guardrails": [
     "GUARD-GOV-022",
@@ -31,12 +34,12 @@
   "approved_by": null,
   "approved_date": null,
   "review_due": null,
-  "change_log": [
+  "changelog": [
     {
-      "version": "1.0",
-      "date": "2026-04-02T07:47:45Z",
+      "version": "2.0",
+      "date": "2026-04-21T21:40:17Z",
       "author": "auto-generated",
-      "summary": "Initial draft: New Zealand Superannuation and Retirement Income Act 2001 added to governance guardrails library"
+      "change": "Updated source URL, content hash, and last_fetched timestamp from external_url source. Enhanced tags to include nz-legislation, public-act, and fund-governance for better discoverability and alignment with governance framework taxonomy."
     }
   ]
 }
