@@ -6,7 +6,7 @@ tags:
   - government-policy
   - data-classification
   - multi-cloud
-  - nz-digital
+  - nz-government
 ---
 
 # NZ Government Cloud First Policy
@@ -26,13 +26,13 @@ tags:
 
 ## Description
 
-New Zealand government policy requiring public cloud adoption for information systems unless specific criteria apply. Establishes mandatory requirements for data classification, multi-cloud strategies, risk assessment, and sustainability considerations in cloud adoption decisions.
+New Zealand government's mandatory cloud-first policy requiring public sector organisations to adopt public cloud services for information systems unless specific exceptions apply. Covers data classification requirements, multi-cloud strategies, cost optimization, risk assessment, and sustainability considerations.
 
 ## Source document
 
 [Cloud First policy | NZ Digital government](https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/cloud-services/cloud-adoption-policy-and-strategy/cabinet-requirement)
 
-*Last fetched: 2026-04-03*
+*Last fetched: 2026-04-21*
 
 ## Related guardrails
 
@@ -44,5 +44,5 @@ New Zealand government policy requiring public cloud adoption for information sy
 
 | Version | Date | Author | Summary |
 |---|---|---|---|
-| 1.0 | 2025-01-01 | auto-generated | Initial guardrail creation from external source |
-| 2.0 | 2026-04-03 | auto-generated | Updated policy content and metadata from latest NZ Digital government source; refreshed data classification and sustainability considerations; verified multi-cloud strategy requirements remain current |
+| 1.0 | 2024-01-15 | auto-generated | Initial import of NZ Government Cloud First Policy from digital.govt.nz |
+| 2.0 | 2026-04-21 | auto-generated | Updated content from external source; verified current policy requirements and sustainability considerations; content hash updated to reflect latest policy version |

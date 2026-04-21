@@ -23,6 +23,7 @@ This library contains the approved architecture guardrails for the organisation.
 | ID | Title | Category | Last updated |
 |---|---|---|---|
 | [GUARD-ARCH-001](guardrails/architecture/GUARD-ARCH-001.md) | Digital Service Design Standard | Architecture | 2026-04-21 |
+| [GUARD-CLOUD-001](guardrails/cloud/GUARD-CLOUD-001.md) | NZ Government Cloud First Policy | Cloud | 2026-04-21 |
 | [GUARD-GOV-014](guardrails/governance/GUARD-GOV-014.md) | NZ Government Web Accessibility Standard 1.2 | Governance | 2026-04-21 |
 | [GUARD-GOV-016](guardrails/governance/GUARD-GOV-016.md) | NZ Information Sharing Standard — Purpose and Scope | Governance | 2026-04-21 |
 | [GUARD-GOV-017](guardrails/governance/GUARD-GOV-017.md) | Risk Assessment for Public Cloud Services | Governance | 2026-04-21 |
@@ -31,4 +32,3 @@ This library contains the approved architecture guardrails for the organisation.
 | [GUARD-GOV-027](guardrails/governance/GUARD-GOV-027.md) | New Zealand Superannuation and Retirement Income Act 2001 | Governance | 2026-04-21 |
 | [GUARD-GOV-031](guardrails/governance/GUARD-GOV-031.md) | Employment Relations Act 2000 (New Zealand) | Governance | 2026-04-21 |
 | [GUARD-GOV-035](guardrails/governance/GUARD-GOV-035.md) | Student Allowances Regulations 1998 (New Zealand) | Governance | 2026-04-21 |
-| [GUARD-GOV-036](guardrails/governance/GUARD-GOV-036.md) | Copyright Act 1994 — New Zealand Legislation | Governance | 2026-04-21 |
