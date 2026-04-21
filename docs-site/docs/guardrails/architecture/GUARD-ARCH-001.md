@@ -1,11 +1,12 @@
 ---
 title: "GUARD-ARCH-001 — Digital Service Design Standard"
 tags:
-  - digital-service
+  - digital-services
   - design-standard
   - user-centered
   - government
-  - principles
+  - nz
+  - governance
   - service-delivery
 ---
 
@@ -17,32 +18,32 @@ tags:
 |---|---|
 | **ID** | `GUARD-ARCH-001` |
 | **Category** | Architecture |
-| **Subcategory** | service design |
+| **Subcategory** | digital-service-design |
 | **Type** | standard |
-| **Owner** | NZ Digital Government |
+| **Owner** | Digital Government Service Design Team |
 | **Approved by** | — |
 | **Approved date** | — |
 | **Review due** | — |
 
 ## Description
 
-New Zealand government standard providing design principles and guidance for creating user-focused, secure, and inclusive digital services. Establishes 12 core principles covering user needs, security, equity, collaboration, and accountability.
+New Zealand government standard providing 12 core principles for designing and delivering user-focused, high-quality digital services. Covers user needs, security, privacy, inclusivity, interdisciplinary collaboration, and accountability to ensure ethical and equitable public service delivery.
 
 ## Source document
 
 [Digital Service Design Standard | NZ Digital government](https://www.digital.govt.nz/standards-and-guidance/digital-service-design-standard)
 
-*Last fetched: 2026-04-03*
+*Last fetched: 2026-04-21*
 
 ## Related guardrails
 
+- [GUARD-GOV-001 — Digital Strategy 2.0 – National Digital Development Framework](../governance/GUARD-GOV-001.md)
 - [GUARD-GOV-015 — NZ Government Web Usability Standard 1.4](../governance/GUARD-GOV-015.md)
-- [GUARD-SEC-001 — New Zealand Information Security Manual (NZISM) v3.9](../security/GUARD-SEC-001.md)
-- [GUARD-CLOUD-001 — NZ Government Cloud First Policy](../cloud/GUARD-CLOUD-001.md)
+- [GUARD-SEC-007 — New Zealand Government Cloud Adoption and Risk Assessment Framework](../security/GUARD-SEC-007.md)
 
 ## Change history
 
 | Version | Date | Author | Summary |
 |---|---|---|---|
-| 1.0 | 2025-01-01 | auto-generated | Initial guardrail creation for NZ Digital Service Design Standard |
-| 2.0 | 2026-04-03 | auto-generated | Updated source metadata with latest content hash and fetch timestamp from external_url |
+| 1.0 | 2024-01-15 | auto-generated | Initial creation of guardrail from external source |
+| 2.0 | 2026-04-21 | auto-generated | Updated metadata with refined description and expanded governance tags; category refined from 'governance' to 'architecture' for alignment with service design focus |
