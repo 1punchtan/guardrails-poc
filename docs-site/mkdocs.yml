@@ -68,7 +68,6 @@ nav:
     - "GUARD-GOV-035 — Student Allowances Regulations 1998 (New Ze…": guardrails/governance/GUARD-GOV-035.md
     - "GUARD-GOV-036 — Copyright Act 1994 — New Zealand Legislation": guardrails/governance/GUARD-GOV-036.md
     - "GUARD-GOV-037 — Responsible AI Guidance for Businesses": guardrails/governance/GUARD-GOV-037.md
-    - "GUARD-GOV-038 — Official Information Act 1982 — New Zealand": guardrails/governance/GUARD-GOV-038.md
   - Security:
     - guardrails/security/index.md
     - "GUARD-SEC-001 — New Zealand Information Security Manual (NZ…": guardrails/security/GUARD-SEC-001.md
