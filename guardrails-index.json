@@ -1085,32 +1085,30 @@
     },
     {
       "id": "GUARD-GOV-026",
-      "title": "Official Information Act 1982 – New Zealand",
+      "title": "Official Information Act 1982 — New Zealand Information Access and Privacy",
       "status": "approved",
       "category": "governance",
       "tags": [
         "information-access",
         "transparency",
         "privacy",
-        "compliance",
+        "nz-legislation",
         "public-records",
-        "ombudsman",
-        "new-zealand",
-        "legislation"
+        "compliance",
+        "personal-information"
       ],
-      "description": "New Zealand legislation establishing requirements for public access to official information, procedures for information requests, withholding criteria, and oversight mechanisms. Directly applicable to government agencies and organizations handling official information.",
-      "owner": "Compliance & Legal",
+      "description": "New Zealand legislation establishing frameworks for public access to official information, personal information rights, and information withholding criteria. Defines procedures for requesting access to government documents, reasons for refusal, and ombudsman review mechanisms. Critical for organizations handling NZ government data and complying with transparency and privacy obligations.",
       "source": {
         "type": "external_url",
         "url": "https://www.legislation.govt.nz/act/public/1982/156/en/latest/",
         "page_title": "Official Information Act 1982 | New Zealand Legislation",
-        "content_hash": "a17d43140a6d4da3d0fc9ef9ff2610f08a9bf1a39c620600157f32d8f169b15b",
-        "last_fetched": "2026-04-21T21:40:15Z"
+        "content_hash": "4c0f95b868e66a7c785ab1debe0cba668e89ac69009745848633ec02347a2703",
+        "last_fetched": "2026-04-21T23:35:10Z"
       },
       "related_guardrails": [
-        "GUARD-GOV-025",
+        "GUARD-GOV-013",
         "GUARD-GOV-024",
-        "GUARD-GOV-013"
+        "GUARD-GOV-025"
       ],
       "version": "2.0",
       "approved_date": null,
