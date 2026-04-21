@@ -30,5 +30,5 @@ This library contains the approved architecture guardrails for the organisation.
 | [GUARD-GOV-035](guardrails/governance/GUARD-GOV-035.md) | Student Allowances Regulations 1998 (New Zealand) | Governance | 2026-04-21 |
 | [GUARD-GOV-036](guardrails/governance/GUARD-GOV-036.md) | Copyright Act 1994 — New Zealand Legislation | Governance | 2026-04-21 |
 | [GUARD-SEC-007](guardrails/security/GUARD-SEC-007.md) | New Zealand Government Cloud Adoption and Risk Assessment Framework | Security | 2026-04-21 |
+| [GUARD-SEC-008](guardrails/security/GUARD-SEC-008.md) | Information Assurance Standard — NZ Digital Government | Security | 2026-04-21 |
 | [GUARD-ARCH-001](guardrails/architecture/GUARD-ARCH-001.md) | Digital Service Design Standard | Architecture | 2026-04-03 |
-| [GUARD-CLOUD-001](guardrails/cloud/GUARD-CLOUD-001.md) | NZ Government Cloud First Policy | Cloud | 2026-04-03 |

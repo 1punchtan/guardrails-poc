@@ -1,12 +1,13 @@
 ---
 title: "GUARD-SEC-008 — Information Assurance Standard — NZ Digital Government"
 tags:
-  - identity-assurance
-  - information-quality
-  - entity-binding
+  - identity-management
+  - information-assurance
+  - data-quality
+  - verification
   - fraud-prevention
-  - evidence-verification
-  - new-zealand
+  - nz-government
+  - risk-assessment
 ---
 
 # Information Assurance Standard — NZ Digital Government
@@ -19,20 +20,20 @@ tags:
 | **Category** | Security |
 | **Subcategory** | identity-and-access-management |
 | **Type** | standard |
-| **Owner** | identity-and-access-management-team |
+| **Owner** | Identity and Access Management / Security Architecture |
 | **Approved by** | — |
 | **Approved date** | — |
 | **Review due** | — |
 
 ## Description
 
-New Zealand government standard specifying information management controls to ensure collected identity information is accurate, protected, and suitable for eligibility and capability decisions. Covers entity information quality, evidence verification levels, and fraud prevention measures for relying parties.
+New Zealand government standard establishing information management controls to ensure collected entity information is accurate, distinctive, and suitable for eligibility and capability decisions. Provides four-level assurance framework (IA1–IA4) for risk-based verification of identity information, covering evidence quality, storage, accuracy, and counter-fraud measures.
 
 ## Source document
 
 [Information Assurance Standard | NZ Digital government](https://www.digital.govt.nz/standards-and-guidance/identity/identification-management/identification-standards/information-assurance-standard)
 
-*Last fetched: 2026-04-03*
+*Last fetched: 2026-04-21*
 
 ## Related guardrails
 
@@ -44,4 +45,5 @@ New Zealand government standard specifying information management controls to en
 
 | Version | Date | Author | Summary |
 |---|---|---|---|
-| 2.0 | 2026-04-03 | auto-generated | Updated source URL, content hash, and last_fetched timestamp. Refreshed metadata alignment with current NZ Digital Government publication. |
+| 1.0 | 2026-04-21 | auto-generated | Initial guardrail created from external source |
+| 2.0 | 2026-04-21 | auto-generated | Updated metadata with refined description, expanded tag set, and clarified four-level assurance framework (IA1–IA4) scope |
