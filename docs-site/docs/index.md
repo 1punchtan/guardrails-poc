@@ -6,7 +6,7 @@ title: "Architecture Guardrails Library"
 
 This library contains the approved architecture guardrails for the organisation. Guardrails are standards, policies, patterns, and rules that guide how systems are built and integrated. Browse by category, search by keyword, or filter by tag.
 
-**51 guardrails** across 5 categories — 50 approved, 1 under review. Last updated: 2026-04-03.
+**51 guardrails** across 5 categories — 50 approved, 1 under review. Last updated: 2026-04-22.
 
 ## Browse by category
 

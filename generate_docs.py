@@ -262,9 +262,9 @@ def render_guardrail_page(data: dict, id_to_info: dict) -> str:
             "|---|---|---|---|",
         ]
         for entry in change_log:
-            ev = entry.get("version", "—")
+            ev = entry.get("version") or "—"
             ed = fmt_date(entry.get("date"))
-            ea = escape_pipe(entry.get("author", "—"))
+            ea = escape_pipe(entry.get("author") or "—")
             es = escape_pipe(get_entry_summary(entry) or "—")
             lines.append(f"| {ev} | {ed} | {ea} | {es} |")
         lines.append("")
