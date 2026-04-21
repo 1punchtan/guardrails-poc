@@ -1,11 +1,21 @@
 name: Generate and deploy guardrails site
 
 on:
+  # Run after the index workflow completes — avoids the race condition where
+  # both workflows commit to main simultaneously when guardrails/** changes.
+  workflow_run:
+    workflows: ["Regenerate guardrails index"]
+    types:
+      - completed
+    branches:
+      - main
+
+  # Direct trigger when only generate_docs.py changes (index workflow won't
+  # fire in that case, so no race).
   push:
     branches:
       - main
     paths:
-      - "guardrails/**"
       - "generate_docs.py"
 
   # Allow manual trigger from the Actions tab
@@ -14,6 +24,10 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    # Skip if triggered by the index workflow finishing with a failure.
+    if: >
+      github.event_name != 'workflow_run' ||
+      github.event.workflow_run.conclusion == 'success'
     permissions:
       contents: write
       pages: write
