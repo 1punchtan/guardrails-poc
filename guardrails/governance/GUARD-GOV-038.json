@@ -1,0 +1,49 @@
+{
+  "id": "GUARD-GOV-038",
+  "title": "Official Information Act 1982 \u2014 New Zealand",
+  "category": "governance",
+  "subcategory": "information-access-and-transparency",
+  "type": "policy",
+  "description": "New Zealand legislation establishing the right to access official information held by public agencies, setting procedures for requests, defining reasons for withholding information, and establishing oversight mechanisms through the Ombudsmen. Foundational for public sector information governance and transparency requirements.",
+  "tags": [
+    "information-access",
+    "transparency",
+    "public-sector",
+    "compliance",
+    "new-zealand",
+    "data-protection",
+    "freedom-of-information"
+  ],
+  "status": "under-review",
+  "version": "2.0",
+  "owner": "Legal/Compliance, Ministry of Justice",
+  "source": {
+    "type": "external_url",
+    "url": "https://www.legislation.govt.nz/act/public/1982/156/en/latest/",
+    "page_title": "Official Information Act 1982 | New Zealand Legislation",
+    "content_hash": "a17d43140a6d4da3d0fc9ef9ff2610f08a9bf1a39c620600157f32d8f169b15b",
+    "last_fetched": "2026-04-21T23:57:57Z"
+  },
+  "related_guardrails": [
+    "GUARD-GOV-026",
+    "GUARD-GOV-013",
+    "GUARD-GOV-025"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "2026-04-21",
+      "author": "auto-generated",
+      "summary": "Initial entry created from legislation.govt.nz source"
+    },
+    {
+      "version": "2.0",
+      "date": "2026-04-21",
+      "author": "auto-generated",
+      "summary": "Updated from external URL source with current legislation text; consolidated with existing GUARD-GOV-026; enriched metadata and alignment with related information access and privacy governance guardrails"
+    }
+  ]
+}
