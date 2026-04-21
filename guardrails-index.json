@@ -1035,15 +1035,15 @@
         "type": "external_url",
         "url": "https://www.legislation.govt.nz/act/public/1975/9/en/latest/",
         "page_title": "Ombudsmen Act 1975 | New Zealand Legislation",
-        "content_hash": "e6ff8da5bdab326f157ec184d531a4a2f151d4f3e70a7231dd4055ea06ba2e30",
-        "last_fetched": "2026-04-02T07:47:43Z"
+        "content_hash": "c4cb5b712edc62f2f11b417afe5275ea401d7d2896a11711d5d3d76b8f0a0fdf",
+        "last_fetched": "2026-04-21T21:40:14Z"
       },
       "related_guardrails": [
+        "GUARD-GOV-026",
         "GUARD-GOV-024",
-        "GUARD-GOV-020",
-        "GUARD-GOV-013"
+        "GUARD-GOV-002"
       ],
-      "version": "1.0",
+      "version": "1.1",
       "approved_date": null,
       "review_due": null,
       "_source_file": "guardrails/governance/GUARD-GOV-025.json"
