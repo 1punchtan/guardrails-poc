@@ -4,7 +4,7 @@ title: "Governance Guardrails"
 
 # Governance Guardrails
 
-36 guardrail(s) — 35 approved, 1 under review.
+36 guardrail(s) — 36 approved.
 
 | ID | Title | Status | Version | Review due |
 |---|---|---|---|---|
@@ -34,13 +34,13 @@ title: "Governance Guardrails"
 | [GUARD-GOV-024](GUARD-GOV-024.md) | Public Records Act 2005 (New Zealand) | ✅ Approved | 1.0 | — |
 | [GUARD-GOV-025](GUARD-GOV-025.md) | Ombudsmen Act 1975 — New Zealand Legislation | ✅ Approved | 1.0 | — |
 | [GUARD-GOV-026](GUARD-GOV-026.md) | Official Information Act 1982 - NZ Legislation | ✅ Approved | 1.0 | — |
-| [GUARD-GOV-027](GUARD-GOV-027.md) | New Zealand Superannuation and Retirement Income Act 2001 | ✅ Approved | 1.0 | — |
+| [GUARD-GOV-027](GUARD-GOV-027.md) | New Zealand Superannuation and Retirement Income Act 2001 | ✅ Approved | 2.0 | — |
 | [GUARD-GOV-028](GUARD-GOV-028.md) | Human Rights Act 1993 - New Zealand Legislation | ✅ Approved | 1.0 | — |
 | [GUARD-GOV-029](GUARD-GOV-029.md) | Holidays Act 2003 – New Zealand Employment Leave Legislation | ✅ Approved | 1.0 | — |
 | [GUARD-GOV-030](GUARD-GOV-030.md) | Health and Safety at Work Act 2015 (New Zealand) | ✅ Approved | 1.0 | — |
-| [GUARD-GOV-031](GUARD-GOV-031.md) | Employment Relations Act 2000 – New Zealand Labour Law | ✅ Approved | 1.0 | — |
+| [GUARD-GOV-031](GUARD-GOV-031.md) | Employment Relations Act 2000 (New Zealand) | ✅ Approved | 2.0 | — |
 | [GUARD-GOV-032](GUARD-GOV-032.md) | Oranga Tamariki Act 1989 – Children's and Young People's Well-being | ✅ Approved | 1.0 | — |
 | [GUARD-GOV-033](GUARD-GOV-033.md) | Bill of Rights 1688 — English Constitutional Rights and Liberties | ✅ Approved | 1.0 | — |
-| [GUARD-GOV-035](GUARD-GOV-035.md) | Student Allowances Regulations 1998 (New Zealand) | ✅ Approved | 1.0 | — |
-| [GUARD-GOV-036](GUARD-GOV-036.md) | Copyright Act 1994 — New Zealand Legislation | ⏳ Under Review | 2.0 | — |
+| [GUARD-GOV-035](GUARD-GOV-035.md) | Student Allowances Regulations 1998 (New Zealand) | ✅ Approved | 2.0 | — |
+| [GUARD-GOV-036](GUARD-GOV-036.md) | Copyright Act 1994 — New Zealand Legislation | ✅ Approved | 2.0 | — |
 | [GUARD-GOV-037](GUARD-GOV-037.md) | Responsible AI Guidance for Businesses | ✅ Approved | 1.0 | — |
