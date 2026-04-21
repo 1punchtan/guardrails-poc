@@ -4,9 +4,9 @@ tags:
   - accessibility
   - wcag
   - web-standards
-  - compliance
   - nz-government
-  - public-sector
+  - compliance
+  - inclusive-design
 ---
 
 # NZ Government Web Accessibility Standard 1.2
@@ -26,13 +26,13 @@ tags:
 
 ## Description
 
-Mandatory standard requiring all NZ public service departments and Executive branch agencies to conform web pages (public and internal) to WCAG 2.2 Level AA, effective 17 March 2025. Defines scope, requirements, exemptions, and assessment obligations for web accessibility compliance.
+Mandatory standard requiring all NZ public sector departments and Executive branch agencies to meet WCAG 2.2 Level AA accessibility requirements for publicly and internally facing web pages, effective 17 March 2025. Includes specific exceptions for complex visual maps, prerecorded media, and inactive pages, with assessment and reporting obligations to the Government Chief Digital Officer.
 
 ## Source document
 
 [Web Accessibility Standard 1.2 | NZ Digital government](https://www.digital.govt.nz/standards-and-guidance/nz-government-web-standards/web-accessibility-standard-1-2)
 
-*Last fetched: 2026-04-03*
+*Last fetched: 2026-04-21*
 
 ## Related guardrails
 
@@ -44,5 +44,4 @@ Mandatory standard requiring all NZ public service departments and Executive bra
 
 | Version | Date | Author | Summary |
 |---|---|---|---|
-| 1.0 | 2026-03-17 | auto-generated | Initial guardrail created from NZ Government Web Accessibility Standard 1.2 source. |
-| 1.1 | 2026-04-03 | auto-generated | Updated source metadata with current content hash and fetched timestamp. Refined description to clarify scope including both public and internal web pages, and explicit effective date of 17 March 2025. |
+| 1.1 | 2026-04-21 | auto-generated | Content refresh and verification of WCAG 2.2 Level AA requirements, exemptions scope, and GCDO reporting obligations. Added inclusive-design tag to reflect accessibility standards alignment. |
