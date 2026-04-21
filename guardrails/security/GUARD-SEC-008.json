@@ -4,18 +4,19 @@
   "category": "security",
   "subcategory": "identity-and-access-management",
   "type": "standard",
-  "description": "New Zealand government standard specifying information management controls to ensure collected identity information is accurate, protected, and suitable for eligibility and capability decisions. Covers entity information quality, evidence verification levels, and fraud prevention measures for relying parties.",
+  "description": "New Zealand government standard establishing information management controls to ensure collected entity information is accurate, distinctive, and suitable for eligibility and capability decisions. Provides four-level assurance framework (IA1\u2013IA4) for risk-based verification of identity information, covering evidence quality, storage, accuracy, and counter-fraud measures.",
   "tags": [
-    "identity-assurance",
-    "information-quality",
-    "entity-binding",
+    "identity-management",
+    "information-assurance",
+    "data-quality",
+    "verification",
     "fraud-prevention",
-    "evidence-verification",
-    "new-zealand"
+    "nz-government",
+    "risk-assessment"
   ],
-  "owner": "identity-and-access-management-team",
   "status": "approved",
   "version": "2.0",
+  "owner": "Identity and Access Management / Security Architecture",
   "related_guardrails": [
     "GUARD-SEC-003",
     "GUARD-SEC-004",
@@ -25,18 +26,24 @@
     "type": "external_url",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identity/identification-management/identification-standards/information-assurance-standard",
     "page_title": "Information Assurance Standard | NZ Digital government",
-    "content_hash": "e1109e386203ffda08db46fd3ff0bfeb3bd1e949ea907f9e60195f498052fe6e",
-    "last_fetched": "2026-04-03T03:27:35Z"
+    "content_hash": "adb4a9d5d69d19510acf6149506ae09dccc386fa6f626a8cd3a447c44306d0f6",
+    "last_fetched": "2026-04-21T21:39:50Z"
   },
-  "approved_by": null,
-  "approved_date": null,
-  "review_due": null,
   "change_log": [
     {
-      "version": "2.0",
-      "date": "2026-04-03T03:27:35Z",
+      "version": "1.0",
       "author": "auto-generated",
-      "summary": "Updated source URL, content hash, and last_fetched timestamp. Refreshed metadata alignment with current NZ Digital Government publication."
+      "date": "2026-04-21T21:39:50Z",
+      "summary": "Initial guardrail created from external source"
+    },
+    {
+      "version": "2.0",
+      "author": "auto-generated",
+      "date": "2026-04-21T21:39:50Z",
+      "summary": "Updated metadata with refined description, expanded tag set, and clarified four-level assurance framework (IA1\u2013IA4) scope"
     }
-  ]
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null
 }
