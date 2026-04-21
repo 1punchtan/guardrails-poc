@@ -1443,39 +1443,6 @@
       "_source_file": "guardrails/governance/GUARD-GOV-037.json"
     },
     {
-      "id": "GUARD-GOV-038",
-      "title": "Official Information Act 1982 — New Zealand",
-      "status": "approved",
-      "category": "governance",
-      "tags": [
-        "official-information",
-        "information-access",
-        "transparency",
-        "freedom-of-information",
-        "new-zealand",
-        "legislation",
-        "public-sector"
-      ],
-      "description": "New Zealand legislation establishing rights to access official information held by public sector agencies, procedures for requesting and releasing information, grounds for withholding information, and review mechanisms through the Ombudsman. Foundational for organizational information governance and transparency requirements.",
-      "owner": "Compliance and Governance",
-      "source": {
-        "type": "external_url",
-        "url": "https://www.legislation.govt.nz/act/public/1982/156/en/latest/",
-        "page_title": "Official Information Act 1982 | New Zealand Legislation",
-        "content_hash": "a17d43140a6d4da3d0fc9ef9ff2610f08a9bf1a39c620600157f32d8f169b15b",
-        "last_fetched": "2026-04-21T23:40:49Z"
-      },
-      "related_guardrails": [
-        "GUARD-GOV-026",
-        "GUARD-GOV-025",
-        "GUARD-GOV-013"
-      ],
-      "version": "2.0",
-      "approved_date": null,
-      "review_due": null,
-      "_source_file": "guardrails/governance/GUARD-GOV-038.json"
-    },
-    {
       "id": "GUARD-SEC-001",
       "title": "New Zealand Information Security Manual (NZISM) v3.9",
       "status": "approved",
