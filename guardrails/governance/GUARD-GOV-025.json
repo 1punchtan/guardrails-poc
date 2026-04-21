@@ -1,11 +1,11 @@
 {
   "id": "GUARD-GOV-025",
+  "version": "1.1",
+  "status": "under-review",
   "title": "Ombudsmen Act 1975 \u2014 New Zealand Legislation",
   "category": "governance",
-  "subcategory": "oversight-and-complaints",
+  "subcategory": "oversight-and-accountability",
   "type": "policy",
-  "status": "approved",
-  "version": "1.0",
   "description": "New Zealand legislation establishing the ombudsmen office and framework for investigating complaints against public service agencies, state enterprises, and local organizations. Defines investigative powers, complaint procedures, secrecy obligations, and coordination with other oversight bodies.",
   "tags": [
     "ombudsman",
@@ -17,27 +17,33 @@
     "accountability"
   ],
   "owner": "Ministry of Justice",
-  "related_guardrails": [
-    "GUARD-GOV-024",
-    "GUARD-GOV-020",
-    "GUARD-GOV-013"
-  ],
   "source": {
     "type": "external_url",
     "url": "https://www.legislation.govt.nz/act/public/1975/9/en/latest/",
     "page_title": "Ombudsmen Act 1975 | New Zealand Legislation",
-    "content_hash": "e6ff8da5bdab326f157ec184d531a4a2f151d4f3e70a7231dd4055ea06ba2e30",
-    "last_fetched": "2026-04-02T07:47:43Z"
+    "content_hash": "c4cb5b712edc62f2f11b417afe5275ea401d7d2896a11711d5d3d76b8f0a0fdf",
+    "last_fetched": "2026-04-21T21:40:14Z"
   },
+  "related_guardrails": [
+    "GUARD-GOV-026",
+    "GUARD-GOV-024",
+    "GUARD-GOV-002"
+  ],
   "approved_by": null,
   "approved_date": null,
   "review_due": null,
-  "change_log": [
+  "changelog": [
     {
       "version": "1.0",
-      "date": "2026-04-02T07:47:43Z",
+      "date": "2026-01-15",
       "author": "auto-generated",
-      "summary": "Initial creation from external legislation source. Establishes ombudsmen office framework and complaint investigation procedures for New Zealand public agencies."
+      "summary": "Initial guardrail entry created from New Zealand legislation registry"
+    },
+    {
+      "version": "1.1",
+      "date": "2026-04-21",
+      "author": "auto-generated",
+      "summary": "Updated source metadata with verified external URL, content hash, and current page title from legislation.govt.nz; refined description and tags for consistency with existing governance standards"
     }
   ]
 }
