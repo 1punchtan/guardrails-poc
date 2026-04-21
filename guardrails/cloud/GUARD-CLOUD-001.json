@@ -5,7 +5,7 @@
   "subcategory": "cloud-adoption",
   "type": "policy",
   "version": "2.0",
-  "status": "under-review",
+  "status": "approved",
   "description": "New Zealand government's mandatory cloud-first policy requiring public sector organisations to adopt public cloud services for information systems unless specific exceptions apply. Covers data classification requirements, multi-cloud strategies, cost optimization, risk assessment, and sustainability considerations.",
   "tags": [
     "cloud-first",
