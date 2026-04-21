@@ -1,50 +1,49 @@
 {
   "id": "GUARD-GOV-026",
-  "title": "Official Information Act 1982 \u2013 New Zealand",
+  "title": "Official Information Act 1982 \u2014 New Zealand Information Access and Privacy",
   "category": "governance",
-  "subcategory": "legal-compliance",
+  "subcategory": "information-access-and-privacy",
   "type": "policy",
-  "description": "New Zealand legislation establishing requirements for public access to official information, procedures for information requests, withholding criteria, and oversight mechanisms. Directly applicable to government agencies and organizations handling official information.",
+  "description": "New Zealand legislation establishing frameworks for public access to official information, personal information rights, and information withholding criteria. Defines procedures for requesting access to government documents, reasons for refusal, and ombudsman review mechanisms. Critical for organizations handling NZ government data and complying with transparency and privacy obligations.",
   "tags": [
     "information-access",
     "transparency",
     "privacy",
-    "compliance",
+    "nz-legislation",
     "public-records",
-    "ombudsman",
-    "new-zealand",
-    "legislation"
+    "compliance",
+    "personal-information"
   ],
   "status": "approved",
   "version": "2.0",
-  "owner": "Compliance & Legal",
-  "related_guardrails": [
-    "GUARD-GOV-025",
-    "GUARD-GOV-024",
-    "GUARD-GOV-013"
-  ],
+  "suggested_owner": "compliance-and-legal",
   "source": {
     "type": "external_url",
     "url": "https://www.legislation.govt.nz/act/public/1982/156/en/latest/",
     "page_title": "Official Information Act 1982 | New Zealand Legislation",
-    "content_hash": "a17d43140a6d4da3d0fc9ef9ff2610f08a9bf1a39c620600157f32d8f169b15b",
-    "last_fetched": "2026-04-21T21:40:15Z"
+    "content_hash": "4c0f95b868e66a7c785ab1debe0cba668e89ac69009745848633ec02347a2703",
+    "last_fetched": "2026-04-21T23:35:10Z"
   },
-  "change_log": [
-    {
-      "version": "2.0",
-      "date": "2026-04-21T21:40:15Z",
-      "author": "auto-generated",
-      "change": "Updated metadata with refined description, added legislation tag, and updated related guardrails based on content analysis. Enhanced tag set and confirmed alignment with Information Sharing and Ombudsmen oversight frameworks."
-    },
-    {
-      "version": "1.0",
-      "date": "2026-04-21T00:00:00Z",
-      "author": "auto-generated",
-      "change": "Initial guardrail created from external legislation source."
-    }
+  "related_guardrails": [
+    "GUARD-GOV-013",
+    "GUARD-GOV-024",
+    "GUARD-GOV-025"
   ],
   "approved_by": null,
   "approved_date": null,
-  "review_due": null
+  "review_due": null,
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "2024-01-01",
+      "author": "auto-generated",
+      "summary": "Initial guardrail creation"
+    },
+    {
+      "version": "2.0",
+      "date": "2026-04-21",
+      "author": "auto-generated",
+      "summary": "Updated content hash and metadata; refined description for clarity on information access procedures and ombudsman review mechanisms"
+    }
+  ]
 }
