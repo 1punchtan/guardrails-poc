@@ -14,7 +14,7 @@
     "compliance"
   ],
   "owner": "Chief Information Security Officer or Enterprise Architecture",
-  "status": "under-review",
+  "status": "approved",
   "version": "2.0",
   "related_guardrails": [
     "GUARD-CLOUD-001",
