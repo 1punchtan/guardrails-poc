@@ -40,7 +40,7 @@ Comprehensive voluntary guidance for New Zealand businesses on adopting and depl
 
 - [GUARD-GOV-002 — Algorithm Charter for Aotearoa New Zealand](../governance/GUARD-GOV-002.md)
 - [GUARD-GOV-012 — New Zealand Data and Information Management Principles](../governance/GUARD-GOV-012.md)
-- [GUARD-SEC-007 — New Zealand Government Cloud Adoption Security and Privacy Framework](../security/GUARD-SEC-007.md)
+- [GUARD-SEC-007 — New Zealand Government Cloud Adoption and Risk Assessment Framework](../security/GUARD-SEC-007.md)
 
 ## Change history
 

@@ -38,7 +38,7 @@ New Zealand government policy requiring public cloud adoption for information sy
 
 - [GUARD-CLOUD-002 — All of Government Cloud Sourcing Strategy](../cloud/GUARD-CLOUD-002.md)
 - [GUARD-GOV-017 — Risk Assessment for Public Cloud Services](../governance/GUARD-GOV-017.md)
-- [GUARD-SEC-007 — New Zealand Government Cloud Adoption Security and Privacy Framework](../security/GUARD-SEC-007.md)
+- [GUARD-SEC-007 — New Zealand Government Cloud Adoption and Risk Assessment Framework](../security/GUARD-SEC-007.md)
 
 ## Change history
 

@@ -37,7 +37,7 @@ New Zealand government guidance for assessing risks associated with public cloud
 ## Related guardrails
 
 - [GUARD-CLOUD-001 — NZ Government Cloud First Policy](../cloud/GUARD-CLOUD-001.md)
-- [GUARD-SEC-007 — New Zealand Government Cloud Adoption Security and Privacy Framework](../security/GUARD-SEC-007.md)
+- [GUARD-SEC-007 — New Zealand Government Cloud Adoption and Risk Assessment Framework](../security/GUARD-SEC-007.md)
 - [GUARD-GOV-016 — NZ Information Sharing Standard — Purpose and Scope](../governance/GUARD-GOV-016.md)
 
 ## Change history

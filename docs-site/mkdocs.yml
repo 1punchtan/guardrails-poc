@@ -76,7 +76,7 @@ nav:
     - "GUARD-SEC-004 — Binding Assurance Standard": guardrails/security/GUARD-SEC-004.md
     - "GUARD-SEC-005 — Authentication Assurance Standard": guardrails/security/GUARD-SEC-005.md
     - "GUARD-SEC-006 — Federation Assurance Standard": guardrails/security/GUARD-SEC-006.md
-    - "GUARD-SEC-007 — New Zealand Government Cloud Adoption Secur…": guardrails/security/GUARD-SEC-007.md
+    - "GUARD-SEC-007 — New Zealand Government Cloud Adoption and R…": guardrails/security/GUARD-SEC-007.md
     - "GUARD-SEC-008 — Information Assurance Standard — NZ Digital…": guardrails/security/GUARD-SEC-008.md
   - Cloud:
     - guardrails/cloud/index.md
