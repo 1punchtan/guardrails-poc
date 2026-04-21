@@ -35,7 +35,7 @@ Imperial Act establishing foundational constitutional rights and liberties, incl
 
 ## Related guardrails
 
-- [GUARD-GOV-026 — Official Information Act 1982 – New Zealand](../governance/GUARD-GOV-026.md)
+- [GUARD-GOV-026 — Official Information Act 1982 — New Zealand Information Access and Privacy](../governance/GUARD-GOV-026.md)
 - [GUARD-GOV-028 — Human Rights Act 1993 - New Zealand Legislation](../governance/GUARD-GOV-028.md)
 - [GUARD-GOV-013 — Privacy Act 2020 — New Zealand](../governance/GUARD-GOV-013.md)
 

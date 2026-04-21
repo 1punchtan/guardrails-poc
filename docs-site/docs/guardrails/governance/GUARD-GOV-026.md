@@ -1,17 +1,16 @@
 ---
-title: "GUARD-GOV-026 — Official Information Act 1982 – New Zealand"
+title: "GUARD-GOV-026 — Official Information Act 1982 — New Zealand Information Access and Privacy"
 tags:
   - information-access
   - transparency
   - privacy
-  - compliance
+  - nz-legislation
   - public-records
-  - ombudsman
-  - new-zealand
-  - legislation
+  - compliance
+  - personal-information
 ---
 
-# Official Information Act 1982 – New Zealand
+# Official Information Act 1982 — New Zealand Information Access and Privacy
 
 **Status:** ✅ Approved &nbsp;&nbsp; **Version:** 2.0
 
@@ -19,16 +18,16 @@ tags:
 |---|---|
 | **ID** | `GUARD-GOV-026` |
 | **Category** | Governance |
-| **Subcategory** | legal-compliance |
+| **Subcategory** | information-access-and-privacy |
 | **Type** | policy |
-| **Owner** | Compliance & Legal |
+| **Owner** | compliance-and-legal |
 | **Approved by** | — |
 | **Approved date** | — |
 | **Review due** | — |
 
 ## Description
 
-New Zealand legislation establishing requirements for public access to official information, procedures for information requests, withholding criteria, and oversight mechanisms. Directly applicable to government agencies and organizations handling official information.
+New Zealand legislation establishing frameworks for public access to official information, personal information rights, and information withholding criteria. Defines procedures for requesting access to government documents, reasons for refusal, and ombudsman review mechanisms. Critical for organizations handling NZ government data and complying with transparency and privacy obligations.
 
 ## Source document
 
@@ -38,13 +37,13 @@ New Zealand legislation establishing requirements for public access to official 
 
 ## Related guardrails
 
-- [GUARD-GOV-025 — Ombudsmen Act 1975 — New Zealand Legislation](../governance/GUARD-GOV-025.md)
-- [GUARD-GOV-024 — Public Records Act 2005 (New Zealand)](../governance/GUARD-GOV-024.md)
 - [GUARD-GOV-013 — Privacy Act 2020 — New Zealand](../governance/GUARD-GOV-013.md)
+- [GUARD-GOV-024 — Public Records Act 2005 (New Zealand)](../governance/GUARD-GOV-024.md)
+- [GUARD-GOV-025 — Ombudsmen Act 1975 — New Zealand Legislation](../governance/GUARD-GOV-025.md)
 
 ## Change history
 
 | Version | Date | Author | Summary |
 |---|---|---|---|
-| 2.0 | 2026-04-21 | auto-generated | Updated metadata with refined description, added legislation tag, and updated related guardrails based on content analysis. Enhanced tag set and confirmed alignment with Information Sharing and Ombudsmen oversight frameworks. |
-| 1.0 | 2026-04-21 | auto-generated | Initial guardrail created from external legislation source. |
+| 1.0 | 2024-01-01 | auto-generated | Initial guardrail creation |
+| 2.0 | 2026-04-21 | auto-generated | Updated content hash and metadata; refined description for clarity on information access procedures and ombudsman review mechanisms |
