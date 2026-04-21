@@ -1,7 +1,7 @@
 {
   "generated_by": "generate_index.py",
   "description": "Auto-generated index of approved architecture guardrails. Do not edit manually — regenerated on every merge to main.",
-  "guardrail_count": 51,
+  "guardrail_count": 52,
   "guardrails": [
     {
       "id": "GUARD-API-001",
@@ -235,6 +235,37 @@
       "approved_date": null,
       "review_due": null,
       "_source_file": "guardrails/cloud/GUARD-CLOUD-002.json"
+    },
+    {
+      "id": "GUARD-EXE-001",
+      "title": "CI/CD Flows",
+      "status": "approved",
+      "category": "execution",
+      "tags": [
+        "cicd",
+        "pipeline",
+        "devsecops",
+        "deployment",
+        "automation"
+      ],
+      "description": "Architecture diagram defining CI/CD pipeline flows and deployment patterns. Documents the standard process for code integration, testing, and release automation within the DevSecOps framework.",
+      "owner": "DevSecOps / Platform Engineering",
+      "source": {
+        "type": "onedrive",
+        "onedrive_item_id": "618A7276C00856EA!s0099c71d9e1441a4b6e77951cf6e8a2b",
+        "url": "https://onedrive.live.com?cid=618A7276C00856EA&id=618A7276C00856EA!s0099c71d9e1441a4b6e77951cf6e8a2b",
+        "filename": "CICD Flows.drawio",
+        "last_modified": "2026-04-01T21:50:53Z"
+      },
+      "related_guardrails": [
+        "GUARD-SEC-002",
+        "GUARD-GOV-008",
+        "GUARD-ARCH-001"
+      ],
+      "version": "1.0",
+      "approved_date": null,
+      "review_due": null,
+      "_source_file": "guardrails/execution/GUARD-EXE-001.json"
     },
     {
       "id": "GUARD-GOV-001",
