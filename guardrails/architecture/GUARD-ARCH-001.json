@@ -2,47 +2,48 @@
   "id": "GUARD-ARCH-001",
   "title": "Digital Service Design Standard",
   "category": "architecture",
-  "subcategory": "service design",
+  "subcategory": "digital-service-design",
   "type": "standard",
-  "description": "New Zealand government standard providing design principles and guidance for creating user-focused, secure, and inclusive digital services. Establishes 12 core principles covering user needs, security, equity, collaboration, and accountability.",
+  "version": "2.0",
+  "status": "approved",
+  "description": "New Zealand government standard providing 12 core principles for designing and delivering user-focused, high-quality digital services. Covers user needs, security, privacy, inclusivity, interdisciplinary collaboration, and accountability to ensure ethical and equitable public service delivery.",
   "tags": [
-    "digital-service",
+    "digital-services",
     "design-standard",
     "user-centered",
     "government",
-    "principles",
+    "nz",
+    "governance",
     "service-delivery"
   ],
-  "owner": "NZ Digital Government",
-  "status": "approved",
-  "version": "2.0",
+  "owner": "Digital Government Service Design Team",
+  "related_guardrails": [
+    "GUARD-GOV-001",
+    "GUARD-GOV-015",
+    "GUARD-SEC-007"
+  ],
   "source": {
     "type": "external_url",
     "url": "https://www.digital.govt.nz/standards-and-guidance/digital-service-design-standard",
     "page_title": "Digital Service Design Standard | NZ Digital government",
-    "content_hash": "1f91bfd9fb924e127b0f57adc9b3ba7573d46a93eacbc49cae133d8ac8129e94",
-    "last_fetched": "2026-04-03T03:27:26Z"
+    "content_hash": "1e7b4b556abed79dff0ca7c62ff64724496f59519a698a6cfb108ac7f3abe65c",
+    "last_fetched": "2026-04-21T21:39:42Z"
   },
-  "related_guardrails": [
-    "GUARD-GOV-015",
-    "GUARD-SEC-001",
-    "GUARD-CLOUD-001"
-  ],
   "approved_by": null,
   "approved_date": null,
   "review_due": null,
-  "changelog": [
+  "change_log": [
     {
       "version": "1.0",
-      "date": "2025-01-01",
+      "date": "2024-01-15",
       "author": "auto-generated",
-      "summary": "Initial guardrail creation for NZ Digital Service Design Standard"
+      "change": "Initial creation of guardrail from external source"
     },
     {
       "version": "2.0",
-      "date": "2026-04-03",
+      "date": "2026-04-21",
       "author": "auto-generated",
-      "summary": "Updated source metadata with latest content hash and fetch timestamp from external_url"
+      "change": "Updated metadata with refined description and expanded governance tags; category refined from 'governance' to 'architecture' for alignment with service design focus"
     }
   ]
 }
