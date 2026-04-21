@@ -14,7 +14,7 @@
     "nz-government",
     "risk-assessment"
   ],
-  "status": "under-review",
+  "status": "approved",
   "version": "2.0",
   "owner": "Identity and Access Management / Security Architecture",
   "related_guardrails": [
