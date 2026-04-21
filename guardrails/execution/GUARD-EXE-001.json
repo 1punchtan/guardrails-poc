@@ -1,0 +1,41 @@
+{
+  "id": "GUARD-EXE-001",
+  "title": "CI/CD Flows",
+  "category": "execution",
+  "subcategory": "continuous-integration-deployment",
+  "type": "diagram",
+  "description": "Architecture diagram defining CI/CD pipeline flows and deployment patterns. Documents the standard process for code integration, testing, and release automation within the DevSecOps framework.",
+  "tags": [
+    "cicd",
+    "pipeline",
+    "devsecops",
+    "deployment",
+    "automation"
+  ],
+  "status": "approved",
+  "version": "1.0",
+  "owner": "DevSecOps / Platform Engineering",
+  "source": {
+    "type": "onedrive",
+    "onedrive_item_id": "618A7276C00856EA!s0099c71d9e1441a4b6e77951cf6e8a2b",
+    "url": "https://onedrive.live.com?cid=618A7276C00856EA&id=618A7276C00856EA!s0099c71d9e1441a4b6e77951cf6e8a2b",
+    "filename": "CICD Flows.drawio",
+    "last_modified": "2026-04-01T21:50:53Z"
+  },
+  "related_guardrails": [
+    "GUARD-SEC-002",
+    "GUARD-GOV-008",
+    "GUARD-ARCH-001"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
+  "changelog": [
+    {
+      "version": "1.0",
+      "date": "2025-01-01T00:00:00Z",
+      "author": "auto-generated",
+      "change_summary": "Initial guardrail creation from OneDrive source. Defines CI/CD pipeline flows and deployment patterns for DevSecOps framework."
+    }
+  ]
+}
