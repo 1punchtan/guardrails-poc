@@ -4,7 +4,7 @@ title: "Governance Guardrails"
 
 # Governance Guardrails
 
-36 guardrail(s) — 36 approved.
+37 guardrail(s) — 37 approved.
 
 | ID | Title | Status | Version | Review due |
 |---|---|---|---|---|
@@ -44,3 +44,4 @@ title: "Governance Guardrails"
 | [GUARD-GOV-035](GUARD-GOV-035.md) | Student Allowances Regulations 1998 (New Zealand) | ✅ Approved | 2.0 | — |
 | [GUARD-GOV-036](GUARD-GOV-036.md) | Copyright Act 1994 — New Zealand Legislation | ✅ Approved | 2.0 | — |
 | [GUARD-GOV-037](GUARD-GOV-037.md) | Responsible AI Guidance for Businesses | ✅ Approved | 1.0 | — |
+| [GUARD-GOV-038](GUARD-GOV-038.md) | Official Information Act 1982 — New Zealand | ✅ Approved | 2.0 | — |
