@@ -1,7 +1,7 @@
 {
   "generated_by": "generate_index.py",
   "description": "Auto-generated index of approved architecture guardrails. Do not edit manually — regenerated on every merge to main.",
-  "guardrail_count": 53,
+  "guardrail_count": 52,
   "guardrails": [
     {
       "id": "GUARD-API-001",
