@@ -1315,28 +1315,27 @@
       "category": "governance",
       "tags": [
         "student-allowances",
+        "legislation",
         "eligibility",
-        "income-assessment",
-        "education-policy",
+        "compliance",
         "new-zealand",
-        "secondary-legislation",
-        "compliance"
+        "education-funding"
       ],
-      "description": "New Zealand secondary legislation (SR 1998/277) governing student allowances, eligibility criteria, income assessment, payment terms, and suspension conditions. Administered by the Ministry of Social Development under the Education Act 1989. Relevant for organizations managing student financial assistance programs or compliance with NZ education regulations.",
+      "description": "New Zealand secondary legislation (SR 1998/277) administered by the Ministry of Social Development that establishes eligibility criteria, assessment mechanisms, payment schedules, and suspension rules for student allowances including basic grants, accommodation benefits, and income-based assessments.",
       "owner": "Ministry of Social Development",
       "source": {
         "type": "external_url",
         "url": "https://www.legislation.govt.nz/secondary-legislation/pco-drafted/1998/277/en/latest/",
         "page_title": "Student Allowances Regulations 1998 | New Zealand Legislation",
-        "content_hash": "8b1a02a0de41f8f32d20c8fc7d4f0795b8c0f6e190741b39e049f0648b2e3846",
-        "last_fetched": "2026-04-02T07:48:01Z"
+        "content_hash": "616656d4a19e675e0201f84b5df3018b0dd530b75806bd053eb676068bb15d13",
+        "last_fetched": "2026-04-21T21:40:31Z"
       },
       "related_guardrails": [
         "GUARD-GOV-022",
-        "GUARD-GOV-023",
-        "GUARD-GOV-027"
+        "GUARD-GOV-027",
+        "GUARD-GOV-023"
       ],
-      "version": "1.0",
+      "version": "2.0",
       "approved_date": null,
       "review_due": null,
       "_source_file": "guardrails/governance/GUARD-GOV-035.json"
