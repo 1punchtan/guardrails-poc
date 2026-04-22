@@ -21,7 +21,7 @@ title: "Governance Guardrails"
 | [GUARD-GOV-011](GUARD-GOV-011.md) | Telecommunications Information Privacy Code 2020 | ✅ Approved | 1.0 | — |
 | [GUARD-GOV-012](GUARD-GOV-012.md) | New Zealand Data and Information Management Principles | ✅ Approved | 1.0 | — |
 | [GUARD-GOV-013](GUARD-GOV-013.md) | Privacy Act 2020 — New Zealand | ✅ Approved | 1.0 | — |
-| [GUARD-GOV-014](GUARD-GOV-014.md) | NZ Government Web Accessibility Standard 1.2 | ✅ Approved | 1.1 | — |
+| [GUARD-GOV-014](GUARD-GOV-014.md) | NZ Government Web Accessibility Standard 1.2 | ✅ Approved | 1.2 | — |
 | [GUARD-GOV-015](GUARD-GOV-015.md) | NZ Government Web Usability Standard 1.4 | ✅ Approved | 1.0 | — |
 | [GUARD-GOV-016](GUARD-GOV-016.md) | NZ Information Sharing Standard — Purpose and Scope | ✅ Approved | 1.2 | — |
 | [GUARD-GOV-017](GUARD-GOV-017.md) | Risk Assessment for Public Cloud Services | ✅ Approved | 3.0 | — |
