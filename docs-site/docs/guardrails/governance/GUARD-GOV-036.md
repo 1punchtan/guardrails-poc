@@ -42,7 +42,7 @@ New Zealand legislation consolidating and amending copyright law, covering owner
 
 - [GUARD-GOV-010 — NZGOAL Software Extension: Open Source Licensing Framework for Government Software](../governance/GUARD-GOV-010.md)
 - [GUARD-GOV-013 — Privacy Act 2020 — New Zealand](../governance/GUARD-GOV-013.md)
-- [GUARD-GOV-026 — Official Information Act 1982 — New Zealand Information Access and Privacy](../governance/GUARD-GOV-026.md)
+- [GUARD-GOV-026 — Official Information Act 1982 – New Zealand Information Access Framework](../governance/GUARD-GOV-026.md)
 
 ## Change history
 

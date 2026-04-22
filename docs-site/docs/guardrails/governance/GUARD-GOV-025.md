@@ -37,7 +37,7 @@ New Zealand legislation establishing the ombudsmen office and framework for inve
 
 ## Related guardrails
 
-- [GUARD-GOV-026 — Official Information Act 1982 — New Zealand Information Access and Privacy](../governance/GUARD-GOV-026.md)
+- [GUARD-GOV-026 — Official Information Act 1982 – New Zealand Information Access Framework](../governance/GUARD-GOV-026.md)
 - [GUARD-GOV-024 — Public Records Act 2005 (New Zealand)](../governance/GUARD-GOV-024.md)
 - [GUARD-GOV-002 — Algorithm Charter for Aotearoa New Zealand](../governance/GUARD-GOV-002.md)
 
