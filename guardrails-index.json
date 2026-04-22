@@ -798,23 +798,23 @@
         "governance",
         "public-sector",
         "security-controls",
-        "compliance"
+        "cloud-adoption"
       ],
-      "description": "New Zealand government guidance for assessing risks associated with public cloud service adoption, including risk discovery tools, jurisdictional considerations, and organizational risk register updates. Provides frameworks for government agencies to evaluate security controls and approval processes.",
-      "owner": "Chief Information Security Officer or Enterprise Architecture",
+      "description": "Guidance on how to assess risks when adopting or modifying public cloud services in government agencies, including a risk discovery tool, jurisdictional risk considerations, and processes for documenting and approving risk decisions.",
+      "owner": "Government Chief Digital Officer (GCDO)",
       "source": {
         "type": "external_url",
         "url": "https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/cloud-services/assess-the-risks",
         "page_title": "Risks assessment for public cloud services | NZ Digital government",
-        "content_hash": "a595d878fd9b091a3f3dc3525c9e0fb138fc50b1628e9eeba2d9734086c5b8c3",
-        "last_fetched": "2026-04-21T21:40:01Z"
+        "content_hash": "32c83ee450091b991985cffce4dd5a312f7b8a17f184364817aa46aa753a243b",
+        "last_fetched": "2026-04-22"
       },
       "related_guardrails": [
         "GUARD-CLOUD-001",
-        "GUARD-SEC-007",
-        "GUARD-GOV-016"
+        "GUARD-CLOUD-002",
+        "GUARD-SEC-007"
       ],
-      "version": "2.0",
+      "version": "3.0",
       "approved_date": null,
       "review_due": null,
       "_source_file": "guardrails/governance/GUARD-GOV-017.json"
