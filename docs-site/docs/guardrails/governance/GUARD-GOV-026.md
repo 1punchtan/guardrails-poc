@@ -1,17 +1,17 @@
 ---
-title: "GUARD-GOV-026 — Official Information Act 1982 – New Zealand Information Access Framework"
+title: "GUARD-GOV-026 — Official Information Act 1982 — New Zealand"
 tags:
   - information-access
   - transparency
-  - privacy
-  - public-records
-  - compliance
-  - new-zealand
+  - public-sector
+  - personal-privacy
+  - ombudsman
+  - nz-legislation
 ---
 
-# Official Information Act 1982 – New Zealand Information Access Framework
+# Official Information Act 1982 — New Zealand
 
-**Status:** ✅ Approved &nbsp;&nbsp; **Version:** 2.1
+**Status:** ✅ Approved &nbsp;&nbsp; **Version:** 2.2
 
 | Field | Value |
 |---|---|
@@ -26,7 +26,7 @@ tags:
 
 ## Description
 
-New Zealand legislation establishing the legal framework for public access to official information, personal information rights, and procedures for withholding information. Defines criteria for information availability, request processes, and review mechanisms via the Ombudsman.
+New Zealand legislation establishing the framework for public access to official information, personal information rights, and procedures for withholding information. Governs information disclosure obligations across government departments and public organizations, with review mechanisms through the Ombudsman.
 
 ## Source document
 
@@ -47,3 +47,4 @@ New Zealand legislation establishing the legal framework for public access to of
 | 1.0 | 2024-01-01 | auto-generated | Initial guardrail creation |
 | 2.0 | 2026-04-21 | auto-generated | Updated content hash and metadata; refined description for clarity on information access procedures and ombudsman review mechanisms |
 | 2.1 | 2026-04-22 | auto-generated | Updated source metadata with latest content hash and fetch timestamp; confirmed external URL source identifier |
+| 2.2 | 2026-04-22 | auto-generated | Refreshed external URL source metadata and content hash; confirmed continuous availability and current legislation status |

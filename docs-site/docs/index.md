@@ -25,7 +25,7 @@ This library contains the approved architecture guardrails for the organisation.
 |---|---|---|---|
 | [GUARD-GOV-022](guardrails/governance/GUARD-GOV-022.md) | Social Security Act 2018 - New Zealand Legislation | Governance | 2026-04-22 |
 | [GUARD-GOV-025](guardrails/governance/GUARD-GOV-025.md) | Ombudsmen Act 1975 — New Zealand Legislation | Governance | 2026-04-22 |
-| [GUARD-GOV-026](guardrails/governance/GUARD-GOV-026.md) | Official Information Act 1982 – New Zealand Information Access Framework | Governance | 2026-04-22 |
+| [GUARD-GOV-026](guardrails/governance/GUARD-GOV-026.md) | Official Information Act 1982 — New Zealand | Governance | 2026-04-22 |
 | [GUARD-ARCH-001](guardrails/architecture/GUARD-ARCH-001.md) | Digital Service Design Standard | Architecture | 2026-04-21 |
 | [GUARD-CLOUD-001](guardrails/cloud/GUARD-CLOUD-001.md) | NZ Government Cloud First Policy | Cloud | 2026-04-21 |
 | [GUARD-GOV-014](guardrails/governance/GUARD-GOV-014.md) | NZ Government Web Accessibility Standard 1.2 | Governance | 2026-04-21 |

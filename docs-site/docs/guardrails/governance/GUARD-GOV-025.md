@@ -38,7 +38,7 @@ New Zealand statutory legislation establishing the role and functions of Ombudsm
 ## Related guardrails
 
 - [GUARD-GOV-024 — Public Records Act 2005 (New Zealand)](../governance/GUARD-GOV-024.md)
-- [GUARD-GOV-026 — Official Information Act 1982 – New Zealand Information Access Framework](../governance/GUARD-GOV-026.md)
+- [GUARD-GOV-026 — Official Information Act 1982 — New Zealand](../governance/GUARD-GOV-026.md)
 - [GUARD-GOV-013 — Privacy Act 2020 — New Zealand](../governance/GUARD-GOV-013.md)
 
 ## Change history
