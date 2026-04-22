@@ -1,34 +1,37 @@
 {
   "id": "GUARD-SEC-008",
-  "title": "Information Assurance Standard — NZ Digital Government",
+  "title": "Information Assurance Standard \u2013 Entity Information Quality Controls",
   "category": "security",
-  "subcategory": "identity-and-access-management",
+  "subcategory": "identity-management",
   "type": "standard",
-  "description": "New Zealand government standard establishing information management controls to ensure collected entity information is accurate, distinctive, and suitable for eligibility and capability decisions. Provides four-level assurance framework (IA1–IA4) for risk-based verification of identity information, covering evidence quality, storage, accuracy, and counter-fraud measures.",
+  "version": "2.1",
+  "status": "approved",
+  "description": "New Zealand government standard defining information management controls to ensure collected entity information is accurate, distinctive, and suitable for eligibility and capability decisions. Establishes four assurance levels with specific requirements for evidence verification, storage, and fraud prevention.",
   "tags": [
     "identity-management",
     "information-assurance",
-    "data-quality",
-    "verification",
+    "entity-information",
+    "evidence-verification",
     "fraud-prevention",
-    "nz-government",
-    "risk-assessment"
+    "risk-assessment",
+    "data-quality"
   ],
-  "status": "approved",
-  "version": "2.0",
-  "owner": "Identity and Access Management / Security Architecture",
+  "owner": "Department of Internal Affairs (Te Tari Taiwhenua)",
+  "source": {
+    "type": "external_url",
+    "url": "https://www.digital.govt.nz/standards-and-guidance/identity/identification-management/identification-standards/information-assurance-standard",
+    "page_title": "Information Assurance Standard | NZ Digital government",
+    "content_hash": "8b15de93f6087748bd2e49e84c8725643e2c099f1e0beb5debee95f910381166",
+    "last_fetched": "2026-04-22"
+  },
   "related_guardrails": [
     "GUARD-SEC-003",
     "GUARD-SEC-004",
     "GUARD-SEC-005"
   ],
-  "source": {
-    "type": "external_url",
-    "url": "https://www.digital.govt.nz/standards-and-guidance/identity/identification-management/identification-standards/information-assurance-standard",
-    "page_title": "Information Assurance Standard | NZ Digital government",
-    "content_hash": "adb4a9d5d69d19510acf6149506ae09dccc386fa6f626a8cd3a447c44306d0f6",
-    "last_fetched": "2026-04-21T21:39:50Z"
-  },
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
   "change_log": [
     {
       "version": "1.0",
@@ -40,10 +43,13 @@
       "version": "2.0",
       "author": "auto-generated",
       "date": "2026-04-21",
-      "summary": "Updated metadata with refined description, expanded tag set, and clarified four-level assurance framework (IA1–IA4) scope"
+      "summary": "Updated metadata with refined description, expanded tag set, and clarified four-level assurance framework (IA1\u2013IA4) scope"
+    },
+    {
+      "version": "2.1",
+      "date": "2026-04-22",
+      "author": "auto-generated",
+      "summary": "Updated source metadata with current content hash and fetched timestamp; refined title formatting and tag consistency"
     }
-  ],
-  "approved_by": null,
-  "approved_date": null,
-  "review_due": null
+  ]
 }
