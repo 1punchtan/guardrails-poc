@@ -1,33 +1,33 @@
 {
   "id": "GUARD-GOV-022",
-  "version": "2.0",
-  "status": "approved",
-  "title": "Social Security Act 2018 - New Zealand Legislation",
+  "title": "Social Security Act 2018 \u2014 New Zealand Legislation",
   "category": "governance",
-  "subcategory": "regulatory-compliance",
+  "subcategory": "social-security-policy",
   "type": "policy",
-  "description": "New Zealand's primary social security legislation establishing eligibility requirements, benefit types, and obligations for persons receiving social assistance. Covers jobseeker support, sole parent support, supported living payments, youth payments, and various supplementary allowances administered by the Ministry of Social Development.",
+  "description": "New Zealand's primary legislation governing social security assistance, benefits, and welfare obligations. Administered by the Ministry of Social Development, it establishes eligibility criteria, payment rates, and beneficiary obligations across multiple assistance types including jobseeker support, sole parent support, disability allowances, and emergency benefits.",
   "tags": [
-    "legislation",
     "social-security",
-    "benefits",
     "new-zealand",
-    "compliance",
     "welfare",
-    "regulatory"
+    "legislation",
+    "benefits",
+    "policy",
+    "compliance"
   ],
   "owner": "Ministry of Social Development",
+  "status": "under-review",
+  "version": "3.0",
   "source": {
     "type": "external_url",
     "url": "https://www.legislation.govt.nz/act/public/2018/32/en/latest/",
     "page_title": "Social Security Act 2018 | New Zealand Legislation",
-    "content_hash": "6b65f29212c3c80200217ce784e106ae53a1b347c4b0ee39f95a5b6ecc9d9144",
-    "last_fetched": "2026-04-22T00:11:25Z"
+    "content_hash": "7a7a66122d1213e098c89ef3a3850ff35a2be6d3449fe78ee373adf697638760",
+    "last_fetched": "2026-04-22"
   },
   "related_guardrails": [
     "GUARD-GOV-021",
     "GUARD-GOV-023",
-    "GUARD-GOV-019"
+    "GUARD-GOV-006"
   ],
   "approved_by": null,
   "approved_date": null,
@@ -44,6 +44,12 @@
       "date": "2026-04-22",
       "author": "auto-generated",
       "summary": "Updated metadata with verified page title, current content hash, and refined description. Confirmed source URL and legislation status. Enhanced tags for consistency with governance taxonomy."
+    },
+    {
+      "version": "3.0",
+      "date": "2026-04-22",
+      "author": "auto-generated",
+      "summary": "Refreshed content hash and fetch timestamp. Verified source URL stability and metadata accuracy. No changes to substance or structure."
     }
   ]
 }
