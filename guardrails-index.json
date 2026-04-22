@@ -901,6 +901,7 @@
         "state-sector"
       ],
       "description": "New Zealand legislation establishing the governance framework for the State Sector, defining roles and responsibilities of the State Services Commissioner, chief executives, and public service personnel. This Act (now repealed as of August 2020 by the Public Service Act 2020) established foundational principles for public service management, employment conditions, and organizational structure.",
+      "owner": "State Services Commission",
       "source": {
         "type": "external_url",
         "url": "https://www.legislation.govt.nz/act/public/1988/20/en/latest/",
@@ -1132,6 +1133,7 @@
         "fund-governance"
       ],
       "description": "New Zealand legislation establishing the legal framework for superannuation entitlements, the New Zealand Superannuation Fund, the Guardians of New Zealand Superannuation, and the Retirement Commissioner. Administered by the Ministry of Social Development and The Treasury, it defines age and residential qualifications, payment structures, fund management, and oversight mechanisms for retirement income.",
+      "owner": "Ministry of Social Development; The Treasury",
       "source": {
         "type": "external_url",
         "url": "https://www.legislation.govt.nz/act/public/2001/84/en/latest/",
@@ -1261,6 +1263,7 @@
         "compliance"
       ],
       "description": "New Zealand legislation governing employment relationships, including provisions on good faith dealings, union recognition, collective bargaining, individual employment agreements, and employee protections. Administered by the Ministry of Business, Innovation, and Employment.",
+      "owner": "Legal and Compliance",
       "source": {
         "type": "external_url",
         "url": "https://www.legislation.govt.nz/act/public/2000/24/en/latest/",
@@ -1392,6 +1395,7 @@
         "enforcement"
       ],
       "description": "New Zealand legislation consolidating and amending copyright law, covering ownership, duration, infringement, permitted acts, moral rights, and enforcement mechanisms. Relevant for organizations handling creative works, digital content, and intellectual property.",
+      "owner": "Legal / Compliance",
       "source": {
         "type": "external_url",
         "url": "https://www.legislation.govt.nz/act/public/1994/143/en/latest/",
@@ -1425,6 +1429,7 @@
         "stakeholder-engagement"
       ],
       "description": "Comprehensive voluntary guidance for New Zealand businesses on adopting and deploying AI systems responsibly. Covers governance, risk management, compliance, data ethics, transparency, and stakeholder engagement across the AI lifecycle, aligned with OECD principles and New Zealand values.",
+      "owner": "Governance / Chief Digital Officer",
       "source": {
         "type": "onedrive",
         "onedrive_item_id": "618A7276C00856EA!s7aa16f223bbb41248120d676584b6122",
@@ -1653,6 +1658,7 @@
         "compliance"
       ],
       "description": "Outlines the New Zealand government's mandatory framework for public cloud service adoption, including information classification, risk assessment requirements, and compliance with the Privacy Act 2020 and Information Security Manual. Government organizations must conduct due diligence using the Risk Discovery Tool covering data sovereignty, security, privacy, and incident response.",
+      "owner": "Chief Information Security Officer / Compliance Team",
       "source": {
         "type": "external_url",
         "url": "https://learn.microsoft.com/en-us/compliance/regulatory/offering-nz-cc-framework-nz",
