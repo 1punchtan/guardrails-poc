@@ -6,7 +6,7 @@ title: "Architecture Guardrails Library"
 
 This library contains the approved architecture guardrails for the organisation. Guardrails are standards, policies, patterns, and rules that guide how systems are built and integrated. Browse by category, search by keyword, or filter by tag.
 
-**52 guardrails** across 6 categories — 52 approved, 0 under review. Last updated: 2026-04-21.
+**52 guardrails** across 6 categories — 52 approved, 0 under review. Last updated: 2026-04-22.
 
 ## Browse by category
 
@@ -23,6 +23,7 @@ This library contains the approved architecture guardrails for the organisation.
 
 | ID | Title | Category | Last updated |
 |---|---|---|---|
+| [GUARD-GOV-022](guardrails/governance/GUARD-GOV-022.md) | Social Security Act 2018 - New Zealand Legislation | Governance | 2026-04-22 |
 | [GUARD-ARCH-001](guardrails/architecture/GUARD-ARCH-001.md) | Digital Service Design Standard | Architecture | 2026-04-21 |
 | [GUARD-CLOUD-001](guardrails/cloud/GUARD-CLOUD-001.md) | NZ Government Cloud First Policy | Cloud | 2026-04-21 |
 | [GUARD-GOV-014](guardrails/governance/GUARD-GOV-014.md) | NZ Government Web Accessibility Standard 1.2 | Governance | 2026-04-21 |
@@ -32,4 +33,3 @@ This library contains the approved architecture guardrails for the organisation.
 | [GUARD-GOV-026](guardrails/governance/GUARD-GOV-026.md) | Official Information Act 1982 — New Zealand Information Access and Privacy | Governance | 2026-04-21 |
 | [GUARD-GOV-027](guardrails/governance/GUARD-GOV-027.md) | New Zealand Superannuation and Retirement Income Act 2001 | Governance | 2026-04-21 |
 | [GUARD-GOV-031](guardrails/governance/GUARD-GOV-031.md) | Employment Relations Act 2000 (New Zealand) | Governance | 2026-04-21 |
-| [GUARD-GOV-035](guardrails/governance/GUARD-GOV-035.md) | Student Allowances Regulations 1998 (New Zealand) | Governance | 2026-04-21 |

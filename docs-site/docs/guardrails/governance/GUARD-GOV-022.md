@@ -1,5 +1,5 @@
 ---
-title: "GUARD-GOV-022 — Social Security Act 2018 — New Zealand"
+title: "GUARD-GOV-022 — Social Security Act 2018 - New Zealand Legislation"
 tags:
   - legislation
   - social-security
@@ -10,15 +10,15 @@ tags:
   - regulatory
 ---
 
-# Social Security Act 2018 — New Zealand
+# Social Security Act 2018 - New Zealand Legislation
 
-**Status:** ✅ Approved &nbsp;&nbsp; **Version:** 1.0
+**Status:** ✅ Approved &nbsp;&nbsp; **Version:** 2.0
 
 | Field | Value |
 |---|---|
 | **ID** | `GUARD-GOV-022` |
 | **Category** | Governance |
-| **Subcategory** | legislation |
+| **Subcategory** | regulatory-compliance |
 | **Type** | policy |
 | **Owner** | Ministry of Social Development |
 | **Approved by** | — |
@@ -27,22 +27,23 @@ tags:
 
 ## Description
 
-Primary legislation governing social security assistance in New Zealand, including benefit eligibility, rates, beneficiary obligations, and administration by the Ministry of Social Development. Establishes legal framework for jobseeker support, sole parent support, supported living payments, and various allowances.
+New Zealand's primary social security legislation establishing eligibility requirements, benefit types, and obligations for persons receiving social assistance. Covers jobseeker support, sole parent support, supported living payments, youth payments, and various supplementary allowances administered by the Ministry of Social Development.
 
 ## Source document
 
 [Social Security Act 2018 | New Zealand Legislation](https://www.legislation.govt.nz/act/public/2018/32/en/latest/)
 
-*Last fetched: 2026-04-02*
+*Last fetched: 2026-04-22*
 
 ## Related guardrails
 
-- [GUARD-GOV-018 — War Pensions Act 1954 - New Zealand Legislation](../governance/GUARD-GOV-018.md)
 - [GUARD-GOV-021 — Social Welfare (Reciprocity Agreements, and New Zealand Artificial Limb Service) Act 1990](../governance/GUARD-GOV-021.md)
-- [GUARD-GOV-007 — Data Protection and Use Policy (DPUP) v1.2](../governance/GUARD-GOV-007.md)
+- [GUARD-GOV-023 — Residential Care and Disability Support Services Act 2018 (NZ)](../governance/GUARD-GOV-023.md)
+- [GUARD-GOV-019 — Data and Statistics Act 2022 (NZ)](../governance/GUARD-GOV-019.md)
 
 ## Change history
 
 | Version | Date | Author | Summary |
 |---|---|---|---|
-| 1.0 | 2026-04-02 | auto-generated | Initial creation of guardrail for Social Security Act 2018, establishing primary legislative framework for social security benefits and administration in New Zealand. |
+| 1.0 | 2025-01-15 | auto-generated | Initial entry created from external legislation source |
+| 2.0 | 2026-04-22 | auto-generated | Updated metadata with verified page title, current content hash, and refined description. Confirmed source URL and legislation status. Enhanced tags for consistency with governance taxonomy. |

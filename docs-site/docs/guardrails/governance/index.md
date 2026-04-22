@@ -29,7 +29,7 @@ title: "Governance Guardrails"
 | [GUARD-GOV-019](GUARD-GOV-019.md) | Data and Statistics Act 2022 (NZ) | ✅ Approved | 1.0 | — |
 | [GUARD-GOV-020](GUARD-GOV-020.md) | State Sector Act 1988 — New Zealand Public Service Governance | ✅ Approved | 1.0 | — |
 | [GUARD-GOV-021](GUARD-GOV-021.md) | Social Welfare (Reciprocity Agreements, and New Zealand Artificial Limb Service) Act 1990 | ✅ Approved | 1.0 | — |
-| [GUARD-GOV-022](GUARD-GOV-022.md) | Social Security Act 2018 — New Zealand | ✅ Approved | 1.0 | — |
+| [GUARD-GOV-022](GUARD-GOV-022.md) | Social Security Act 2018 - New Zealand Legislation | ✅ Approved | 2.0 | — |
 | [GUARD-GOV-023](GUARD-GOV-023.md) | Residential Care and Disability Support Services Act 2018 (NZ) | ✅ Approved | 1.0 | — |
 | [GUARD-GOV-024](GUARD-GOV-024.md) | Public Records Act 2005 (New Zealand) | ✅ Approved | 1.0 | — |
 | [GUARD-GOV-025](GUARD-GOV-025.md) | Ombudsmen Act 1975 — New Zealand Legislation | ✅ Approved | 1.1 | — |

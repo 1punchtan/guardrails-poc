@@ -36,7 +36,7 @@ New Zealand secondary legislation (SR 1998/277) administered by the Ministry of 
 
 ## Related guardrails
 
-- [GUARD-GOV-022 — Social Security Act 2018 — New Zealand](../governance/GUARD-GOV-022.md)
+- [GUARD-GOV-022 — Social Security Act 2018 - New Zealand Legislation](../governance/GUARD-GOV-022.md)
 - [GUARD-GOV-027 — New Zealand Superannuation and Retirement Income Act 2001](../governance/GUARD-GOV-027.md)
 - [GUARD-GOV-023 — Residential Care and Disability Support Services Act 2018 (NZ)](../governance/GUARD-GOV-023.md)
 
