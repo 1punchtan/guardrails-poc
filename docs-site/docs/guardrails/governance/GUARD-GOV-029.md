@@ -36,7 +36,7 @@ New Zealand legislation establishing minimum entitlements and employer obligatio
 
 ## Related guardrails
 
-- [GUARD-GOV-022 — Social Security Act 2018 - New Zealand Legislation](../governance/GUARD-GOV-022.md)
+- [GUARD-GOV-022 — Social Security Act 2018 — New Zealand Legislation](../governance/GUARD-GOV-022.md)
 - [GUARD-GOV-028 — Human Rights Act 1993 - New Zealand Legislation](../governance/GUARD-GOV-028.md)
 - [GUARD-GOV-013 — Privacy Act 2020 — New Zealand](../governance/GUARD-GOV-013.md)
 

@@ -37,7 +37,7 @@ Primary New Zealand legislation establishing the legal framework for the care, p
 
 ## Related guardrails
 
-- [GUARD-GOV-022 — Social Security Act 2018 - New Zealand Legislation](../governance/GUARD-GOV-022.md)
+- [GUARD-GOV-022 — Social Security Act 2018 — New Zealand Legislation](../governance/GUARD-GOV-022.md)
 - [GUARD-GOV-023 — Residential Care and Disability Support Services Act 2018 (NZ)](../governance/GUARD-GOV-023.md)
 - [GUARD-GOV-028 — Human Rights Act 1993 - New Zealand Legislation](../governance/GUARD-GOV-028.md)
 

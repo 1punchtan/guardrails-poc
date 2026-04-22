@@ -37,7 +37,7 @@ New Zealand legislation governing funding, needs assessment, and means assessmen
 
 ## Related guardrails
 
-- [GUARD-GOV-022 — Social Security Act 2018 - New Zealand Legislation](../governance/GUARD-GOV-022.md)
+- [GUARD-GOV-022 — Social Security Act 2018 — New Zealand Legislation](../governance/GUARD-GOV-022.md)
 - [GUARD-GOV-021 — Social Welfare (Reciprocity Agreements, and New Zealand Artificial Limb Service) Act 1990](../governance/GUARD-GOV-021.md)
 - [GUARD-GOV-009 — Health Information Privacy Code 2020](../governance/GUARD-GOV-009.md)
 
