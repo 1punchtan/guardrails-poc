@@ -1,26 +1,26 @@
 {
   "id": "GUARD-GOV-026",
-  "title": "Official Information Act 1982 \u2013 New Zealand Information Access Framework",
+  "title": "Official Information Act 1982 \u2014 New Zealand",
   "category": "governance",
   "subcategory": "information-access-and-transparency",
   "type": "policy",
-  "description": "New Zealand legislation establishing the legal framework for public access to official information, personal information rights, and procedures for withholding information. Defines criteria for information availability, request processes, and review mechanisms via the Ombudsman.",
+  "description": "New Zealand legislation establishing the framework for public access to official information, personal information rights, and procedures for withholding information. Governs information disclosure obligations across government departments and public organizations, with review mechanisms through the Ombudsman.",
   "tags": [
     "information-access",
     "transparency",
-    "privacy",
-    "public-records",
-    "compliance",
-    "new-zealand"
+    "public-sector",
+    "personal-privacy",
+    "ombudsman",
+    "nz-legislation"
   ],
   "owner": "Ministry of Justice",
-  "version": "2.1",
-  "status": "approved",
+  "status": "under-review",
+  "version": "2.2",
   "source": {
     "type": "external_url",
     "url": "https://www.legislation.govt.nz/act/public/1982/156/en/latest/",
     "page_title": "Official Information Act 1982 | New Zealand Legislation",
-    "content_hash": "4c0f95b868e66a7c785ab1debe0cba668e89ac69009745848633ec02347a2703",
+    "content_hash": "a17d43140a6d4da3d0fc9ef9ff2610f08a9bf1a39c620600157f32d8f169b15b",
     "last_fetched": "2026-04-22"
   },
   "related_guardrails": [
@@ -49,6 +49,12 @@
       "date": "2026-04-22",
       "author": "auto-generated",
       "summary": "Updated source metadata with latest content hash and fetch timestamp; confirmed external URL source identifier"
+    },
+    {
+      "version": "2.2",
+      "date": "2026-04-22",
+      "author": "auto-generated",
+      "summary": "Refreshed external URL source metadata and content hash; confirmed continuous availability and current legislation status"
     }
   ]
 }
