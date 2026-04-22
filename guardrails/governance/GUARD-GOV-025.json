@@ -1,32 +1,32 @@
 {
   "id": "GUARD-GOV-025",
-  "title": "Ombudsmen Act 1975 \u2014 New Zealand Legislation",
+  "title": "Ombudsmen Act 1975 \u2014 New Zealand Public Service Complaint Investigation",
   "category": "governance",
   "subcategory": "public-sector-oversight",
   "type": "policy",
-  "description": "New Zealand's statutory framework establishing the office of Ombudsman, defining their investigative powers, complaint procedures, and oversight responsibilities for public service agencies, state enterprises, and local authorities. This legislation enables independent investigation of administrative decisions and establishes accountability mechanisms for government operations.",
+  "description": "New Zealand legislation establishing the Ombudsmen office and its authority to investigate complaints against public service agencies, state enterprises, and related organizations. Defines complaint procedures, investigation powers, confidentiality requirements, and oversight mechanisms for public sector accountability.",
   "tags": [
-    "ombudsman",
-    "oversight",
+    "ombudsmen",
     "complaint-investigation",
     "public-sector",
-    "accountability",
-    "new-zealand"
+    "oversight",
+    "new-zealand",
+    "governance"
   ],
   "owner": "Ministry of Justice",
-  "version": "1.3",
-  "status": "approved",
+  "version": "1.4",
+  "status": "under-review",
   "source": {
     "type": "external_url",
     "url": "https://www.legislation.govt.nz/act/public/1975/9/en/latest/",
     "page_title": "Ombudsmen Act 1975 | New Zealand Legislation",
-    "content_hash": "c4cb5b712edc62f2f11b417afe5275ea401d7d2896a11711d5d3d76b8f0a0fdf",
+    "content_hash": "99044a0654b8e2d1fd3cb8390f9e933c0942d2e63c2e8ed737b920aa18c9f03d",
     "last_fetched": "2026-04-22"
   },
   "related_guardrails": [
-    "GUARD-GOV-024",
     "GUARD-GOV-026",
-    "GUARD-GOV-013"
+    "GUARD-GOV-016",
+    "GUARD-GOV-024"
   ],
   "change_log": [
     {
@@ -52,6 +52,12 @@
       "date": "2026-04-22",
       "author": "auto-generated",
       "summary": "Refreshed external URL source metadata and verified current content hash; metadata review completed"
+    },
+    {
+      "version": "1.4",
+      "date": "2026-04-22",
+      "author": "auto-generated",
+      "summary": "Updated source metadata with latest content hash and fetched timestamp; confirmed external URL and page title accuracy"
     }
   ],
   "approved_by": null,
