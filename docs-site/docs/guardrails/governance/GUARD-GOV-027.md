@@ -21,7 +21,7 @@ tags:
 | **ID** | `GUARD-GOV-027` |
 | **Category** | Governance |
 | **Subcategory** | regulatory-compliance |
-| **Type** | legislation |
+| **Type** | policy |
 | **Owner** | Ministry of Social Development; The Treasury |
 | **Approved by** | — |
 | **Approved date** | — |

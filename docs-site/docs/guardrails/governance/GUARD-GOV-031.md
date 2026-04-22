@@ -45,5 +45,5 @@ New Zealand legislation governing employment relationships, including provisions
 
 | Version | Date | Author | Summary |
 |---|---|---|---|
+| 1.0 | 2024-01-01 | auto-generated | Initial creation |
 | 2.0 | 2026-04-21 | auto-generated | Updated source to external_url with latest legislation.govt.nz endpoint and current content hash. Enhanced description and tag alignment with employment law governance framework. |
-| 1.0 | — | — | Initial creation |
