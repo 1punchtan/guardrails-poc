@@ -37,7 +37,7 @@ Outlines the New Zealand government's mandatory framework for public cloud servi
 
 ## Related guardrails
 
-- [GUARD-CLOUD-001 — NZ Government Cloud First Policy](../cloud/GUARD-CLOUD-001.md)
+- [GUARD-CLOUD-001 — Cloud First Policy – NZ Government](../cloud/GUARD-CLOUD-001.md)
 - [GUARD-CLOUD-002 — All of Government Cloud Sourcing Strategy](../cloud/GUARD-CLOUD-002.md)
 - [GUARD-SEC-001 — New Zealand Information Security Manual (NZISM) v3.9](../security/GUARD-SEC-001.md)
 

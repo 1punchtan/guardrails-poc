@@ -38,7 +38,7 @@ New Zealand government strategy for procuring secure and resilient cloud service
 
 ## Related guardrails
 
-- [GUARD-CLOUD-001 — NZ Government Cloud First Policy](../cloud/GUARD-CLOUD-001.md)
+- [GUARD-CLOUD-001 — Cloud First Policy – NZ Government](../cloud/GUARD-CLOUD-001.md)
 - [GUARD-GOV-008 — Government Procurement Rules 5th Edition 2025](../governance/GUARD-GOV-008.md)
 - [GUARD-SEC-001 — New Zealand Information Security Manual (NZISM) v3.9](../security/GUARD-SEC-001.md)
 

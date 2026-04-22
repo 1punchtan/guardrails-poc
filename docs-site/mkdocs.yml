@@ -80,7 +80,7 @@ nav:
     - "GUARD-SEC-008 — Information Assurance Standard – Entity Inf…": guardrails/security/GUARD-SEC-008.md
   - Cloud:
     - guardrails/cloud/index.md
-    - "GUARD-CLOUD-001 — NZ Government Cloud First Policy": guardrails/cloud/GUARD-CLOUD-001.md
+    - "GUARD-CLOUD-001 — Cloud First Policy – NZ Government": guardrails/cloud/GUARD-CLOUD-001.md
     - "GUARD-CLOUD-002 — All of Government Cloud Sourcing Strategy": guardrails/cloud/GUARD-CLOUD-002.md
   - API:
     - guardrails/api/index.md

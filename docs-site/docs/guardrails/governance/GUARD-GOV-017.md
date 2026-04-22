@@ -36,7 +36,7 @@ Guidance on how to assess risks when adopting or modifying public cloud services
 
 ## Related guardrails
 
-- [GUARD-CLOUD-001 — NZ Government Cloud First Policy](../cloud/GUARD-CLOUD-001.md)
+- [GUARD-CLOUD-001 — Cloud First Policy – NZ Government](../cloud/GUARD-CLOUD-001.md)
 - [GUARD-CLOUD-002 — All of Government Cloud Sourcing Strategy](../cloud/GUARD-CLOUD-002.md)
 - [GUARD-SEC-007 — New Zealand Government Cloud Adoption and Risk Assessment Framework](../security/GUARD-SEC-007.md)
 
