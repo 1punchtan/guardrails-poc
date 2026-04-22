@@ -24,7 +24,7 @@ title: "Governance Guardrails"
 | [GUARD-GOV-014](GUARD-GOV-014.md) | NZ Government Web Accessibility Standard 1.2 | ✅ Approved | 1.1 | — |
 | [GUARD-GOV-015](GUARD-GOV-015.md) | NZ Government Web Usability Standard 1.4 | ✅ Approved | 1.0 | — |
 | [GUARD-GOV-016](GUARD-GOV-016.md) | NZ Information Sharing Standard — Purpose and Scope | ✅ Approved | 1.1 | — |
-| [GUARD-GOV-017](GUARD-GOV-017.md) | Risk Assessment for Public Cloud Services | ✅ Approved | 2.0 | — |
+| [GUARD-GOV-017](GUARD-GOV-017.md) | Risk Assessment for Public Cloud Services | ✅ Approved | 3.0 | — |
 | [GUARD-GOV-018](GUARD-GOV-018.md) | War Pensions Act 1954 - New Zealand Legislation | ✅ Approved | 1.0 | — |
 | [GUARD-GOV-019](GUARD-GOV-019.md) | Data and Statistics Act 2022 (NZ) | ✅ Approved | 1.0 | — |
 | [GUARD-GOV-020](GUARD-GOV-020.md) | State Sector Act 1988 — New Zealand Public Service Governance | ✅ Approved | 1.0 | — |
