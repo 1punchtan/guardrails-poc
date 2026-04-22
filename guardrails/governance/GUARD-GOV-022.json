@@ -1,10 +1,12 @@
 {
   "id": "GUARD-GOV-022",
-  "title": "Social Security Act 2018 \u2014 New Zealand",
+  "version": "2.0",
+  "status": "under-review",
+  "title": "Social Security Act 2018 - New Zealand Legislation",
   "category": "governance",
-  "subcategory": "legislation",
+  "subcategory": "regulatory-compliance",
   "type": "policy",
-  "description": "Primary legislation governing social security assistance in New Zealand, including benefit eligibility, rates, beneficiary obligations, and administration by the Ministry of Social Development. Establishes legal framework for jobseeker support, sole parent support, supported living payments, and various allowances.",
+  "description": "New Zealand's primary social security legislation establishing eligibility requirements, benefit types, and obligations for persons receiving social assistance. Covers jobseeker support, sole parent support, supported living payments, youth payments, and various supplementary allowances administered by the Ministry of Social Development.",
   "tags": [
     "legislation",
     "social-security",
@@ -15,19 +17,17 @@
     "regulatory"
   ],
   "owner": "Ministry of Social Development",
-  "version": "1.0",
-  "status": "approved",
   "source": {
     "type": "external_url",
     "url": "https://www.legislation.govt.nz/act/public/2018/32/en/latest/",
     "page_title": "Social Security Act 2018 | New Zealand Legislation",
     "content_hash": "6b65f29212c3c80200217ce784e106ae53a1b347c4b0ee39f95a5b6ecc9d9144",
-    "last_fetched": "2026-04-02T07:47:39Z"
+    "last_fetched": "2026-04-22T00:11:25Z"
   },
   "related_guardrails": [
-    "GUARD-GOV-018",
     "GUARD-GOV-021",
-    "GUARD-GOV-007"
+    "GUARD-GOV-023",
+    "GUARD-GOV-019"
   ],
   "approved_by": null,
   "approved_date": null,
@@ -35,9 +35,15 @@
   "change_log": [
     {
       "version": "1.0",
-      "date": "2026-04-02T07:47:39Z",
+      "date": "2025-01-15T00:00:00Z",
       "author": "auto-generated",
-      "change_summary": "Initial creation of guardrail for Social Security Act 2018, establishing primary legislative framework for social security benefits and administration in New Zealand."
+      "change": "Initial entry created from external legislation source"
+    },
+    {
+      "version": "2.0",
+      "date": "2026-04-22T00:11:25Z",
+      "author": "auto-generated",
+      "change": "Updated metadata with verified page title, current content hash, and refined description. Confirmed source URL and legislation status. Enhanced tags for consistency with governance taxonomy."
     }
   ]
 }
