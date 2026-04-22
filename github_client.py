@@ -2,8 +2,11 @@ import json
 import re
 from dataclasses import dataclass
 
+import jsonschema
 from github import Auth, Github
 from github.Repository import Repository
+
+_SCHEMA_PATH = "guardrails/schema/guardrail.schema.json"
 
 
 @dataclass
@@ -52,6 +55,32 @@ def get_existing_metafiles(repo: Repository) -> list[MetafileSummary]:
                 continue
 
     return summaries
+
+
+def get_metafile(repo: Repository, guardrail_id: str, category: str) -> dict | None:
+    """Fetch a single metafile from the repo by ID and category. Returns None on failure."""
+    path = f"guardrails/{category}/{guardrail_id}.json"
+    try:
+        content = repo.get_contents(path)
+        return json.loads(content.decoded_content.decode("utf-8"))
+    except Exception:
+        return None
+
+
+def validate_metafile(metafile: dict) -> list[str]:
+    """Validate a metafile dict against the guardrail schema. Returns a list of error strings."""
+    try:
+        with open(_SCHEMA_PATH, encoding="utf-8") as f:
+            schema = json.load(f)
+    except FileNotFoundError:
+        return [f"Schema file not found: {_SCHEMA_PATH}"]
+
+    validator = jsonschema.Draft7Validator(schema, format_checker=jsonschema.FormatChecker())
+    errors = sorted(validator.iter_errors(metafile), key=lambda e: list(e.path))
+    return [
+        f"{'.' .join(str(p) for p in e.path) or 'root'}: {e.message}"
+        for e in errors
+    ]
 
 
 def _slugify(text: str) -> str:

@@ -26,7 +26,7 @@ include any explanation, markdown fencing, or text outside the JSON.
   "type": "one of: diagram | document | spreadsheet | presentation | policy | standard | guideline | other",
   "description": "string — 1-3 sentence description of what this guardrail covers and why it matters",
   "tags": ["array", "of", "lowercase", "keyword", "strings"],
-  "suggested_owner": "string or null — team or role best placed to own this guardrail (null if unclear)",
+  "owner": "string or null — team or role best placed to own this guardrail (null if unclear)",
   "source_type": "onedrive | external_url"
 }
 
@@ -48,6 +48,7 @@ You will be given:
 2. The source type ("onedrive" or "external_url") and source-specific identifiers
 3. A list of existing guardrails in the repo (id, title, category, tags, description)
 4. Whether this item is new or an update to an existing entry
+5. For updates: the existing change_log entries that must be preserved verbatim
 
 Your job is to produce a complete, valid metafile JSON object.
 
@@ -69,7 +70,7 @@ the existing guardrail IDs provided. If no guardrails exist in that category yet
 start at 001.
 - If this item appears to be an update to an existing guardrail (matched by title \
 similarity or stable source identifier), carry forward the existing ID, increment \
-the version, set status to "under-review", and add a new changelog entry. Otherwise \
+the version, set status to "under-review", and add a new change_log entry. Otherwise \
 set status to "draft" and version to "1.0".
 - Identify related guardrails from the existing list by category and tag overlap. \
 Include up to 3 most relevant IDs in related_guardrails.
@@ -79,7 +80,16 @@ Include up to 3 most relevant IDs in related_guardrails.
 - The change_log entry for a new item should use author "auto-generated" and a \
 brief summary. For an update, note what changed.
 - approved_by, approved_date, and review_due should be null.
-- Respond ONLY with the JSON object. No explanation, no markdown fencing.\
+- Respond ONLY with the JSON object. No explanation, no markdown fencing.
+
+CRITICAL field name and format rules — the schema enforces these strictly:
+- Use "change_log" (not "changelog")
+- Use "owner" (not "suggested_owner")
+- change_log entry dates must be YYYY-MM-DD (date only — never include a time component)
+- Each change_log entry must have exactly these four fields: version, date, author, summary \
+— no additional fields (e.g. no "change_type")
+- When existing change_log entries are provided, include ALL of them verbatim as the \
+first entries, then append your new entry. Do not modify, reorder, or remove any existing entry.\
 """
 
 # ---------------------------------------------------------------------------
@@ -130,6 +140,7 @@ def _user_msg_call2(
     source_identifiers: dict,
     repo_summaries: list,
     is_update: bool,
+    existing_change_log: list | None = None,
 ) -> str:
     existing = "\n".join(
         f"  {s['id']}: {s['title']} [{s['category']}] tags={s['tags']} — {s['description']}"
@@ -137,7 +148,7 @@ def _user_msg_call2(
     ) or "  (none — this will be the first guardrail in the repo)"
 
     existing_id = source_identifiers.get("existing_guardrail_id")
-    change_type_label = f"UPDATE to existing guardrail" if is_update else "NEW guardrail"
+    change_type_label = "UPDATE to existing guardrail" if is_update else "NEW guardrail"
     if existing_id:
         change_type_label += f" — carry forward ID {existing_id} (matched by source URL)"
 
@@ -158,6 +169,14 @@ def _user_msg_call2(
         "Existing guardrails in the repo:",
         existing,
     ]
+
+    if existing_change_log:
+        lines += [
+            "",
+            "Existing change_log entries — include ALL of these verbatim, then append one new entry:",
+            json.dumps(existing_change_log, indent=2),
+        ]
+
     return "\n".join(lines)
 
 
@@ -216,12 +235,14 @@ def produce_metafile(
     is_update: bool,
     client: anthropic.Anthropic,
     model: str = "claude-sonnet-4-6",
+    existing_change_log: list | None = None,
 ) -> dict:
     """
     Call 2 — Produce the complete metafile JSON.
 
     repo_summaries: list of dicts with keys id, title, category, tags, description.
     source_identifiers: source-specific fields as documented in the plan.
+    existing_change_log: for updates, the current change_log from the repo to preserve.
     """
     user_msg = _user_msg_call2(
         draft=draft_metadata,
@@ -229,6 +250,7 @@ def produce_metafile(
         source_identifiers=source_identifiers,
         repo_summaries=repo_summaries,
         is_update=is_update,
+        existing_change_log=existing_change_log,
     )
 
     response = client.messages.create(

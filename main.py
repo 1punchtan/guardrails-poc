@@ -4,7 +4,7 @@ import anthropic
 
 from config import load_config
 from extractor import extract_text
-from github_client import connect, create_pr, get_existing_metafiles
+from github_client import connect, create_pr, get_existing_metafiles, get_metafile, validate_metafile
 from inference import infer_metadata, produce_metafile
 from onedrive import authenticate, download_file, list_folder_recursive
 from scraper import browser_context, load_url_sources, scrape
@@ -78,6 +78,7 @@ def main() -> None:
             )
             for s in get_existing_metafiles(repo)
         ]
+        id_to_category = {s["id"]: s["category"] for s in repo_summaries}
 
         od_to_process = [(r, False) for r in new_files] + [(r, True) for r in modified_files]
 
@@ -124,6 +125,20 @@ def main() -> None:
                 "last_modified": record.last_modified,
             }
 
+            # For updates, fetch the existing metafile's change_log to preserve.
+            existing_change_log = None
+            if is_update:
+                od_existing_id = state["onedrive"].get(record.item_id, {}).get("guardrail_id")
+                if od_existing_id:
+                    od_category = id_to_category.get(od_existing_id, "")
+                    od_existing = get_metafile(repo, od_existing_id, od_category)
+                    if od_existing:
+                        existing_change_log = (
+                            od_existing.get("change_log")
+                            or od_existing.get("changelog")
+                            or []
+                        )
+
             try:
                 print("  Comparing against repo (Claude call 2)...", end=" ", flush=True)
                 metafile = produce_metafile(
@@ -134,10 +149,30 @@ def main() -> None:
                     is_update=is_update,
                     client=client,
                     model=cfg["claude_model"],
+                    existing_change_log=existing_change_log,
                 )
                 print("done")
             except Exception as exc:
                 print(f"FAILED\n  ERROR (Claude call 2): {exc} — skipping")
+                continue
+
+            # Python-enforce change_log preservation.
+            if existing_change_log is not None:
+                existing_versions = {e.get("version") for e in existing_change_log}
+                produced_cl = metafile.get("change_log") or metafile.get("changelog") or []
+                new_entries = [e for e in produced_cl if e.get("version") not in existing_versions]
+                metafile["change_log"] = existing_change_log + new_entries
+            metafile.pop("changelog", None)
+
+            for entry in metafile.get("change_log", []):
+                if entry.get("date") and "T" in str(entry["date"]):
+                    entry["date"] = str(entry["date"])[:10]
+
+            schema_errors = validate_metafile(metafile)
+            if schema_errors:
+                print(f"  ERROR: metafile failed schema validation — skipping PR:")
+                for err in schema_errors:
+                    print(f"    {err}")
                 continue
 
             print(f"  Assigned ID: {metafile.get('id')}")
@@ -210,8 +245,8 @@ def main() -> None:
     total_unchanged += len(scraped) - len(url_to_process)
 
     if url_to_process:
-        # repo_summaries is initialised in the OneDrive flow above; fetch it here
-        # only when OneDrive auth was skipped entirely.
+        # repo_summaries and id_to_category are initialised in the OneDrive flow above;
+        # fetch them here only when OneDrive auth was skipped entirely.
         if not od_client:
             repo_summaries = [
                 _repo_summary(
@@ -221,11 +256,11 @@ def main() -> None:
                 )
                 for s in get_existing_metafiles(repo)
             ]
+            id_to_category = {s["id"]: s["category"] for s in repo_summaries}
 
-        # Build a URL → existing guardrail ID map for deterministic dedup.
-        # This catches the case where the local state was reset but the guardrail
-        # already exists in the repo — without this, diff_urls would mark the URL
-        # as NEW and Claude would assign a fresh ID instead of reusing the existing one.
+        # Build URL → existing guardrail ID map for deterministic dedup.
+        # Catches the case where local state was reset but the guardrail already
+        # exists in the repo — without this, diff_urls would mark the URL as NEW.
         url_to_existing_id = {
             s["source_url"]: s["id"]
             for s in repo_summaries
@@ -244,6 +279,19 @@ def main() -> None:
                 status_label = "CHANGED" if is_update else "NEW"
                 print(f"\nProcessing: {record.url}")
                 print(f"  Content hash: {record.content_hash[:16]}... ({status_label})")
+
+            # For updates, fetch the existing metafile to get the change_log that
+            # must be preserved verbatim. Claude must not drop or edit prior entries.
+            existing_change_log = None
+            if existing_id:
+                category = id_to_category.get(existing_id, "")
+                existing_metafile = get_metafile(repo, existing_id, category)
+                if existing_metafile:
+                    existing_change_log = (
+                        existing_metafile.get("change_log")
+                        or existing_metafile.get("changelog")
+                        or []
+                    )
 
             source_input = {
                 "source_type": "external_url",
@@ -283,10 +331,33 @@ def main() -> None:
                     is_update=is_update,
                     client=client,
                     model=cfg["claude_model"],
+                    existing_change_log=existing_change_log,
                 )
                 print("done")
             except Exception as exc:
                 print(f"FAILED\n  ERROR (Claude call 2): {exc} — skipping")
+                continue
+
+            # Python-enforce change_log preservation regardless of what Claude produced.
+            # Existing entries are kept verbatim; only genuinely new versions are appended.
+            if existing_change_log is not None:
+                existing_versions = {e.get("version") for e in existing_change_log}
+                produced_cl = metafile.get("change_log") or metafile.get("changelog") or []
+                new_entries = [e for e in produced_cl if e.get("version") not in existing_versions]
+                metafile["change_log"] = existing_change_log + new_entries
+            metafile.pop("changelog", None)
+
+            # Strip any time component from change_log dates (schema requires YYYY-MM-DD).
+            for entry in metafile.get("change_log", []):
+                if entry.get("date") and "T" in str(entry["date"]):
+                    entry["date"] = str(entry["date"])[:10]
+
+            # Validate against schema before creating a PR. Skip if invalid.
+            schema_errors = validate_metafile(metafile)
+            if schema_errors:
+                print(f"  ERROR: metafile failed schema validation — skipping PR:")
+                for err in schema_errors:
+                    print(f"    {err}")
                 continue
 
             print(f"  Assigned ID: {metafile.get('id')}")
