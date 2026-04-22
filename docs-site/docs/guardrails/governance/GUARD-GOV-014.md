@@ -37,7 +37,7 @@ Mandatory standard for all NZ public service departments and Executive branch or
 ## Related guardrails
 
 - [GUARD-GOV-015 — NZ Government Web Usability Standard 1.4](../governance/GUARD-GOV-015.md)
-- [GUARD-ARCH-001 — Digital Service Design Standard](../architecture/GUARD-ARCH-001.md)
+- [GUARD-ARCH-001 — Digital Service Design Standard - NZ Government](../architecture/GUARD-ARCH-001.md)
 - [GUARD-GOV-012 — New Zealand Data and Information Management Principles](../governance/GUARD-GOV-012.md)
 
 ## Change history

@@ -37,7 +37,7 @@ Architecture diagram defining CI/CD pipeline flows and deployment patterns. Docu
 
 - [GUARD-SEC-002 — PSR Information Security (INFOSEC) Policy Framework](../security/GUARD-SEC-002.md)
 - [GUARD-GOV-008 — Government Procurement Rules 5th Edition 2025](../governance/GUARD-GOV-008.md)
-- [GUARD-ARCH-001 — Digital Service Design Standard](../architecture/GUARD-ARCH-001.md)
+- [GUARD-ARCH-001 — Digital Service Design Standard - NZ Government](../architecture/GUARD-ARCH-001.md)
 
 ## Change history
 

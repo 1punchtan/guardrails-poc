@@ -38,7 +38,7 @@ Mandatory standard for New Zealand public sector organisations requiring complia
 ## Related guardrails
 
 - [GUARD-GOV-014 — NZ Government Web Accessibility Standard 1.2](../governance/GUARD-GOV-014.md)
-- [GUARD-ARCH-001 — Digital Service Design Standard](../architecture/GUARD-ARCH-001.md)
+- [GUARD-ARCH-001 — Digital Service Design Standard - NZ Government](../architecture/GUARD-ARCH-001.md)
 - [GUARD-GOV-012 — New Zealand Data and Information Management Principles](../governance/GUARD-GOV-012.md)
 
 ## Change history

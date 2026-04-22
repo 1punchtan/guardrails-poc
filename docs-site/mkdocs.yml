@@ -90,7 +90,7 @@ nav:
     - "GUARD-API-004 — New Zealand API Standard": guardrails/api/GUARD-API-004.md
   - Architecture:
     - guardrails/architecture/index.md
-    - "GUARD-ARCH-001 — Digital Service Design Standard": guardrails/architecture/GUARD-ARCH-001.md
+    - "GUARD-ARCH-001 — Digital Service Design Standard - NZ Gover…": guardrails/architecture/GUARD-ARCH-001.md
   - Execution:
     - guardrails/execution/index.md
     - "GUARD-EXE-001 — CI/CD Flows": guardrails/execution/GUARD-EXE-001.md

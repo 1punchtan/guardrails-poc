@@ -8,4 +8,4 @@ title: "Architecture Guardrails"
 
 | ID | Title | Status | Version | Review due |
 |---|---|---|---|---|
-| [GUARD-ARCH-001](GUARD-ARCH-001.md) | Digital Service Design Standard | ✅ Approved | 2.0 | — |
+| [GUARD-ARCH-001](GUARD-ARCH-001.md) | Digital Service Design Standard - NZ Government | ✅ Approved | 2.1 | — |
