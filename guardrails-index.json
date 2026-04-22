@@ -139,33 +139,33 @@
     },
     {
       "id": "GUARD-ARCH-001",
-      "title": "Digital Service Design Standard",
+      "title": "Digital Service Design Standard - NZ Government",
       "status": "approved",
       "category": "architecture",
       "tags": [
-        "digital-services",
-        "design-standard",
+        "digital-service-design",
         "user-centered",
-        "government",
-        "nz",
-        "governance",
+        "security-privacy",
+        "inclusivity",
+        "collaboration",
+        "government-standards",
         "service-delivery"
       ],
-      "description": "New Zealand government standard providing 12 core principles for designing and delivering user-focused, high-quality digital services. Covers user needs, security, privacy, inclusivity, interdisciplinary collaboration, and accountability to ensure ethical and equitable public service delivery.",
-      "owner": "Digital Government Service Design Team",
+      "description": "New Zealand government standard providing design principles and guidance for creating user-focused, inclusive, and secure digital services. Encompasses 12 core principles covering user needs, security, privacy, equity, team structure, collaboration, data stewardship, and public accountability.",
+      "owner": "Digital.govt.nz / NZ Government",
       "source": {
         "type": "external_url",
         "url": "https://www.digital.govt.nz/standards-and-guidance/digital-service-design-standard",
         "page_title": "Digital Service Design Standard | NZ Digital government",
-        "content_hash": "1e7b4b556abed79dff0ca7c62ff64724496f59519a698a6cfb108ac7f3abe65c",
-        "last_fetched": "2026-04-21T21:39:42Z"
+        "content_hash": "4542926558ba09b68e635f3101a0bfe868aef92f51341a2f67f746cd03b04ad0",
+        "last_fetched": "2026-04-22"
       },
       "related_guardrails": [
-        "GUARD-GOV-001",
         "GUARD-GOV-015",
-        "GUARD-SEC-007"
+        "GUARD-GOV-014",
+        "GUARD-GOV-012"
       ],
-      "version": "2.0",
+      "version": "2.1",
       "approved_date": null,
       "review_due": null,
       "_source_file": "guardrails/architecture/GUARD-ARCH-001.json"
