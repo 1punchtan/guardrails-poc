@@ -1,33 +1,34 @@
 {
   "id": "GUARD-GOV-025",
-  "version": "1.1",
-  "status": "approved",
   "title": "Ombudsmen Act 1975 \u2014 New Zealand Legislation",
   "category": "governance",
-  "subcategory": "oversight-and-accountability",
+  "subcategory": "regulatory-compliance",
   "type": "policy",
-  "description": "New Zealand legislation establishing the ombudsmen office and framework for investigating complaints against public service agencies, state enterprises, and local organizations. Defines investigative powers, complaint procedures, secrecy obligations, and coordination with other oversight bodies.",
+  "description": "New Zealand legislation establishing the office of Ombudsman and defining their functions, powers, and procedures for investigating complaints against public service agencies, state enterprises, and related organizations. Covers complaint handling, investigation procedures, confidentiality, and reporting requirements.",
   "tags": [
     "ombudsman",
-    "oversight",
-    "complaints",
-    "public-agencies",
+    "complaint-investigation",
+    "public-service",
     "new-zealand",
-    "legislation",
+    "governance",
+    "oversight",
+    "compliance",
     "accountability"
   ],
   "owner": "Ministry of Justice",
+  "status": "under-review",
+  "version": "1.1",
   "source": {
     "type": "external_url",
     "url": "https://www.legislation.govt.nz/act/public/1975/9/en/latest/",
     "page_title": "Ombudsmen Act 1975 | New Zealand Legislation",
-    "content_hash": "c4cb5b712edc62f2f11b417afe5275ea401d7d2896a11711d5d3d76b8f0a0fdf",
-    "last_fetched": "2026-04-21T21:40:14Z"
+    "content_hash": "99044a0654b8e2d1fd3cb8390f9e933c0942d2e63c2e8ed737b920aa18c9f03d",
+    "last_fetched": "2026-04-22T00:18:40Z"
   },
   "related_guardrails": [
-    "GUARD-GOV-026",
     "GUARD-GOV-024",
-    "GUARD-GOV-002"
+    "GUARD-GOV-026",
+    "GUARD-GOV-013"
   ],
   "approved_by": null,
   "approved_date": null,
@@ -35,15 +36,15 @@
   "changelog": [
     {
       "version": "1.0",
-      "date": "2026-01-15",
+      "date": "2025-01-01",
       "author": "auto-generated",
-      "summary": "Initial guardrail entry created from New Zealand legislation registry"
+      "change": "Initial creation from source document"
     },
     {
       "version": "1.1",
-      "date": "2026-04-21",
+      "date": "2026-04-22",
       "author": "auto-generated",
-      "summary": "Updated source metadata with verified external URL, content hash, and current page title from legislation.govt.nz; refined description and tags for consistency with existing governance standards"
+      "change": "Updated metadata with enhanced description, expanded tags to include accountability, and verified source URL content hash"
     }
   ]
 }
