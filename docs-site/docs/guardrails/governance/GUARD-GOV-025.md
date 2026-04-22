@@ -3,22 +3,21 @@ title: "GUARD-GOV-025 — Ombudsmen Act 1975 — New Zealand Legislation"
 tags:
   - ombudsman
   - oversight
-  - public-accountability
   - complaint-investigation
-  - governance
+  - public-sector
+  - accountability
   - new-zealand
-  - legislation
 ---
 
 # Ombudsmen Act 1975 — New Zealand Legislation
 
-**Status:** ✅ Approved &nbsp;&nbsp; **Version:** 1.2
+**Status:** ✅ Approved &nbsp;&nbsp; **Version:** 1.3
 
 | Field | Value |
 |---|---|
 | **ID** | `GUARD-GOV-025` |
 | **Category** | Governance |
-| **Subcategory** | public accountability and oversight |
+| **Subcategory** | public-sector-oversight |
 | **Type** | policy |
 | **Owner** | Ministry of Justice |
 | **Approved by** | — |
@@ -27,7 +26,7 @@ tags:
 
 ## Description
 
-New Zealand statutory legislation establishing the role and functions of Ombudsmen as independent officers investigating complaints against public service agencies, state enterprises, and local organisations. Defines complaint procedures, investigation powers, confidentiality obligations, and reporting requirements to ensure public sector accountability.
+New Zealand's statutory framework establishing the office of Ombudsman, defining their investigative powers, complaint procedures, and oversight responsibilities for public service agencies, state enterprises, and local authorities. This legislation enables independent investigation of administrative decisions and establishes accountability mechanisms for government operations.
 
 ## Source document
 
@@ -48,3 +47,4 @@ New Zealand statutory legislation establishing the role and functions of Ombudsm
 | 1.0 | 2026-01-15 | auto-generated | Initial guardrail entry created from New Zealand legislation registry |
 | 1.1 | 2026-04-21 | auto-generated | Updated source metadata with verified external URL, content hash, and current page title from legislation.govt.nz; refined description and tags for consistency with existing governance standards |
 | 1.2 | 2026-04-22 | auto-generated | Updated source metadata; verified content hash and fetched timestamp from external URL |
+| 1.3 | 2026-04-22 | auto-generated | Refreshed external URL source metadata and verified current content hash; metadata review completed |
