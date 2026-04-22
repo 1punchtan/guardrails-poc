@@ -172,32 +172,33 @@
     },
     {
       "id": "GUARD-CLOUD-001",
-      "title": "NZ Government Cloud First Policy",
+      "title": "Cloud First Policy – NZ Government",
       "status": "approved",
       "category": "cloud",
       "tags": [
         "cloud-first",
-        "public-cloud",
         "government-policy",
-        "data-classification",
+        "public-cloud",
+        "nz-digital",
         "multi-cloud",
-        "nz-government"
+        "data-classification",
+        "cloud-adoption"
       ],
-      "description": "New Zealand government's mandatory cloud-first policy requiring public sector organisations to adopt public cloud services for information systems unless specific exceptions apply. Covers data classification requirements, multi-cloud strategies, cost optimization, risk assessment, and sustainability considerations.",
+      "description": "Mandates that New Zealand government organisations must adopt public cloud services for information systems where possible, with requirements for data classification, multi-cloud resilience, cost optimisation, and risk assessment. Establishes baseline standards for cloud procurement and governance across the NZ public sector.",
       "owner": "Government Chief Digital Officer (GCDO)",
       "source": {
         "type": "external_url",
         "url": "https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/cloud-services/cloud-adoption-policy-and-strategy/cabinet-requirement",
         "page_title": "Cloud First policy | NZ Digital government",
-        "content_hash": "3b90fca8141637e575b4ca4777163237fa6728cfb14f829c268a4e76fb23e9ef",
-        "last_fetched": "2026-04-21T21:39:24Z"
+        "content_hash": "0a05e0bceeac21ba71f4f9c620a2fbef51cfc706b1335bd065498e740421167d",
+        "last_fetched": "2026-04-22"
       },
       "related_guardrails": [
         "GUARD-CLOUD-002",
         "GUARD-GOV-017",
         "GUARD-SEC-007"
       ],
-      "version": "2.0",
+      "version": "2.1",
       "approved_date": null,
       "review_due": null,
       "_source_file": "guardrails/cloud/GUARD-CLOUD-001.json"
