@@ -1,6 +1,6 @@
 {
   "id": "GUARD-GOV-013",
-  "title": "Privacy Act 2020 \u2014 New Zealand",
+  "title": "Privacy Act 2020 — New Zealand",
   "category": "governance",
   "subcategory": "regulatory-compliance",
   "type": "policy",
@@ -34,7 +34,7 @@
   "change_log": [
     {
       "version": "1.0",
-      "date": "2026-04-02T07:47:05Z",
+      "date": "2026-04-02",
       "author": "auto-generated",
       "summary": "Initial guardrail created from external legislation source. Documents foundational privacy legislation establishing information privacy principles, individual rights, and agency compliance requirements."
     }

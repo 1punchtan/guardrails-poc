@@ -31,18 +31,18 @@
   "approved_by": null,
   "approved_date": null,
   "review_due": null,
-  "changelog": [
+  "change_log": [
     {
       "version": "1.0",
       "author": "auto-generated",
-      "date": "2026-04-21T21:40:01Z",
-      "change": "Initial entry created from NZ Digital Government source"
+      "date": "2026-04-21",
+      "summary": "Initial entry created from NZ Digital Government source"
     },
     {
       "version": "2.0",
       "author": "auto-generated",
-      "date": "2026-04-21T21:40:01Z",
-      "change": "Updated description and tags to reflect comprehensive risk assessment framework; aligned with latest GCDO cloud adoption requirements and risk discovery tool documentation"
+      "date": "2026-04-21",
+      "summary": "Updated description and tags to reflect comprehensive risk assessment framework; aligned with latest GCDO cloud adoption requirements and risk discovery tool documentation"
     }
   ]
 }

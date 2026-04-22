@@ -1,6 +1,6 @@
 {
   "id": "GUARD-GOV-029",
-  "title": "Holidays Act 2003 \u2013 New Zealand Employment Leave Legislation",
+  "title": "Holidays Act 2003 – New Zealand Employment Leave Legislation",
   "category": "governance",
   "subcategory": "employment-law",
   "type": "policy",
@@ -34,7 +34,7 @@
   "change_log": [
     {
       "version": "1.0",
-      "date": "2026-04-02T07:47:48Z",
+      "date": "2026-04-02",
       "author": "auto-generated",
       "summary": "Initial guardrail creation from external legislation source. Establishes employment leave entitlements framework for New Zealand."
     }

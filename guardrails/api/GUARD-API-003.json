@@ -21,7 +21,7 @@
   "source": {
     "type": "external_url",
     "url": "https://www.digital.govt.nz/dmsdocument/232~api-guidelines-part-c-api-development-2022/html",
-    "page_title": "API guidelines \u2014 Part C: API development 2022 | NZ Digital government",
+    "page_title": "API guidelines — Part C: API development 2022 | NZ Digital government",
     "content_hash": "574d964f719cf3d1a1fc02a7999821131a390b3aed794aae0c5552edf7bd2d8f",
     "last_fetched": "2026-04-02T07:46:55Z"
   },
@@ -33,10 +33,10 @@
   "approved_by": null,
   "approved_date": null,
   "review_due": null,
-  "changelog": [
+  "change_log": [
     {
       "version": "1.0",
-      "date": "2026-04-02T07:46:55Z",
+      "date": "2026-04-02",
       "author": "auto-generated",
       "summary": "Initial draft created from NZ Digital Government API Guidelines Part C: API Development 2022"
     }

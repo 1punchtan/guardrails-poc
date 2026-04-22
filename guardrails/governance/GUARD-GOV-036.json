@@ -1,6 +1,6 @@
 {
   "id": "GUARD-GOV-036",
-  "title": "Copyright Act 1994 \u2014 New Zealand Legislation",
+  "title": "Copyright Act 1994 — New Zealand Legislation",
   "category": "governance",
   "subcategory": "intellectual-property",
   "type": "policy",
@@ -19,7 +19,6 @@
     "content-protection",
     "enforcement"
   ],
-  "suggested_owner": "Legal / Compliance",
   "source": {
     "type": "external_url",
     "url": "https://www.legislation.govt.nz/act/public/1994/143/en/latest/",
@@ -38,9 +37,10 @@
   "change_log": [
     {
       "version": "2.0",
-      "date": "2026-04-21T21:40:30Z",
+      "date": "2026-04-21",
       "author": "auto-generated",
       "summary": "Updated from draft. Enhanced description and tag list to reflect full scope of copyright legislation including infringement, enforcement, and licensing mechanisms. Added related guardrails for intellectual property governance alignment."
     }
-  ]
+  ],
+  "owner": "Legal / Compliance"
 }

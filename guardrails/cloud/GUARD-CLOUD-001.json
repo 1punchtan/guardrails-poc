@@ -31,18 +31,18 @@
   "approved_by": null,
   "approved_date": null,
   "review_due": null,
-  "changelog": [
+  "change_log": [
     {
       "version": "1.0",
       "date": "2024-01-15",
       "author": "auto-generated",
-      "change": "Initial import of NZ Government Cloud First Policy from digital.govt.nz"
+      "summary": "Initial import of NZ Government Cloud First Policy from digital.govt.nz"
     },
     {
       "version": "2.0",
       "date": "2026-04-21",
       "author": "auto-generated",
-      "change": "Updated content from external source; verified current policy requirements and sustainability considerations; content hash updated to reflect latest policy version"
+      "summary": "Updated content from external source; verified current policy requirements and sustainability considerations; content hash updated to reflect latest policy version"
     }
   ]
 }

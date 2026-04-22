@@ -31,10 +31,10 @@
   "approved_by": null,
   "approved_date": null,
   "review_due": null,
-  "changelog": [
+  "change_log": [
     {
       "version": "2.0",
-      "date": "2026-04-21T21:40:31Z",
+      "date": "2026-04-21",
       "author": "auto-generated",
       "summary": "Updated external_url source metadata with latest content hash and fetch timestamp; reviewed and confirmed policy scope covering eligibility criteria, income assessment, and payment administration under Education Act 1989."
     }

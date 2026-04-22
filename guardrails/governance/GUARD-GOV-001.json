@@ -1,6 +1,6 @@
 {
   "id": "GUARD-GOV-001",
-  "title": "Digital Strategy 2.0 \u2013 National Digital Development Framework",
+  "title": "Digital Strategy 2.0 – National Digital Development Framework",
   "category": "governance",
   "subcategory": "digital-transformation-strategy",
   "type": "document",
@@ -31,9 +31,9 @@
   "change_log": [
     {
       "version": "1.0",
-      "date": "2026-04-02T06:45:10Z",
+      "date": "2026-04-02",
       "author": "auto-generated",
-      "change": "Initial guardrail creation from New Zealand Digital Strategy 2.0 document"
+      "summary": "Initial guardrail creation from New Zealand Digital Strategy 2.0 document"
     }
   ]
 }

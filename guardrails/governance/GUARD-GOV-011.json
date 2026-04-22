@@ -34,9 +34,9 @@
   "change_log": [
     {
       "version": "1.0",
-      "date": "2026-04-02T06:41:03Z",
+      "date": "2026-04-02",
       "author": "auto-generated",
-      "change": "Initial draft created from onedrive source. Establishes privacy governance framework for New Zealand telecommunications sector with 13 privacy rules aligned with Privacy Act 2020."
+      "summary": "Initial draft created from onedrive source. Establishes privacy governance framework for New Zealand telecommunications sector with 13 privacy rules aligned with Privacy Act 2020."
     }
   ]
 }

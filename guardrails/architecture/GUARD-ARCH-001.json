@@ -37,13 +37,13 @@
       "version": "1.0",
       "date": "2024-01-15",
       "author": "auto-generated",
-      "change": "Initial creation of guardrail from external source"
+      "summary": "Initial creation of guardrail from external source"
     },
     {
       "version": "2.0",
       "date": "2026-04-21",
       "author": "auto-generated",
-      "change": "Updated metadata with refined description and expanded governance tags; category refined from 'governance' to 'architecture' for alignment with service design focus"
+      "summary": "Updated metadata with refined description and expanded governance tags; category refined from 'governance' to 'architecture' for alignment with service design focus"
     }
   ]
 }

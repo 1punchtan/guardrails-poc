@@ -1,6 +1,6 @@
 {
   "id": "GUARD-GOV-020",
-  "title": "State Sector Act 1988 \u2014 New Zealand Public Service Governance",
+  "title": "State Sector Act 1988 — New Zealand Public Service Governance",
   "category": "governance",
   "subcategory": "public-sector-legislation",
   "type": "policy",
@@ -29,16 +29,16 @@
     "GUARD-GOV-019",
     "GUARD-GOV-013"
   ],
-  "suggested_owner": "State Services Commission",
   "approved_by": null,
   "approved_date": null,
   "review_due": null,
   "change_log": [
     {
       "version": "1.0",
-      "date": "2026-04-02T07:47:34Z",
+      "date": "2026-04-02",
       "author": "auto-generated",
-      "change_summary": "Initial creation from external legislation source"
+      "summary": "Initial creation from external legislation source"
     }
-  ]
+  ],
+  "owner": "State Services Commission"
 }

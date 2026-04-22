@@ -1,6 +1,6 @@
 {
   "id": "GUARD-SEC-003",
-  "title": "Information Assurance Standard \u2014 Entity Information Quality Controls",
+  "title": "Information Assurance Standard — Entity Information Quality Controls",
   "category": "security",
   "subcategory": "identity-and-access",
   "type": "standard",
@@ -32,7 +32,7 @@
   "change_log": [
     {
       "version": "1.0",
-      "date": "2026-04-02T07:47:16Z",
+      "date": "2026-04-02",
       "author": "auto-generated",
       "summary": "Initial draft created from external source"
     }

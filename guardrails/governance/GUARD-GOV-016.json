@@ -1,6 +1,6 @@
 {
   "id": "GUARD-GOV-016",
-  "title": "NZ Information Sharing Standard \u2014 Purpose and Scope",
+  "title": "NZ Information Sharing Standard — Purpose and Scope",
   "category": "governance",
   "subcategory": "data-sharing",
   "type": "guideline",
@@ -35,16 +35,16 @@
   "approved_by": null,
   "approved_date": null,
   "review_due": null,
-  "changelog": [
+  "change_log": [
     {
       "version": "1.0",
-      "date": "2026-04-21T21:39:48Z",
+      "date": "2026-04-21",
       "author": "auto-generated",
       "summary": "Initial entry from external_url source"
     },
     {
       "version": "1.1",
-      "date": "2026-04-21T21:39:48Z",
+      "date": "2026-04-21",
       "author": "auto-generated",
       "summary": "Updated with enhanced tags and metadata; set to under-review for governance approval"
     }

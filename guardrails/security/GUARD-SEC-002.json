@@ -35,9 +35,9 @@
   "change_log": [
     {
       "version": "1.0",
-      "date": "2026-04-02T07:47:12Z",
+      "date": "2026-04-02",
       "author": "auto-generated",
-      "change_summary": "Initial creation from Protective Security Requirements Information Security policy framework"
+      "summary": "Initial creation from Protective Security Requirements Information Security policy framework"
     }
   ]
 }

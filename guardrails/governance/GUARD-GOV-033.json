@@ -1,6 +1,6 @@
 {
   "id": "GUARD-GOV-033",
-  "title": "Bill of Rights 1688 \u2014 English Constitutional Rights and Liberties",
+  "title": "Bill of Rights 1688 — English Constitutional Rights and Liberties",
   "category": "governance",
   "subcategory": "constitutional-law",
   "type": "policy",
@@ -33,9 +33,9 @@
   "change_log": [
     {
       "version": "1.0",
-      "date": "2026-04-02T07:47:57Z",
+      "date": "2026-04-02",
       "author": "auto-generated",
-      "change": "Initial draft created from external legislation source"
+      "summary": "Initial draft created from external legislation source"
     }
   ]
 }

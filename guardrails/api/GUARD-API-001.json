@@ -1,6 +1,6 @@
 {
   "id": "GUARD-API-001",
-  "title": "API Guidelines \u2014 Part A: API Concepts and Management 2022",
+  "title": "API Guidelines — Part A: API Concepts and Management 2022",
   "category": "api",
   "subcategory": "governance",
   "type": "guideline",
@@ -20,7 +20,7 @@
   "source": {
     "type": "external_url",
     "url": "https://www.digital.govt.nz/dmsdocument/230~api-guidelines-part-a-api-concepts-and-management-2022/html",
-    "page_title": "API guidelines \u2014 Part A: API concepts and management 2022 | NZ Digital government",
+    "page_title": "API guidelines — Part A: API concepts and management 2022 | NZ Digital government",
     "content_hash": "03cf1b1509e5fec47f343802aeb41540c76dba52dbef636af05af55bee814cae",
     "last_fetched": "2026-04-02T07:46:51Z"
   },
@@ -32,10 +32,10 @@
   "approved_by": null,
   "approved_date": null,
   "review_due": null,
-  "changelog": [
+  "change_log": [
     {
       "version": "1.0",
-      "date": "2026-04-02T07:46:51Z",
+      "date": "2026-04-02",
       "author": "auto-generated",
       "summary": "Initial guardrail creation from external source: NZ government API guidelines covering concepts, management, and governance"
     }

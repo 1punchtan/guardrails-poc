@@ -6,7 +6,7 @@
   "type": "policy",
   "status": "approved",
   "version": "1.0",
-  "description": "New Zealand government strategy for procuring secure and resilient cloud services across agencies. Establishes a consolidated Marketplace channel for IaaS and cloud services, introduces security tiering, supports multi-cloud and hybrid approaches, and incorporates M\u0101ori data sovereignty and Te Tiriti considerations into cloud procurement.",
+  "description": "New Zealand government strategy for procuring secure and resilient cloud services across agencies. Establishes a consolidated Marketplace channel for IaaS and cloud services, introduces security tiering, supports multi-cloud and hybrid approaches, and incorporates Māori data sovereignty and Te Tiriti considerations into cloud procurement.",
   "tags": [
     "cloud-procurement",
     "marketplace",
@@ -36,7 +36,7 @@
   "change_log": [
     {
       "version": "1.0",
-      "date": "2026-04-02T07:46:49Z",
+      "date": "2026-04-02",
       "author": "auto-generated",
       "summary": "Initial guardrail created from external source. Defines NZ government cloud procurement strategy with focus on marketplace consolidation, security tiering, multi-cloud approach, and data sovereignty principles."
     }

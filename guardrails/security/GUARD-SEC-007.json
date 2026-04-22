@@ -16,7 +16,6 @@
   ],
   "status": "approved",
   "version": "2.0",
-  "suggested_owner": "Chief Information Security Officer / Compliance Team",
   "source": {
     "type": "external_url",
     "url": "https://learn.microsoft.com/en-us/compliance/regulatory/offering-nz-cc-framework-nz",
@@ -35,9 +34,10 @@
   "change_log": [
     {
       "version": "2.0",
-      "date": "2026-04-21T21:39:59Z",
+      "date": "2026-04-21",
       "author": "auto-generated",
       "summary": "Updated description and tags to reflect comprehensive cloud adoption framework covering risk assessment, privacy compliance, and data sovereignty requirements. Source refreshed from Microsoft Learn compliance documentation."
     }
-  ]
+  ],
+  "owner": "Chief Information Security Officer / Compliance Team"
 }

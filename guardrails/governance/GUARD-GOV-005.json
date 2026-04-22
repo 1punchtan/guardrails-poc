@@ -1,6 +1,6 @@
 {
   "id": "GUARD-GOV-005",
-  "title": "Privacy Principles Quick Tour \u2014 NZ Privacy Act 2020",
+  "title": "Privacy Principles Quick Tour — NZ Privacy Act 2020",
   "category": "governance",
   "subcategory": "privacy-compliance",
   "type": "document",
@@ -33,7 +33,7 @@
   "change_log": [
     {
       "version": "1.0",
-      "date": "2025-04-02T06:40:09Z",
+      "date": "2025-04-02",
       "author": "auto-generated",
       "summary": "Initial guardrail creation from NZ Privacy Act 2020 source document"
     }

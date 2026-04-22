@@ -32,12 +32,12 @@
   "approved_by": null,
   "approved_date": null,
   "review_due": null,
-  "changelog": [
+  "change_log": [
     {
       "version": "1.0",
       "date": "2026-04-02",
       "author": "auto-generated",
-      "change": "Initial draft created from external legislation source. Establishes statutory framework for official statistics and data governance in New Zealand."
+      "summary": "Initial draft created from external legislation source. Establishes statutory framework for official statistics and data governance in New Zealand."
     }
   ]
 }

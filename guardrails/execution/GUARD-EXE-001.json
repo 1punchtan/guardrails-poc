@@ -30,12 +30,12 @@
   "approved_by": null,
   "approved_date": null,
   "review_due": null,
-  "changelog": [
+  "change_log": [
     {
       "version": "1.0",
-      "date": "2025-01-01T00:00:00Z",
+      "date": "2025-01-01",
       "author": "auto-generated",
-      "change_summary": "Initial guardrail creation from OneDrive source. Defines CI/CD pipeline flows and deployment patterns for DevSecOps framework."
+      "summary": "Initial guardrail creation from OneDrive source. Defines CI/CD pipeline flows and deployment patterns for DevSecOps framework."
     }
   ]
 }

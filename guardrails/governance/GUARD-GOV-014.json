@@ -31,12 +31,11 @@
   "approved_by": null,
   "approved_date": null,
   "review_due": null,
-  "changelog": [
+  "change_log": [
     {
       "version": "1.1",
-      "date": "2026-04-21T21:39:43Z",
+      "date": "2026-04-21",
       "author": "auto-generated",
-      "action": "update",
       "summary": "Content refresh and verification of WCAG 2.2 Level AA requirements, exemptions scope, and GCDO reporting obligations. Added inclusive-design tag to reflect accessibility standards alignment."
     }
   ]

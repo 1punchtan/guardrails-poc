@@ -32,10 +32,10 @@
   "approved_by": null,
   "approved_date": null,
   "review_due": null,
-  "changelog": [
+  "change_log": [
     {
       "version": "1.0",
-      "date": "2026-04-02T07:47:18Z",
+      "date": "2026-04-02",
       "author": "auto-generated",
       "summary": "Initial creation of Binding Assurance Standard guardrail from NZ Digital government source"
     }

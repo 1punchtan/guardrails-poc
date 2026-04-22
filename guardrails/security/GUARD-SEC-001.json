@@ -32,12 +32,12 @@
   "approved_by": null,
   "approved_date": null,
   "review_due": null,
-  "changelog": [
+  "change_log": [
     {
       "version": "1.0",
-      "date": "2025-01-01T00:00:00Z",
+      "date": "2025-01-01",
       "author": "auto-generated",
-      "change": "Initial guardrail created from NZISM v3.9 document"
+      "summary": "Initial guardrail created from NZISM v3.9 document"
     }
   ]
 }

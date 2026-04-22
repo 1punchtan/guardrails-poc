@@ -31,12 +31,12 @@
   "approved_by": null,
   "approved_date": null,
   "review_due": null,
-  "changelog": [
+  "change_log": [
     {
       "version": "1.0",
-      "date": "2026-04-02T07:47:47Z",
+      "date": "2026-04-02",
       "author": "auto-generated",
-      "change": "Initial draft created from external legislation source"
+      "summary": "Initial draft created from external legislation source"
     }
   ]
 }

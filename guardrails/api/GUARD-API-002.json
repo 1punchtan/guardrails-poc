@@ -1,6 +1,6 @@
 {
   "id": "GUARD-API-002",
-  "title": "API Security Guidelines \u2014 Part B (NZ Digital Government 2022)",
+  "title": "API Security Guidelines — Part B (NZ Digital Government 2022)",
   "category": "api",
   "subcategory": "security",
   "type": "guideline",
@@ -21,7 +21,7 @@
   "source": {
     "type": "external_url",
     "url": "https://www.digital.govt.nz/dmsdocument/231~api-guidelines-part-b-api-security-2022/html",
-    "page_title": "API guidelines \u2014 Part B: API security 2022 | NZ Digital government",
+    "page_title": "API guidelines — Part B: API security 2022 | NZ Digital government",
     "content_hash": "ce2699dc9c000de085404fc2b59f5f8382abf3fc729397402850353c42335dcd",
     "last_fetched": "2026-04-02T07:46:53Z"
   },
@@ -36,7 +36,7 @@
   "change_log": [
     {
       "version": "1.0",
-      "date": "2026-04-02T07:46:53Z",
+      "date": "2026-04-02",
       "author": "auto-generated",
       "summary": "Initial ingestion of NZ Digital Government API Security Guidelines Part B covering authentication, authorization, identity management, and Zero Trust principles for API deployments."
     }

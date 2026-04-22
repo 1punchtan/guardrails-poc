@@ -3,7 +3,7 @@
   "title": "New Zealand Superannuation and Retirement Income Act 2001",
   "category": "governance",
   "subcategory": "regulatory-compliance",
-  "type": "legislation",
+  "type": "policy",
   "status": "approved",
   "version": "2.0",
   "description": "New Zealand legislation establishing the legal framework for superannuation entitlements, the New Zealand Superannuation Fund, the Guardians of New Zealand Superannuation, and the Retirement Commissioner. Administered by the Ministry of Social Development and The Treasury, it defines age and residential qualifications, payment structures, fund management, and oversight mechanisms for retirement income.",
@@ -18,7 +18,6 @@
     "public-act",
     "fund-governance"
   ],
-  "suggested_owner": "Ministry of Social Development; The Treasury",
   "source": {
     "type": "external_url",
     "url": "https://www.legislation.govt.nz/act/public/2001/84/en/latest/",
@@ -34,12 +33,13 @@
   "approved_by": null,
   "approved_date": null,
   "review_due": null,
-  "changelog": [
+  "change_log": [
     {
       "version": "2.0",
-      "date": "2026-04-21T21:40:17Z",
+      "date": "2026-04-21",
       "author": "auto-generated",
-      "change": "Updated source URL, content hash, and last_fetched timestamp from external_url source. Enhanced tags to include nz-legislation, public-act, and fund-governance for better discoverability and alignment with governance framework taxonomy."
+      "summary": "Updated source URL, content hash, and last_fetched timestamp from external_url source. Enhanced tags to include nz-legislation, public-act, and fund-governance for better discoverability and alignment with governance framework taxonomy."
     }
-  ]
+  ],
+  "owner": "Ministry of Social Development; The Treasury"
 }

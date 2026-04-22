@@ -1,10 +1,10 @@
 {
   "id": "GUARD-SEC-008",
-  "title": "Information Assurance Standard \u2014 NZ Digital Government",
+  "title": "Information Assurance Standard — NZ Digital Government",
   "category": "security",
   "subcategory": "identity-and-access-management",
   "type": "standard",
-  "description": "New Zealand government standard establishing information management controls to ensure collected entity information is accurate, distinctive, and suitable for eligibility and capability decisions. Provides four-level assurance framework (IA1\u2013IA4) for risk-based verification of identity information, covering evidence quality, storage, accuracy, and counter-fraud measures.",
+  "description": "New Zealand government standard establishing information management controls to ensure collected entity information is accurate, distinctive, and suitable for eligibility and capability decisions. Provides four-level assurance framework (IA1–IA4) for risk-based verification of identity information, covering evidence quality, storage, accuracy, and counter-fraud measures.",
   "tags": [
     "identity-management",
     "information-assurance",
@@ -33,14 +33,14 @@
     {
       "version": "1.0",
       "author": "auto-generated",
-      "date": "2026-04-21T21:39:50Z",
+      "date": "2026-04-21",
       "summary": "Initial guardrail created from external source"
     },
     {
       "version": "2.0",
       "author": "auto-generated",
-      "date": "2026-04-21T21:39:50Z",
-      "summary": "Updated metadata with refined description, expanded tag set, and clarified four-level assurance framework (IA1\u2013IA4) scope"
+      "date": "2026-04-21",
+      "summary": "Updated metadata with refined description, expanded tag set, and clarified four-level assurance framework (IA1–IA4) scope"
     }
   ],
   "approved_by": null,

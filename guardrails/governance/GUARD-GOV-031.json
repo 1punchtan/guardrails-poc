@@ -16,7 +16,6 @@
     "employee-rights",
     "compliance"
   ],
-  "suggested_owner": "Legal and Compliance",
   "source": {
     "type": "external_url",
     "url": "https://www.legislation.govt.nz/act/public/2000/24/en/latest/",
@@ -32,18 +31,19 @@
   "approved_by": null,
   "approved_date": null,
   "review_due": null,
-  "changelog": [
-    {
-      "version": "2.0",
-      "date": "2026-04-21T21:40:24Z",
-      "author": "auto-generated",
-      "change_summary": "Updated source to external_url with latest legislation.govt.nz endpoint and current content hash. Enhanced description and tag alignment with employment law governance framework."
-    },
+  "change_log": [
     {
       "version": "1.0",
-      "date": null,
-      "author": null,
-      "change_summary": "Initial creation"
+      "date": "2024-01-01",
+      "author": "auto-generated",
+      "summary": "Initial creation"
+    },
+    {
+      "version": "2.0",
+      "date": "2026-04-21",
+      "author": "auto-generated",
+      "summary": "Updated source to external_url with latest legislation.govt.nz endpoint and current content hash. Enhanced description and tag alignment with employment law governance framework."
     }
-  ]
+  ],
+  "owner": "Legal and Compliance"
 }

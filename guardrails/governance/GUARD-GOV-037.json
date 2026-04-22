@@ -24,7 +24,6 @@
     "filename": "responsible-ai-guidance-for-businesses.pdf",
     "last_modified": "2026-04-03T03:25:45Z"
   },
-  "suggested_owner": "Governance / Chief Digital Officer",
   "related_guardrails": [
     "GUARD-GOV-002",
     "GUARD-GOV-012",
@@ -36,9 +35,10 @@
   "change_log": [
     {
       "version": "1.0",
-      "date": "2026-04-03T03:25:45Z",
+      "date": "2026-04-03",
       "author": "auto-generated",
-      "change_summary": "Initial guardrail creation from OneDrive source. Comprehensive guidance for responsible AI adoption by NZ businesses."
+      "summary": "Initial guardrail creation from OneDrive source. Comprehensive guidance for responsible AI adoption by NZ businesses."
     }
-  ]
+  ],
+  "owner": "Governance / Chief Digital Officer"
 }
