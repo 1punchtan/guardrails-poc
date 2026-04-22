@@ -1,39 +1,39 @@
 ---
-title: "GUARD-SEC-008 — Information Assurance Standard — NZ Digital Government"
+title: "GUARD-SEC-008 — Information Assurance Standard – Entity Information Quality Controls"
 tags:
   - identity-management
   - information-assurance
-  - data-quality
-  - verification
+  - entity-information
+  - evidence-verification
   - fraud-prevention
-  - nz-government
   - risk-assessment
+  - data-quality
 ---
 
-# Information Assurance Standard — NZ Digital Government
+# Information Assurance Standard – Entity Information Quality Controls
 
-**Status:** ✅ Approved &nbsp;&nbsp; **Version:** 2.0
+**Status:** ✅ Approved &nbsp;&nbsp; **Version:** 2.1
 
 | Field | Value |
 |---|---|
 | **ID** | `GUARD-SEC-008` |
 | **Category** | Security |
-| **Subcategory** | identity-and-access-management |
+| **Subcategory** | identity-management |
 | **Type** | standard |
-| **Owner** | Identity and Access Management / Security Architecture |
+| **Owner** | Department of Internal Affairs (Te Tari Taiwhenua) |
 | **Approved by** | — |
 | **Approved date** | — |
 | **Review due** | — |
 
 ## Description
 
-New Zealand government standard establishing information management controls to ensure collected entity information is accurate, distinctive, and suitable for eligibility and capability decisions. Provides four-level assurance framework (IA1–IA4) for risk-based verification of identity information, covering evidence quality, storage, accuracy, and counter-fraud measures.
+New Zealand government standard defining information management controls to ensure collected entity information is accurate, distinctive, and suitable for eligibility and capability decisions. Establishes four assurance levels with specific requirements for evidence verification, storage, and fraud prevention.
 
 ## Source document
 
 [Information Assurance Standard | NZ Digital government](https://www.digital.govt.nz/standards-and-guidance/identity/identification-management/identification-standards/information-assurance-standard)
 
-*Last fetched: 2026-04-21*
+*Last fetched: 2026-04-22*
 
 ## Related guardrails
 
@@ -47,3 +47,4 @@ New Zealand government standard establishing information management controls to 
 |---|---|---|---|
 | 1.0 | 2026-04-21 | auto-generated | Initial guardrail created from external source |
 | 2.0 | 2026-04-21 | auto-generated | Updated metadata with refined description, expanded tag set, and clarified four-level assurance framework (IA1–IA4) scope |
+| 2.1 | 2026-04-22 | auto-generated | Updated source metadata with current content hash and fetched timestamp; refined title formatting and tag consistency |

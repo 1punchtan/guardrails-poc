@@ -15,4 +15,4 @@ title: "Security Guardrails"
 | [GUARD-SEC-005](GUARD-SEC-005.md) | Authentication Assurance Standard | ✅ Approved | 1.0 | — |
 | [GUARD-SEC-006](GUARD-SEC-006.md) | Federation Assurance Standard | ✅ Approved | 1.0 | — |
 | [GUARD-SEC-007](GUARD-SEC-007.md) | New Zealand Government Cloud Adoption and Risk Assessment Framework | ✅ Approved | 2.0 | — |
-| [GUARD-SEC-008](GUARD-SEC-008.md) | Information Assurance Standard — NZ Digital Government | ✅ Approved | 2.0 | — |
+| [GUARD-SEC-008](GUARD-SEC-008.md) | Information Assurance Standard – Entity Information Quality Controls | ✅ Approved | 2.1 | — |
