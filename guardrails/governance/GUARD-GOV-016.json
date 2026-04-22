@@ -1,40 +1,38 @@
 {
   "id": "GUARD-GOV-016",
-  "title": "NZ Information Sharing Standard — Purpose and Scope",
+  "title": "NZ Information Sharing Standard \u2014 Purpose and Scope",
   "category": "governance",
   "subcategory": "data-sharing",
   "type": "guideline",
-  "status": "approved",
-  "version": "1.1",
-  "description": "New Zealand government standard (effective 1 July 2025) mandating how public service agencies must establish information sharing agreements with non-government third parties when sharing personal information. Covers purpose, scope, implementation guidance, risk assessment, legal requirements, and template clauses to ensure adequate controls and privacy protection.",
+  "version": "1.2",
+  "status": "under-review",
+  "description": "New Zealand government standard requiring public service agencies to establish legally binding information sharing agreements with non-government third parties when sharing personal information. Provides implementation guidance, risk assessment frameworks, and model agreement clauses to ensure adequate controls and privacy protection.",
   "tags": [
     "information-sharing",
     "personal-data",
     "third-party",
-    "nz-government",
-    "data-governance",
     "privacy",
+    "government",
     "agreements",
+    "nz-public-sector",
+    "data-governance",
     "compliance",
     "risk-assessment",
     "legally-binding-agreements"
   ],
   "owner": "Government Chief Digital Office (GCDO)",
-  "source": {
-    "type": "external_url",
-    "url": "https://www.digital.govt.nz/standards-and-guidance/information-sharing-standard/purpose-and-scope",
-    "page_title": "Purpose and scope | NZ Digital government",
-    "content_hash": "2a19e598513526fb1355467fea6723839d0a18f0ee63b0dde9cb39f11e23aee9",
-    "last_fetched": "2026-04-21T21:39:48Z"
-  },
   "related_guardrails": [
     "GUARD-GOV-013",
     "GUARD-GOV-005",
     "GUARD-GOV-007"
   ],
-  "approved_by": null,
-  "approved_date": null,
-  "review_due": null,
+  "source": {
+    "type": "external_url",
+    "url": "https://www.digital.govt.nz/standards-and-guidance/information-sharing-standard/purpose-and-scope",
+    "page_title": "Purpose and scope | NZ Digital government",
+    "content_hash": "6fe32996ca78b0d38ec4f82cabc704d7d40eba8968eb341dac93e738eb37a3c3",
+    "last_fetched": "2026-04-22"
+  },
   "change_log": [
     {
       "version": "1.0",
@@ -47,6 +45,15 @@
       "date": "2026-04-21",
       "author": "auto-generated",
       "summary": "Updated with enhanced tags and metadata; set to under-review for governance approval"
+    },
+    {
+      "version": "1.2",
+      "date": "2026-04-22",
+      "author": "auto-generated",
+      "summary": "Content refresh from source; verified content hash and added related guardrails; status under-review pending governance review"
     }
-  ]
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null
 }
