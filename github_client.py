@@ -13,6 +13,7 @@ class MetafileSummary:
     category: str
     tags: list[str]
     description: str
+    source_url: str | None = None
 
 
 def get_existing_metafiles(repo: Repository) -> list[MetafileSummary]:
@@ -44,6 +45,7 @@ def get_existing_metafiles(repo: Repository) -> list[MetafileSummary]:
                         category=data.get("category", ""),
                         tags=data.get("tags", []),
                         description=data.get("description", ""),
+                        source_url=data.get("source", {}).get("url"),
                     )
                 )
             except Exception:

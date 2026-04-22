@@ -18,6 +18,7 @@ def _repo_summary(metafile: dict) -> dict:
         "category": metafile.get("category", ""),
         "tags": metafile.get("tags", []),
         "description": metafile.get("description", ""),
+        "source_url": metafile.get("source_url"),
     }
 
 
@@ -72,7 +73,8 @@ def main() -> None:
         repo_summaries = [
             _repo_summary(
                 {"id": s.id, "title": s.title, "category": s.category,
-                 "tags": s.tags, "description": s.description}
+                 "tags": s.tags, "description": s.description,
+                 "source_url": s.source_url}
             )
             for s in get_existing_metafiles(repo)
         ]
@@ -214,15 +216,34 @@ def main() -> None:
             repo_summaries = [
                 _repo_summary(
                     {"id": s.id, "title": s.title, "category": s.category,
-                     "tags": s.tags, "description": s.description}
+                     "tags": s.tags, "description": s.description,
+                     "source_url": s.source_url}
                 )
                 for s in get_existing_metafiles(repo)
             ]
 
+        # Build a URL → existing guardrail ID map for deterministic dedup.
+        # This catches the case where the local state was reset but the guardrail
+        # already exists in the repo — without this, diff_urls would mark the URL
+        # as NEW and Claude would assign a fresh ID instead of reusing the existing one.
+        url_to_existing_id = {
+            s["source_url"]: s["id"]
+            for s in repo_summaries
+            if s.get("source_url")
+        }
+
         for record, is_update in url_to_process:
-            status_label = "CHANGED" if is_update else "NEW"
-            print(f"\nProcessing: {record.url}")
-            print(f"  Content hash: {record.content_hash[:16]}... ({status_label})")
+            # If the URL already has a guardrail in the repo, treat this as an
+            # update regardless of what the local state file says.
+            existing_id = url_to_existing_id.get(record.url)
+            if existing_id and not is_update:
+                is_update = True
+                print(f"\nProcessing: {record.url}")
+                print(f"  Content hash: {record.content_hash[:16]}... (REPO-MATCH → treating as UPDATE of {existing_id})")
+            else:
+                status_label = "CHANGED" if is_update else "NEW"
+                print(f"\nProcessing: {record.url}")
+                print(f"  Content hash: {record.content_hash[:16]}... ({status_label})")
 
             source_input = {
                 "source_type": "external_url",
@@ -249,6 +270,8 @@ def main() -> None:
                 "fetched_at": record.fetched_at,
                 "page_title": record.page_title,
             }
+            if existing_id:
+                source_identifiers["existing_guardrail_id"] = existing_id
 
             try:
                 print("  Comparing against repo (Claude call 2)...", end=" ", flush=True)

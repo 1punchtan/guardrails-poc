@@ -136,8 +136,13 @@ def _user_msg_call2(
         for s in repo_summaries
     ) or "  (none — this will be the first guardrail in the repo)"
 
+    existing_id = source_identifiers.get("existing_guardrail_id")
+    change_type_label = f"UPDATE to existing guardrail" if is_update else "NEW guardrail"
+    if existing_id:
+        change_type_label += f" — carry forward ID {existing_id} (matched by source URL)"
+
     lines = [
-        f"Change type: {'UPDATE to existing guardrail' if is_update else 'NEW guardrail'}",
+        f"Change type: {change_type_label}",
         "",
         "Draft metadata from Call 1:",
         json.dumps(draft, indent=2),
