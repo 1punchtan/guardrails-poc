@@ -1085,32 +1085,32 @@
     },
     {
       "id": "GUARD-GOV-026",
-      "title": "Official Information Act 1982 — New Zealand Information Access and Privacy",
+      "title": "Official Information Act 1982 – New Zealand Information Access Framework",
       "status": "approved",
       "category": "governance",
       "tags": [
         "information-access",
         "transparency",
         "privacy",
-        "nz-legislation",
         "public-records",
         "compliance",
-        "personal-information"
+        "new-zealand"
       ],
-      "description": "New Zealand legislation establishing frameworks for public access to official information, personal information rights, and information withholding criteria. Defines procedures for requesting access to government documents, reasons for refusal, and ombudsman review mechanisms. Critical for organizations handling NZ government data and complying with transparency and privacy obligations.",
+      "description": "New Zealand legislation establishing the legal framework for public access to official information, personal information rights, and procedures for withholding information. Defines criteria for information availability, request processes, and review mechanisms via the Ombudsman.",
+      "owner": "Ministry of Justice",
       "source": {
         "type": "external_url",
         "url": "https://www.legislation.govt.nz/act/public/1982/156/en/latest/",
         "page_title": "Official Information Act 1982 | New Zealand Legislation",
         "content_hash": "4c0f95b868e66a7c785ab1debe0cba668e89ac69009745848633ec02347a2703",
-        "last_fetched": "2026-04-21T23:35:10Z"
+        "last_fetched": "2026-04-22"
       },
       "related_guardrails": [
+        "GUARD-GOV-025",
         "GUARD-GOV-013",
-        "GUARD-GOV-024",
-        "GUARD-GOV-025"
+        "GUARD-GOV-024"
       ],
-      "version": "2.0",
+      "version": "2.1",
       "approved_date": null,
       "review_due": null,
       "_source_file": "guardrails/governance/GUARD-GOV-026.json"
