@@ -5,7 +5,7 @@
   "subcategory": "identity-management",
   "type": "standard",
   "version": "2.1",
-  "status": "under-review",
+  "status": "approved",
   "description": "New Zealand government standard defining information management controls to ensure collected entity information is accurate, distinctive, and suitable for eligibility and capability decisions. Establishes four assurance levels with specific requirements for evidence verification, storage, and fraud prevention.",
   "tags": [
     "identity-management",
