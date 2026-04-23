@@ -1,28 +1,28 @@
 {
   "id": "GUARD-CLOUD-001",
-  "title": "Cloud First Policy \u2013 NZ Government",
+  "title": "NZ Government Cloud First Policy",
   "category": "cloud",
-  "subcategory": "cloud-adoption",
+  "subcategory": "cloud adoption strategy",
   "type": "policy",
-  "description": "Mandates that New Zealand government organisations must adopt public cloud services for information systems where possible, with requirements for data classification, multi-cloud resilience, cost optimisation, and risk assessment. Establishes baseline standards for cloud procurement and governance across the NZ public sector.",
+  "status": "under-review",
+  "version": "2.2",
+  "description": "Mandates that New Zealand government organisations must adopt public cloud services in preference to on-premises ICT infrastructure for information systems. Establishes requirements for data classification, multi-cloud resilience, cost optimisation, risk assessment, and consideration of M\u0101ori data perspectives.",
   "tags": [
     "cloud-first",
-    "government-policy",
     "public-cloud",
+    "government-policy",
+    "cloud-adoption",
     "nz-digital",
     "multi-cloud",
-    "data-classification",
-    "cloud-adoption"
+    "data-classification"
   ],
   "owner": "Government Chief Digital Officer (GCDO)",
-  "status": "approved",
-  "version": "2.1",
   "source": {
     "type": "external_url",
     "url": "https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/cloud-services/cloud-adoption-policy-and-strategy/cabinet-requirement",
     "page_title": "Cloud First policy | NZ Digital government",
-    "content_hash": "0a05e0bceeac21ba71f4f9c620a2fbef51cfc706b1335bd065498e740421167d",
-    "last_fetched": "2026-04-22"
+    "content_hash": "929a57bd73ac5eb4aa9836103aa20cfe355d0babbb4ad37963979953af8c361c",
+    "last_fetched": "2026-04-23"
   },
   "related_guardrails": [
     "GUARD-CLOUD-002",
@@ -47,6 +47,12 @@
       "date": "2026-04-22",
       "author": "auto-generated",
       "summary": "Refreshed external source verification; content hash and fetch timestamp updated; confirmed policy alignment with multi-cloud and data classification requirements"
+    },
+    {
+      "version": "2.2",
+      "date": "2026-04-23",
+      "author": "auto-generated",
+      "summary": "Verified source content and metadata; updated page_title and last_fetched timestamp; confirmed M\u0101ori data perspectives inclusion in policy scope"
     }
   ],
   "approved_by": null,
