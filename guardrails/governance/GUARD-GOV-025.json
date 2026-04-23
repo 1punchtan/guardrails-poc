@@ -2,32 +2,35 @@
   "id": "GUARD-GOV-025",
   "title": "Ombudsmen Act 1975 \u2014 New Zealand Legislation",
   "category": "governance",
-  "subcategory": "public-sector-oversight",
+  "subcategory": "regulatory-compliance",
   "type": "policy",
-  "description": "New Zealand's statutory framework establishing the office of Ombudsman, defining their investigative powers, complaint procedures, and oversight responsibilities for public service agencies, state enterprises, and local authorities. This legislation enables independent investigation of administrative decisions and establishes accountability mechanisms for government operations.",
+  "description": "New Zealand legislation establishing the Ombudsmen office and defining its functions, powers, and procedures for investigating complaints against public service agencies, state enterprises, and related organizations. Sets out complaint handling processes, investigation protocols, and accountability mechanisms for public sector bodies.",
   "tags": [
     "ombudsman",
-    "oversight",
     "complaint-investigation",
     "public-sector",
+    "new-zealand",
     "accountability",
-    "new-zealand"
+    "regulatory-compliance"
   ],
   "owner": "Ministry of Justice",
-  "version": "1.3",
-  "status": "approved",
+  "status": "under-review",
+  "version": "1.4",
   "source": {
     "type": "external_url",
     "url": "https://www.legislation.govt.nz/act/public/1975/9/en/latest/",
     "page_title": "Ombudsmen Act 1975 | New Zealand Legislation",
-    "content_hash": "c4cb5b712edc62f2f11b417afe5275ea401d7d2896a11711d5d3d76b8f0a0fdf",
-    "last_fetched": "2026-04-22"
+    "content_hash": "99044a0654b8e2d1fd3cb8390f9e933c0942d2e63c2e8ed737b920aa18c9f03d",
+    "last_fetched": "2026-04-23"
   },
   "related_guardrails": [
-    "GUARD-GOV-024",
     "GUARD-GOV-026",
-    "GUARD-GOV-013"
+    "GUARD-GOV-013",
+    "GUARD-GOV-024"
   ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
   "change_log": [
     {
       "version": "1.0",
@@ -52,9 +55,12 @@
       "date": "2026-04-22",
       "author": "auto-generated",
       "summary": "Refreshed external URL source metadata and verified current content hash; metadata review completed"
+    },
+    {
+      "version": "1.4",
+      "date": "2026-04-23",
+      "author": "auto-generated",
+      "summary": "Revalidated external URL source; updated last_fetched timestamp and confirmed current content hash matches legislation.govt.nz"
     }
-  ],
-  "approved_by": null,
-  "approved_date": null,
-  "review_due": null
+  ]
 }
