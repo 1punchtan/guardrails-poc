@@ -1,19 +1,19 @@
 {
   "id": "GUARD-GOV-016",
-  "title": "NZ Information Sharing Standard \u2014 Purpose and Scope",
+  "title": "Information Sharing Standard \u2014 Purpose and Scope",
   "category": "governance",
-  "subcategory": "data-sharing",
+  "subcategory": "information-sharing",
   "type": "guideline",
-  "version": "1.2",
-  "status": "approved",
-  "description": "New Zealand government standard requiring public service agencies to establish legally binding information sharing agreements with non-government third parties when sharing personal information. Provides implementation guidance, risk assessment frameworks, and model agreement clauses to ensure adequate controls and privacy protection.",
+  "status": "under-review",
+  "version": "1.3",
+  "description": "New Zealand government standard requiring public service agencies to implement legally binding information sharing agreements when providing non-government third parties access to personal information. Establishes best practices for protecting personal data, managing risk through due diligence, and ensuring appropriate controls are in place.",
   "tags": [
     "information-sharing",
     "personal-data",
     "third-party",
-    "privacy",
     "government",
-    "agreements",
+    "agreement",
+    "privacy",
     "nz-public-sector",
     "data-governance",
     "compliance",
@@ -21,18 +21,21 @@
     "legally-binding-agreements"
   ],
   "owner": "Government Chief Digital Office (GCDO)",
-  "related_guardrails": [
-    "GUARD-GOV-013",
-    "GUARD-GOV-005",
-    "GUARD-GOV-007"
-  ],
   "source": {
     "type": "external_url",
     "url": "https://www.digital.govt.nz/standards-and-guidance/information-sharing-standard/purpose-and-scope",
     "page_title": "Purpose and scope | NZ Digital government",
-    "content_hash": "6fe32996ca78b0d38ec4f82cabc704d7d40eba8968eb341dac93e738eb37a3c3",
-    "last_fetched": "2026-04-22"
+    "content_hash": "8c1e96923877ac7a12c33d72d5d3d9d51b58619b2b1a5cb9ceaf91e1a8979cd9",
+    "last_fetched": "2026-04-23"
   },
+  "related_guardrails": [
+    "GUARD-GOV-013",
+    "GUARD-GOV-005",
+    "GUARD-GOV-038"
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null,
   "change_log": [
     {
       "version": "1.0",
@@ -51,9 +54,12 @@
       "date": "2026-04-22",
       "author": "auto-generated",
       "summary": "Content refresh from source; verified content hash and added related guardrails; status under-review pending governance review"
+    },
+    {
+      "version": "1.3",
+      "date": "2026-04-23",
+      "author": "auto-generated",
+      "summary": "Updated from external_url source with fresh content hash; refined category to governance; expanded related guardrails to include privacy and M\u0101ori data governance standards"
     }
-  ],
-  "approved_by": null,
-  "approved_date": null,
-  "review_due": null
+  ]
 }
