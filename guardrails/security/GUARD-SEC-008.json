@@ -1,37 +1,34 @@
 {
   "id": "GUARD-SEC-008",
-  "title": "Information Assurance Standard \u2013 Entity Information Quality Controls",
+  "title": "Information Assurance Standard \u2014 NZ Digital Government",
   "category": "security",
-  "subcategory": "identity-management",
+  "subcategory": "identity-and-access-management",
   "type": "standard",
-  "version": "2.1",
-  "status": "approved",
-  "description": "New Zealand government standard defining information management controls to ensure collected entity information is accurate, distinctive, and suitable for eligibility and capability decisions. Establishes four assurance levels with specific requirements for evidence verification, storage, and fraud prevention.",
+  "description": "Establishes information management controls to ensure entity information collected is accurate, distinctive, and suitable for authoritative decisions on eligibility or capability. Defines four assurance levels with controls for information risk assessment, protection, accuracy verification, evidence quality, and fraud detection.",
   "tags": [
     "identity-management",
     "information-assurance",
-    "entity-information",
-    "evidence-verification",
+    "privacy",
     "fraud-prevention",
+    "entity-verification",
     "risk-assessment",
-    "data-quality"
+    "evidence-quality"
   ],
-  "owner": "Department of Internal Affairs (Te Tari Taiwhenua)",
+  "owner": "Department of Internal Affairs",
+  "status": "under-review",
+  "version": "2.2",
   "source": {
     "type": "external_url",
     "url": "https://www.digital.govt.nz/standards-and-guidance/identity/identification-management/identification-standards/information-assurance-standard",
     "page_title": "Information Assurance Standard | NZ Digital government",
-    "content_hash": "8b15de93f6087748bd2e49e84c8725643e2c099f1e0beb5debee95f910381166",
-    "last_fetched": "2026-04-22"
+    "content_hash": "d495920f7984530b997c7dae44a975a2cc1bbef47ea84b6a805e1794d69e7664",
+    "last_fetched": "2026-04-23"
   },
   "related_guardrails": [
     "GUARD-SEC-003",
     "GUARD-SEC-004",
     "GUARD-SEC-005"
   ],
-  "approved_by": null,
-  "approved_date": null,
-  "review_due": null,
   "change_log": [
     {
       "version": "1.0",
@@ -50,6 +47,15 @@
       "date": "2026-04-22",
       "author": "auto-generated",
       "summary": "Updated source metadata with current content hash and fetched timestamp; refined title formatting and tag consistency"
+    },
+    {
+      "version": "2.2",
+      "date": "2026-04-23",
+      "author": "auto-generated",
+      "summary": "Refreshed source URL validation and content hash verification; confirmed four assurance levels and entity information quality controls scope"
     }
-  ]
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null
 }
