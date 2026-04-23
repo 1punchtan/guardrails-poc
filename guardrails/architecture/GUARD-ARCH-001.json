@@ -1,10 +1,10 @@
 {
   "id": "GUARD-ARCH-001",
-  "title": "Digital Service Design Standard - NZ Government",
+  "title": "Digital Service Design Standard \u2013 NZ Government",
   "category": "architecture",
-  "subcategory": "design-standard",
+  "subcategory": "digital service design",
   "type": "standard",
-  "description": "New Zealand government standard providing design principles and guidance for creating user-focused, inclusive, and secure digital services. Encompasses 12 core principles covering user needs, security, privacy, equity, team structure, collaboration, data stewardship, and public accountability.",
+  "description": "New Zealand government standard establishing 12 core principles for designing and delivering user-focused, high-quality digital services. Covers user needs, security, privacy, inclusivity, team composition, and accountability across the full service lifetime.",
   "tags": [
     "digital-service-design",
     "user-centered",
@@ -14,15 +14,15 @@
     "government-standards",
     "service-delivery"
   ],
-  "owner": "Digital.govt.nz / NZ Government",
-  "status": "approved",
-  "version": "2.1",
+  "owner": "New Zealand Department of Internal Affairs \u2013 Digital Services",
+  "status": "under-review",
+  "version": "2.2",
   "source": {
     "type": "external_url",
     "url": "https://www.digital.govt.nz/standards-and-guidance/digital-service-design-standard",
     "page_title": "Digital Service Design Standard | NZ Digital government",
-    "content_hash": "4542926558ba09b68e635f3101a0bfe868aef92f51341a2f67f746cd03b04ad0",
-    "last_fetched": "2026-04-22"
+    "content_hash": "07a17dea39e26210e81707cc73386613248f0c976f8da6e9484538dcf7b042ab",
+    "last_fetched": "2026-04-23"
   },
   "related_guardrails": [
     "GUARD-GOV-015",
@@ -47,6 +47,12 @@
       "date": "2026-04-22",
       "author": "auto-generated",
       "summary": "Refreshed content hash and last_fetched timestamp from external source; verified URL and page title remain current"
+    },
+    {
+      "version": "2.2",
+      "date": "2026-04-23",
+      "author": "auto-generated",
+      "summary": "Updated source metadata with latest content hash and fetch timestamp; confirmed external URL and page title accuracy"
     }
   ],
   "approved_by": null,
