@@ -1,0 +1,43 @@
+{
+  "id": "GUARD-GOV-038",
+  "title": "M\u0101ori Data Governance Model",
+  "category": "governance",
+  "subcategory": "data governance",
+  "type": "document",
+  "status": "draft",
+  "version": "1.0",
+  "description": "A comprehensive framework designed by M\u0101ori data experts for the Aotearoa New Zealand public service to govern M\u0101ori data as a taonga. The model establishes eight pillars covering data capacities, infrastructure, collection, protection, access, use, quality, and classification, grounded in Te Tiriti o Waitangi and focused on enabling M\u0101ori self-determination and reducing unethical data use.",
+  "owner": "Te K\u0101hui Raraunga",
+  "tags": [
+    "m\u0101ori",
+    "data-governance",
+    "tiriti-o-waitangi",
+    "indigenous-data",
+    "sovereignty",
+    "public-sector",
+    "data-protection"
+  ],
+  "related_guardrails": [
+    "GUARD-GOV-007",
+    "GUARD-GOV-012",
+    "GUARD-GOV-006"
+  ],
+  "source": {
+    "type": "onedrive",
+    "onedrive_item_id": "618A7276C00856EA!s85b76e1fbc3f49b5855ca3c4270e5cc3",
+    "url": "https://onedrive.live.com?cid=618A7276C00856EA&id=618A7276C00856EA!s85b76e1fbc3f49b5855ca3c4270e5cc3",
+    "filename": "Te Kahui Raraunga_Maori Data Governance Model.pdf",
+    "last_modified": "2026-04-23"
+  },
+  "change_log": [
+    {
+      "version": "1.0",
+      "date": "2025-01-24",
+      "author": "auto-generated",
+      "summary": "Initial guardrail created from Te K\u0101hui Raraunga M\u0101ori Data Governance Model framework"
+    }
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null
+}
