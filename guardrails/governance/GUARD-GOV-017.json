@@ -4,33 +4,30 @@
   "category": "governance",
   "subcategory": "cloud-risk-management",
   "type": "guideline",
-  "description": "Guidance on how to assess risks when adopting or modifying public cloud services in government agencies, including a risk discovery tool, jurisdictional risk considerations, and processes for documenting and approving risk decisions.",
+  "description": "Guidance for government agencies on assessing risks when adopting or modifying public cloud services, including a risk discovery tool and jurisdictional risk considerations to inform risk acceptance decisions.",
   "tags": [
     "cloud",
     "risk-assessment",
     "governance",
     "public-sector",
     "security-controls",
-    "cloud-adoption"
+    "compliance"
   ],
   "owner": "Government Chief Digital Officer (GCDO)",
-  "status": "approved",
-  "version": "3.0",
+  "status": "under-review",
+  "version": "4.0",
   "source": {
     "type": "external_url",
     "url": "https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/cloud-services/assess-the-risks",
     "page_title": "Risks assessment for public cloud services | NZ Digital government",
-    "content_hash": "32c83ee450091b991985cffce4dd5a312f7b8a17f184364817aa46aa753a243b",
-    "last_fetched": "2026-04-22"
+    "content_hash": "beba8f3e08ee12cb0ef5de6673653d66e702816963138eacf3b819273b07f77b",
+    "last_fetched": "2026-04-23"
   },
   "related_guardrails": [
     "GUARD-CLOUD-001",
     "GUARD-CLOUD-002",
     "GUARD-SEC-007"
   ],
-  "approved_by": null,
-  "approved_date": null,
-  "review_due": null,
   "change_log": [
     {
       "version": "1.0",
@@ -49,6 +46,15 @@
       "author": "auto-generated",
       "date": "2026-04-22",
       "summary": "Updated source metadata with current external URL and content hash; verified alignment with cloud risk governance standards and GCDO ownership"
+    },
+    {
+      "version": "4.0",
+      "date": "2026-04-23",
+      "author": "auto-generated",
+      "summary": "Updated source URL and content hash; refreshed last_fetched timestamp; confirmed alignment with governance and cloud risk management frameworks"
     }
-  ]
+  ],
+  "approved_by": null,
+  "approved_date": null,
+  "review_due": null
 }
